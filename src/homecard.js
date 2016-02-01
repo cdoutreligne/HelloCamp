@@ -1,11 +1,16 @@
 var React = require('react');
 
 var HomeCard = React.createClass({
+  getInitialState: function() {
+    return {
+      home: {}
+    };
+  },
+
   componentDidMount: function() {
     var id = this.props.params.id;
 
-
-    console.log(id);
+    this.setState(this.props.home);
   },
 
   render: function() {
@@ -14,26 +19,27 @@ var HomeCard = React.createClass({
 
         <div className="card-container">
             <div className="card-title">Superbe maison spacieuse</div> 
-            <div><img className="card-image" src="https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_110c76_110c760956862da5243ab0d4d4c37065.jpg/1024x680/1920x1080/2/ef74"/></div>
+            <div><img className="card-image" src={ this.props.home.image[0] }/></div>
             <div className="container-fluid">
               <div className="row">
                   <span className="card-label">Type</span>
-                  <span className="card-text">Appart</span>          
+                  <span className="card-text">{ this.props.home.type }</span>          
                   <span className="card-label">Surface</span>
                   <span className="card-text">125m²</span>               
                   <span className="card-label">Nb.&nbsp;Ch.</span>
-                  <span className="card-text">5</span>
+                  <span className="card-text">{ this.props.home.properties.bedrooms }</span>
               </div>
               <div className="row">
                   <span className="card-label">Localisation </span>
-                  <span className="card-text">Bruxelles</span> 
+                  <span className="card-text">{ this.props.home.properties.location }</span> 
               </div>
               <div className="row text-right">
                   <span className="card-label">Prix </span>
-                  <span className="card-label">350.000€</span>
+                  <span className="card-label">{ this.props.home.price }€</span>
               </div>
             </div>
         </div>
+
 
     );
   }
