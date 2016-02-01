@@ -4,15 +4,19 @@ var Link = require('react-router').Link;
 var SearchForm = React.createClass({
 
     componentDidMount: function() {
-        this.refs.estateType.value = this.props.searchCriteria.estateType;
-        this.refs.localisation.value = this.props.searchCriteria.localisation;
-        this.refs.priceMin.value = this.props.searchCriteria.price.min;
-        this.refs.priceMax.value = this.props.searchCriteria.price.max;
-        this.refs.roomNbr.value = this.props.searchCriteria.roomNbr;
-        this.refs.squareMin.value = this.props.searchCriteria.square.min;
-        this.refs.squareMax.value = this.props.searchCriteria.square.max;
-        this.refs.garage.value = this.props.searchCriteria.garage;
-        this.refs.terrace.value = this.props.searchCriteria.terrace;
+      // var estateType;
+      // for (var i = this.props.searchCriteria.estateType.length - 1; i >= 0; i--) {
+      //   estateType = this.props.searchCriteria.estateType[i];
+      //   this.refs.[estateType].checked = true;
+      // };
+      this.refs.localisation.value = this.props.searchCriteria.localisation;
+      this.refs.priceMin.value = this.props.searchCriteria.price.min;
+      this.refs.priceMax.value = this.props.searchCriteria.price.max;
+      this.refs.roomNbr.value = this.props.searchCriteria.roomNbr;
+      this.refs.squareMin.value = this.props.searchCriteria.square.min;
+      this.refs.squareMax.value = this.props.searchCriteria.square.max;
+      this.refs.garage.value = this.props.searchCriteria.garage;
+      this.refs.terrace.value = this.props.searchCriteria.terrace;
     },
     handleMoreCriteria: function() {
     },
@@ -86,9 +90,13 @@ var SearchForm = React.createClass({
                   </div>
                   <label className="dark-container-text">Localisation:</label>
                   <input type="text" name="localisation" className="form-control" ref="localisation" />
+                  <div className="row">
+                    <div className="col-sm-5">
                   <label className="dark-container-text">Prix: entre</label> 
                   <input type="text" name="priceMin" className="form-control" ref="priceMin" />
                   <label className="dark-container-text">et</label><input type="text" name="priceMax" className="form-control" ref="priceMax" />
+                  </div>
+                  </div>
                   <label className="dark-container-text">Nombre de chambres: </label> 
                   <div className="row">
                     <div className="col-sm-3">
@@ -101,8 +109,7 @@ var SearchForm = React.createClass({
                   <div className="row">
                     <div className="col-md-12">
                     <input type="button" id="btnMore" className="btn btn-primary btn-sm" value="more" onClick={this.handleMoreCriteria}/>
-
-                    <input type="button" id="btnSearch" className="btn btn-primary btn-sm pull-right" value="Search" onClick={this.handleSaveSearch}/>
+                    <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Search</Link>
                     </div>
                   </div>
                 </form>

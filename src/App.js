@@ -30,6 +30,7 @@ var App = React.createClass({
     }
     var tempSearchCriteria = cloneObject(this.state.searchCriteria);   
     this.setState({searchCriteria: tempSearchCriteria});
+    console.log("setSearchCriteria");
   },
 
   render: function() {
