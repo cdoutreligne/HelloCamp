@@ -6,13 +6,14 @@
   "location": "Address not disclosed",
   "price": "1295000",
   "description": "Superbe localisation au Sud de Bruxelles dans la jolie commune d’Uccle, au calme et cependant au centre du Fort Jaco. De nombreux commerces et restaurants sont à 400 m.A proximité également, plusieurs écoles dont le Lycée Français, Les Eglantiers, etc. Le centre sportif et de remise en forme David Lloyd est à moins de 5 minutes.\nLes prix s’entendent honoraires d’agence inclus (3,63% TVA comprise, sauf spécification contraire au préalable). Les frais notariaux, droits d’enregistrement et/ou TVA sont à charge de l’acquéreur.Les offres sont faites sous réserve d’erreur, vente préalable, changement de prix ou omissions.",
-  "title" : "Superbe maison spacieuse",
+  "title": "Superbe maison spacieuse",
   "properties": {
     "bathrooms": 3,
     "bedrooms": 5
   },
   "image": [
-    "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_465bf9_465bf9081fe5dc3985d393a57e8995ec.jpg/685x514/1920x1080/2/7e01", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6622c0_6622c0622f179678a1750faf5f13a2c5.jpg/685x514/1920x1080/2/b1aa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aa9524_aa952492f2be311a25daf3169f9c52ef.jpg/685x514/1920x1080/2/c3f3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b96a3e_b96a3e2df32348fb1b0c0b4807c6a1dc.jpg/685x514/1920x1080/2/7143", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b591b8_b591b8343520a2621e3b6853184a37fb.jpg/685x514/1920x1080/2/abef", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ccc38b_ccc38bf0774e98b7e286b624f404e8d9.jpg/685x514/1920x1080/2/28af", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc61b0_dc61b016a160a76bd579c4c341afe782.jpg/685x514/1920x1080/2/fea8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_58efc7_58efc726066dab31016cc72332ad10cd.jpg/685x514/1920x1080/2/d90e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_280268_2802688441d0d56fc99a307ccd9e4692.jpg/685x514/1920x1080/2/6d2a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f49189_f4918937df3befc68b4e023afe40820a.jpg/685x514/1920x1080/2/5bbe", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f0806_2f0806d90b0a90c8772b54cb3fa43ac5.jpg/685x514/1920x1080/2/6a82", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ade2fd_ade2fdabdd33408a07afa4a5fcc41b6c.jpg/685x514/1920x1080/2/d800"]
+    "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_465bf9_465bf9081fe5dc3985d393a57e8995ec.jpg/685x514/1920x1080/2/7e01", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6622c0_6622c0622f179678a1750faf5f13a2c5.jpg/685x514/1920x1080/2/b1aa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aa9524_aa952492f2be311a25daf3169f9c52ef.jpg/685x514/1920x1080/2/c3f3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b96a3e_b96a3e2df32348fb1b0c0b4807c6a1dc.jpg/685x514/1920x1080/2/7143", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b591b8_b591b8343520a2621e3b6853184a37fb.jpg/685x514/1920x1080/2/abef", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ccc38b_ccc38bf0774e98b7e286b624f404e8d9.jpg/685x514/1920x1080/2/28af", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc61b0_dc61b016a160a76bd579c4c341afe782.jpg/685x514/1920x1080/2/fea8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_58efc7_58efc726066dab31016cc72332ad10cd.jpg/685x514/1920x1080/2/d90e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_280268_2802688441d0d56fc99a307ccd9e4692.jpg/685x514/1920x1080/2/6d2a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f49189_f4918937df3befc68b4e023afe40820a.jpg/685x514/1920x1080/2/5bbe", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f0806_2f0806d90b0a90c8772b54cb3fa43ac5.jpg/685x514/1920x1080/2/6a82", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ade2fd_ade2fdabdd33408a07afa4a5fcc41b6c.jpg/685x514/1920x1080/2/d800"
+  ]
 }, {
   "id": 1,
   "type": "house",
@@ -21,7 +22,7 @@
   "location": "Hendrik Vanhouchestraat 24, 1600 Sint-Pieters-Leeuw",
   "price": "335000",
   "description": "Maison très practique avec vue magnifique! Au rdc un hall d'entrée, living, salle à manger, cuisine equipée et garage. Au 1er étage un hall de nuit, 3 chambres spacieuses, une chambre de douche et un petit grenier. Aussi equipé avec un grenier, une terrasse avec débarras et un joli jardin!",
-  "title" : "Maison 3 façades",
+  "title": "Maison 3 façades",
   "properties": {
     "bathrooms": 1,
     "bedrooms": 3
@@ -34,7 +35,7 @@
   "coordinates": [50.8548448, 4.4307418],
   "location": "Undisclosed number in Yorkshirelaan, 1200 Sint-Lambrechts-Woluwe",
   "price": "329000",
-  "title" : "",
+  "title": "",
   "description": "Appartement moderne",
   "properties": {
     "bedrooms": 2
@@ -47,7 +48,7 @@
   "coordinates": [50.8785244, 4.3296306],
   "location": "François Couteauxstraat 6, 1090 Jette",
   "price": "975000",
-  "title" : "Appartement à vendre",
+  "title": "Appartement à vendre",
   "description": "Adres ---- www.immobpc.be ---  Immeuble de Rapport comprenant : Rdch Droite : Appartement de 70 m², Living 32 m², cuisine semi éqp 11 m², Chambre 15 m², sdb 7 m², toil sép, Jardin/cour 52 m² ; Rdch Gauche : Appartement 75 m², Living 32 m², Cuis semi éqp 10 m², 2 ch (12 m²-11 m²), sdb 3 m², toil sép, jardin/cour 52 m², 1ER Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 2ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 3ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép. Partout PVC-double vitrage, Chauffage coll au gaz.+  Infos www.immobpc.be",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_724bb7_724bb7f52ef3d98baafeaeaa0068a8b1.jpg/800x450/1920x1080/2/b8a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_63b9ce_63b9ceb33a8cc4abce1d24eb6436b356.jpg/800x450/1920x1080/2/e980", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e56805_e568056b99ecfd82878c5bff6e0dfd6f.jpg/800x450/1920x1080/2/3441", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_954339_954339b7362798af15d6bb7aaf37474c.jpg/800x450/1920x1080/2/a7d5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_366832_366832f1effb010df0ede85fb42d2ebe.jpg/273x487/1920x1080/2/2e41", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_691ad7_691ad7d2a6073225ddd4149e70a472b3.jpg/800x450/1920x1080/2/986d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a894f_9a894f0eba632d2c509fdaf2126e0367.jpg/273x487/1920x1080/2/c64f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_06998c_06998cde22b1bf647e9d188194d2712f.jpg/800x450/1920x1080/2/9085", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ede579_ede57978a02ec99b64525198d154ad09.jpg/800x450/1920x1080/2/457b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_efb8be_efb8be77179027b3faeb50282ce0551f.jpg/800x450/1920x1080/2/ea3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4067fa_4067fa5c08fc6b24e8a515b8955ca5a0.jpg/800x450/1920x1080/2/2c3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_70489a_70489af86e22cdd5699c1fc26c30c748.jpg/800x450/1920x1080/2/94ff", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_72b950_72b950b0856b0891082bf75ac7e9e4f8.jpg/800x450/1920x1080/2/a343", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a30b6_9a30b6782186208dc908c497a3adae35.jpg/800x450/1920x1080/2/895b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3681b3_3681b307992c0ca07bd29c7d1e8db200.jpg/800x450/1920x1080/2/ccf3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2d10d7_2d10d7e0803513c88825a2d0d6dda3f1.jpg/273x487/1920x1080/2/7736", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_81ed1e_81ed1e8ac977e51344d888d84bde5290.jpg/800x450/1920x1080/2/60c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a70307_a70307899520f66572d472581c38e223.jpg/800x450/1920x1080/2/88ea", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_26287c_26287c74e7694babf8642e85b94fc2c0.jpg/800x450/1920x1080/2/1940", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ef8111_ef8111f1a44b95f0280ec7b45b70a513.jpg/800x450/1920x1080/2/bf99", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4810d3_4810d3cfe827d895dc84e23a67efbd3b.jpg/800x450/1920x1080/2/47ba", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f44248_f44248fc74451e709fb56bc35a861777.jpg/800x450/1920x1080/2/54ad", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_639ee9_639ee95d0417197c5eb574b12b1a510e.jpg/800x450/1920x1080/2/ccd5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_c01479_c01479fcc8143768440b64206a68d37c.jpg/800x450/1920x1080/2/6ee3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_74d61e_74d61e7a4564323feb26c7e18b6bef45.jpg/273x487/1920x1080/2/ec28", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b5a6b0_b5a6b0c63346d4d7da0201c9117bf10a.jpg/800x450/1920x1080/2/ac15", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_785b87_785b879ea415abe83ca4f2ab5e262be2.jpg/800x450/1920x1080/2/9f19", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_07f3a3_07f3a360fa0c087cc4516bb0a1e5aa88.jpg/800x450/1920x1080/2/622c"]
@@ -58,7 +59,7 @@
   "coordinates": [50.8674164, 4.3772981],
   "location": "Undisclosed address in 1030 Schaarbeek",
   "price": "1750000",
-  "title" : "Nouvelles surfaces à vendre",
+  "title": "Nouvelles surfaces à vendre",
   "description": "Btiment mixte (industriel,bureau,commerce) comprenant 3100 m2 de bureau , espace polyvalent multiple grand espace bureau, dpt, garage. ventuellement grande galerie commerciale, possibilit aussi de construire un ilot de plus d' une dizaine d'appartement et d'une vingtaine de garage tout en gardant la galerie commerciale sur 2 niveaux. Remarque : un permis d'urbanisme existe pour ce btiment et un autre btiment commercial donnant sur la rue de Brabant pour un projet d'une grande galerie commerciale, des appartements, bureaux et garages.Excellente rentabilit pour tout investissement !!Infos et visites : info@besimmo.be 02/469.17.69 et 0476/35.89.83",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6676c2_6676c260bb3ffbdc73fe42b26c47e2f2.jpg/325x448/1920x1080/2/82c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_7d2443_7d2443cbd1cc1d82ed07faa31aaedec5.jpg/800x496/1920x1080/2/b14e"]
@@ -69,7 +70,7 @@
   "coordinates": [50.8701416, 4.3434363],
   "location": "Emile Bockstaellaan 5, 1020 Laken",
   "price": "135000",
-  "title" : "Appartements à vendre - Laeken",
+  "title": "Appartements à vendre - Laeken",
   "description": "",
   "properties": {
     "bathrooms": 1,
@@ -83,7 +84,7 @@
   "coordinates": [50.80240999999999, 4.340669999999999],
   "location": "Undisclosed address in 1180 Ukkel",
   "price": "840000",
-  "title" : "Superbes appartements modernes",
+  "title": "Superbes appartements modernes",
   "description": "",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_10527a_10527a42806b26c6fe8651cf3b6f3983.jpg/640x400/1920x1080/2/c33a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b6e6a8_b6e6a8b668c9d224f818b36f6f523223.jpg/640x400/1920x1080/2/ba50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cb159f_cb159f1726faa6ae61c0aaf7b89d39a5.jpg/640x399/1920x1080/2/d565", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_148fd2_148fd22d9b32c0a559c85cd1a8596883.jpg/640x400/1920x1080/2/e55e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2fdb19_2fdb19fd5ac54e21a4f42a2c3abeabaf.jpg/640x400/1920x1080/2/7163", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2cefd0_2cefd05ac4f90cba0fc4e1e117dcfe20.jpg/640x399/1920x1080/2/e7a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f418f_2f418f4ccd96ece7e54e7cd74f11d204.jpg/640x400/1920x1080/2/f4df", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_69c8fa_69c8fad918e02fb917c0c3d6afe75615.jpg/640x399/1920x1080/2/9c4b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d7bdd3_d7bdd3fbb68f33bdf2e3092d17bdfb40.jpg/640x400/1920x1080/2/c636"]
@@ -94,7 +95,7 @@
   "coordinates": [50.80240999999999, 4.340669999999999],
   "location": "1180 Ukkel",
   "price": "",
-  "title" : "Appartements à vendre - Quartier calme",
+  "title": "Appartements à vendre - Quartier calme",
   "description": "",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ce77c2_ce77c2c281b7ebf42e0877478549a1c9.jpg/1024x683/1920x1080/2/8c85"]
@@ -105,7 +106,7 @@
   "coordinates": [50.8299809, 4.4335038],
   "location": "Undisclosed address in 1150 Sint-Pieters-Woluwe",
   "price": "305000",
-  "title" : "Appartement penthouse",
+  "title": "Appartement penthouse",
   "description": "Woluwe-St-Pierre, face aux étangs Mellaerts, appartement penthouse de +/- 120 m² au 5e étage (dernier) d'un immeuble de standing des années 50 avec ascenseur. Hall d'entrée avec vestiaire - WC séparé - Séjour avec parquet de +/- 40 m² avec large balcon & vue sur les étangs - Cuisine semi-équipée avec accès au balcon à l'arrière - 2 Chambres à coucher de +/- 13 & 15 m² avec parquet - 1 Salle de bains - 1 Cave et possibilité garage.",
   "properties": {
     "bedrooms": 2
@@ -118,7 +119,7 @@
   "coordinates": [50.87393530000001, 4.4009421],
   "location": "Undisclosed address in 1140 Evere",
   "price": "480000",
-  "title" : "Maison à Evere",
+  "title": "Maison à Evere",
   "description": "Evere maison uni ou bi familiale offrant de nombreuse possibilités .Soit unifamilial avec living 45m² + cuisine équipée, 5 grandes chambres , 1 salle de bain avec jacuzzi et deux salle de douche , 3 wc OU actuellement 2 unités avec chacune living cuisine chambres et salle de douches et wc En soussol avec fenêtres possibilité bureau ou profession libérale - jardin 70m² actuellement couvert- rénové en 2005 A VOIR ABOSULEMNT TEL 0475.25.13.49 OU 02.242.12.00",
   "properties": {
     "bedrooms": 5
@@ -131,7 +132,7 @@
   "coordinates": [50.8808582, 4.3227894],
   "location": "Undisclosed address in 1090 Jette",
   "price": "169000",
-  "title" : "Appartement charmant",
+  "title": "Appartement charmant",
   "description": "Appartement charmant avec une chambre à coucher et jardin ensoleillé, dans une maison avec 3 unités. L'appartement dispose d'un salon, une salle à manger, cuisine, salle de bains, jardin orienté sud avec terrasse. Cave spacieuse.  Double vitrage, chauffage central au gaz, compteurs individuels.  Bon emplacement: à proximité du Parc de la Jeunesse, du Parc Roi Baudouin, à 200 m de l'arrêt de bus Rue Eugène Toussaint (correspondance métro),  près de la gare de Jette.  Pas de charges.",
   "properties": {
     "bathrooms": 1,
