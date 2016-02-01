@@ -15,7 +15,7 @@ var SideBar = React.createClass({
     return (
         <div id="sidebar-wrapper">
           <div className="sidebar-content">
-            <p className="small-sidebar-block sidebar-item-main">Home</p>
+            <p className="small-sidebar-block sidebar-item-main"><Link className="small-sidebar-block sidebar-item-main" to="/homepage">Home</Link></p>
             <p className="small-sidebar-block sidebar-item-main">Laissez-vous guider</p>
             <p className="small-sidebar-block sidebar-item-main"><Link className="small-sidebar-block sidebar-item-main" to="/searchform">Trouver un bien</Link></p>
             <p className="small-sidebar-block sidebar-item-main">Simulation rapide</p>

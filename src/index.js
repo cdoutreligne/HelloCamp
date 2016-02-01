@@ -13,6 +13,7 @@ ReactDOM.render(
   <Router>
     <Route path="/" component={App}>
       <IndexRoute component={HomePage} />
+      <Route path="homepage" component={HomePage} />
       <Route path="searchform" component={SearchForm} />
     </Route>
   </Router>, 
