@@ -233,7 +233,38 @@ a {
   color:#FFFFFF !important;
 }
 
-.light-container {
-  background: rgba(255,255,255);
+.card-container {
+  background: rgb(255,255,255);
   border-radius: 10px;
+  padding : 10px;
+  width: 350px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-title {
+  font-family: helloTypeBold;
+}
+
+.card-description {
+  font-size: 0.9em;
+}
+
+.card-text {
+  padding-right:8px;
+}
+
+.card-label {
+  font-family: helloTypeBold;
+  padding-right:8px;
+}
+
+.test {
+  background-color: #88FF88;
+}
+
+.col-nopadding {
+  padding-left: 0px !important;
 }
