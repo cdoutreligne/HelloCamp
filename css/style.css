@@ -229,6 +229,10 @@ a {
   padding : 10px;
 }
 
+.dark-container-text {
+  color:#FFFFFF;
+}
+
 .light-container {
   background: rgba(255,255,255);
   border-radius: 10px;
