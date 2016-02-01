@@ -221,3 +221,8 @@ a {
   left:0px;
   z-index=-10 !important;
 }
+
+.dark-container {
+  background : rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
