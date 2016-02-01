@@ -8,12 +8,17 @@ var IndexRoute = require('react-router').IndexRoute;
 var App = require('./app.js').App;
 var HomePage = require('./homepage.js').HomePage;
 var SearchForm = require('./searchform.js').SearchForm;
+var SearchResults = require('./searchresults.js').SearchResults;
+var HomeCard = require('./homecard.js').HomeCard;
 
 ReactDOM.render(
   <Router>
     <Route path="/" component={App}>
       <IndexRoute component={HomePage} />
+      <Route path="homepage" component={HomePage} />
       <Route path="searchform" component={SearchForm} />
+      <Route path="searchresults" component={SearchResults} />
+      <Route path="homecard/:id" component={HomeCard} />
     </Route>
   </Router>, 
   document.getElementById('root')
