@@ -4,7 +4,7 @@ var HomeCard = React.createClass({
   render: function() {
     return (
         <div className="light-container">
-            
+            <div></div> 
         </div>
     );
   }

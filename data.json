@@ -1,10 +1,12 @@
 [{
   "id": 0,
   "url": "https://www.realo.be/en/ukkel/5388294?l=986811323\n",
+  "type": "house",
   "coordinates": null,
   "location": "Address not disclosed",
   "price": "1295000",
   "description": "Superbe localisation au Sud de Bruxelles dans la jolie commune d’Uccle, au calme et cependant au centre du Fort Jaco. De nombreux commerces et restaurants sont à 400 m.A proximité également, plusieurs écoles dont le Lycée Français, Les Eglantiers, etc. Le centre sportif et de remise en forme David Lloyd est à moins de 5 minutes.\nLes prix s’entendent honoraires d’agence inclus (3,63% TVA comprise, sauf spécification contraire au préalable). Les frais notariaux, droits d’enregistrement et/ou TVA sont à charge de l’acquéreur.Les offres sont faites sous réserve d’erreur, vente préalable, changement de prix ou omissions.",
+  "title" : "Superbe maison spacieuse",
   "properties": {
     "bathrooms": 3,
     "bedrooms": 5
@@ -13,11 +15,13 @@
     "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_465bf9_465bf9081fe5dc3985d393a57e8995ec.jpg/685x514/1920x1080/2/7e01", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6622c0_6622c0622f179678a1750faf5f13a2c5.jpg/685x514/1920x1080/2/b1aa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aa9524_aa952492f2be311a25daf3169f9c52ef.jpg/685x514/1920x1080/2/c3f3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b96a3e_b96a3e2df32348fb1b0c0b4807c6a1dc.jpg/685x514/1920x1080/2/7143", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b591b8_b591b8343520a2621e3b6853184a37fb.jpg/685x514/1920x1080/2/abef", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ccc38b_ccc38bf0774e98b7e286b624f404e8d9.jpg/685x514/1920x1080/2/28af", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc61b0_dc61b016a160a76bd579c4c341afe782.jpg/685x514/1920x1080/2/fea8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_58efc7_58efc726066dab31016cc72332ad10cd.jpg/685x514/1920x1080/2/d90e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_280268_2802688441d0d56fc99a307ccd9e4692.jpg/685x514/1920x1080/2/6d2a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f49189_f4918937df3befc68b4e023afe40820a.jpg/685x514/1920x1080/2/5bbe", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f0806_2f0806d90b0a90c8772b54cb3fa43ac5.jpg/685x514/1920x1080/2/6a82", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ade2fd_ade2fdabdd33408a07afa4a5fcc41b6c.jpg/685x514/1920x1080/2/d800"]
 }, {
   "id": 1,
+  "type": "house",
   "url": "https://www.realo.be/en/hendrik-vanhouchestraat-24-1600-sint-pieters-leeuw/2800146?l=745666888\n",
   "coordinates": [50.7747465, 4.244960499999999],
   "location": "Hendrik Vanhouchestraat 24, 1600 Sint-Pieters-Leeuw",
   "price": "335000",
   "description": "Maison très practique avec vue magnifique! Au rdc un hall d'entrée, living, salle à manger, cuisine equipée et garage. Au 1er étage un hall de nuit, 3 chambres spacieuses, une chambre de douche et un petit grenier. Aussi equipé avec un grenier, une terrasse avec débarras et un joli jardin!",
+  "title" : "Maison 3 façades",
   "properties": {
     "bathrooms": 1,
     "bedrooms": 3
@@ -25,39 +29,47 @@
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_110c76_110c760956862da5243ab0d4d4c37065.jpg/1024x680/1920x1080/2/ef74", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b6eaf1_b6eaf15ea477b31ec93e5c224093042e.jpg/1024x680/1920x1080/2/4f2c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_39fd5e_39fd5ed2f94650119e9599cab34b8846.jpg/1024x680/1920x1080/2/8d6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f22348_f22348c372c10e8b4afbdcd2a1810688.jpg/1024x680/1920x1080/2/e00c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_81ec6f_81ec6f906ff090776d0623de365cfb2a.jpg/680x1024/1920x1080/2/4ce3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_951ec4_951ec402d61d3aabd2a37c8ff5ae7e9f.jpg/1024x680/1920x1080/2/c15e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_eb859b_eb859b7383e47a2fbb4c6a6986f4064c.jpg/1024x680/1920x1080/2/16f0", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e54b2b_e54b2b566e6320c35b145c3eeb3ab80f.jpg/1024x680/1920x1080/2/29f5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d490bd_d490bd0f299b15d602f9216ee0f067c5.jpg/1024x680/1920x1080/2/915f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_0168dc_0168dc31d839322d0f42ece92b271791.jpg/1024x690/1920x1080/2/8a6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_769731_769731c94283cf46d7dceffafc0452a7.jpg/680x1024/1920x1080/2/a60f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d2f18e_d2f18e04b53f1c47647e594ec4cc94a2.jpg/680x1024/1920x1080/2/0bfa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_989b76_989b76455ab283f6c63c5e0ef3992e85.jpg/1024x680/1920x1080/2/3df8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6abcd3_6abcd39cbf331df6912a27dd3cd1c32b.jpg/1024x680/1920x1080/2/a97c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d24fc0_d24fc0dff828a217cae26f07b5234d6b.jpg/1024x680/1920x1080/2/48c9", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_11e2b9_11e2b98b735cd7e8caed20ccdfcef0ac.jpg/1024x680/1920x1080/2/b9fa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a2c0a_1a2c0a6ebe97c01a206a3f4197fae6ff.jpg/680x1024/1920x1080/2/4754", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8dc4a8_8dc4a8fa7b7d2bd2c88dc5ca6fb67dbd.jpg/1626x1080/1920x1080/2/87f1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_591c53_591c5333e7b699e139a95fbace69df22.jpg/680x1024/1920x1080/2/5133"]
 }, {
   "id": 2,
+  "type": "appart",
   "url": "https://www.realo.be/en/yorkshirelaan-1200-sint-lambrechts-woluwe/197340?l=1927607634\n",
   "coordinates": [50.8548448, 4.4307418],
   "location": "Undisclosed number in Yorkshirelaan, 1200 Sint-Lambrechts-Woluwe",
   "price": "329000",
-  "description": "",
+  "title" : "",
+  "description": "Appartement moderne",
   "properties": {
     "bedrooms": 2
   },
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_89bcab_89bcab0365274b3deb3ba7842c25ad54.jpg/480x480/1920x1080/2/7080", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_1fb711_1fb711625be16f98feb8a857db4ff297.jpg/746x420/1920x1080/2/bd50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4d42e2_4d42e2c755168544fa61e05c12e8118a.jpg/681x481/1920x1080/2/5271", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_51be0a_51be0a07e996f74eb8189575fde83b03.jpg/743x419/1920x1080/2/79d1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_6ae2c7_6ae2c75de77dc2c4b28ef616cfc6c429.jpg/753x425/1920x1080/2/8510", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_220f53_220f53fd9a986024a5ac67a225c2e606.jpg/685x483/1920x1080/2/2489", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_34fd55_34fd55f336bd70785a1af06b37534340.jpg/694x490/1920x1080/2/6e71", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_669193_669193b25a9dd0f96ef83f30506149ce.jpg/681x480/1920x1080/2/2d59"]
 }, {
   "id": 3,
+  "type": "appart",
   "url": "https://www.realo.be/en/francois-couteauxstraat-6-1090-jette/113109?l=969228033\n",
   "coordinates": [50.8785244, 4.3296306],
   "location": "François Couteauxstraat 6, 1090 Jette",
   "price": "975000",
+  "title" : "Appartement à vendre",
   "description": "Adres ---- www.immobpc.be ---  Immeuble de Rapport comprenant : Rdch Droite : Appartement de 70 m², Living 32 m², cuisine semi éqp 11 m², Chambre 15 m², sdb 7 m², toil sép, Jardin/cour 52 m² ; Rdch Gauche : Appartement 75 m², Living 32 m², Cuis semi éqp 10 m², 2 ch (12 m²-11 m²), sdb 3 m², toil sép, jardin/cour 52 m², 1ER Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 2ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 3ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép. Partout PVC-double vitrage, Chauffage coll au gaz.+  Infos www.immobpc.be",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_724bb7_724bb7f52ef3d98baafeaeaa0068a8b1.jpg/800x450/1920x1080/2/b8a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_63b9ce_63b9ceb33a8cc4abce1d24eb6436b356.jpg/800x450/1920x1080/2/e980", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e56805_e568056b99ecfd82878c5bff6e0dfd6f.jpg/800x450/1920x1080/2/3441", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_954339_954339b7362798af15d6bb7aaf37474c.jpg/800x450/1920x1080/2/a7d5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_366832_366832f1effb010df0ede85fb42d2ebe.jpg/273x487/1920x1080/2/2e41", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_691ad7_691ad7d2a6073225ddd4149e70a472b3.jpg/800x450/1920x1080/2/986d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a894f_9a894f0eba632d2c509fdaf2126e0367.jpg/273x487/1920x1080/2/c64f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_06998c_06998cde22b1bf647e9d188194d2712f.jpg/800x450/1920x1080/2/9085", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ede579_ede57978a02ec99b64525198d154ad09.jpg/800x450/1920x1080/2/457b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_efb8be_efb8be77179027b3faeb50282ce0551f.jpg/800x450/1920x1080/2/ea3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4067fa_4067fa5c08fc6b24e8a515b8955ca5a0.jpg/800x450/1920x1080/2/2c3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_70489a_70489af86e22cdd5699c1fc26c30c748.jpg/800x450/1920x1080/2/94ff", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_72b950_72b950b0856b0891082bf75ac7e9e4f8.jpg/800x450/1920x1080/2/a343", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a30b6_9a30b6782186208dc908c497a3adae35.jpg/800x450/1920x1080/2/895b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3681b3_3681b307992c0ca07bd29c7d1e8db200.jpg/800x450/1920x1080/2/ccf3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2d10d7_2d10d7e0803513c88825a2d0d6dda3f1.jpg/273x487/1920x1080/2/7736", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_81ed1e_81ed1e8ac977e51344d888d84bde5290.jpg/800x450/1920x1080/2/60c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a70307_a70307899520f66572d472581c38e223.jpg/800x450/1920x1080/2/88ea", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_26287c_26287c74e7694babf8642e85b94fc2c0.jpg/800x450/1920x1080/2/1940", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ef8111_ef8111f1a44b95f0280ec7b45b70a513.jpg/800x450/1920x1080/2/bf99", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4810d3_4810d3cfe827d895dc84e23a67efbd3b.jpg/800x450/1920x1080/2/47ba", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f44248_f44248fc74451e709fb56bc35a861777.jpg/800x450/1920x1080/2/54ad", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_639ee9_639ee95d0417197c5eb574b12b1a510e.jpg/800x450/1920x1080/2/ccd5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_c01479_c01479fcc8143768440b64206a68d37c.jpg/800x450/1920x1080/2/6ee3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_74d61e_74d61e7a4564323feb26c7e18b6bef45.jpg/273x487/1920x1080/2/ec28", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b5a6b0_b5a6b0c63346d4d7da0201c9117bf10a.jpg/800x450/1920x1080/2/ac15", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_785b87_785b879ea415abe83ca4f2ab5e262be2.jpg/800x450/1920x1080/2/9f19", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_07f3a3_07f3a360fa0c087cc4516bb0a1e5aa88.jpg/800x450/1920x1080/2/622c"]
 }, {
   "id": 4,
+  "type": "commercial",
   "url": "https://www.realo.be/en/1030-schaarbeek/5194019?l=1939369359\n",
   "coordinates": [50.8674164, 4.3772981],
   "location": "Undisclosed address in 1030 Schaarbeek",
   "price": "1750000",
+  "title" : "Nouvelles surfaces à vendre",
   "description": "Btiment mixte (industriel,bureau,commerce) comprenant 3100 m2 de bureau , espace polyvalent multiple grand espace bureau, dpt, garage. ventuellement grande galerie commerciale, possibilit aussi de construire un ilot de plus d' une dizaine d'appartement et d'une vingtaine de garage tout en gardant la galerie commerciale sur 2 niveaux. Remarque : un permis d'urbanisme existe pour ce btiment et un autre btiment commercial donnant sur la rue de Brabant pour un projet d'une grande galerie commerciale, des appartements, bureaux et garages.Excellente rentabilit pour tout investissement !!Infos et visites : info@besimmo.be 02/469.17.69 et 0476/35.89.83",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6676c2_6676c260bb3ffbdc73fe42b26c47e2f2.jpg/325x448/1920x1080/2/82c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_7d2443_7d2443cbd1cc1d82ed07faa31aaedec5.jpg/800x496/1920x1080/2/b14e"]
 }, {
   "id": 5,
+  "type": "appart",
   "url": "https://www.realo.be/en/emile-bockstaellaan-5-1020-laken/5507090?l=1698288540\n",
   "coordinates": [50.8701416, 4.3434363],
   "location": "Emile Bockstaellaan 5, 1020 Laken",
   "price": "135000",
+  "title" : "Appartements à vendre - Laeken",
   "description": "",
   "properties": {
     "bathrooms": 1,
@@ -66,28 +78,34 @@
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_2f3f9c_2f3f9ccdbadc0cac0ca0d47faf2b98cc.jpg/1024x1024/1920x1080/2/af75", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_213bd9_213bd915f375c5d999b9bccc84f5d62e.jpg/1024x1024/1920x1080/2/dea6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_107eb5_107eb5e3bea3d55b3f4986c04a60566d.jpg/1024x1024/1920x1080/2/0345", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_3e0cf3_3e0cf3e763d9e02c45327f496c44ef91.jpg/1024x1024/1920x1080/2/d51d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_b3c25d_b3c25d7ea8e630563cdb48b34ae0ea54.jpg/1024x1024/1920x1080/2/b686", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_05fc7a_05fc7a68f17f7d74f02ea334fbd33516.jpg/1024x1024/1920x1080/2/d1cd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_f51288_f5128805c3a01d0fbccc17513142b2e2.jpg/1024x1024/1920x1080/2/aefa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5794f8_5794f8399fbb482eda2737e38fad9584.jpg/1024x1024/1920x1080/2/4d71", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_ae589d_ae589d302d2d4211bd559221f36b75d6.jpg/1024x1024/1920x1080/2/f138", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_68edcc_68edccd15e1bc9d3990b2e68b041d5b8.jpg/1024x1024/1920x1080/2/94f8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_56d119_56d1195db5b453be2925de23880e82ff.jpg/1024x1024/1920x1080/2/f755", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_75b489_75b489ad26cd9c872a4332ee87ebc9e6.jpg/1024x1024/1920x1080/2/2a7c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_7ff47e_7ff47eb7528b62bd8733f36c6dfebdc8.jpg/1024x1024/1920x1080/2/e664", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4e0eee_4e0eee3cb503ec7df7bb09c42fbce77a.jpg/1024x1024/1920x1080/2/ab34", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_bf0b02_bf0b0203e7b8857269970ebbd5ed3a7c.jpg/1024x1024/1920x1080/2/adf0", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_f544e3_f544e3eb2c44daf91aad26baf1ae70e2.jpg/1024x1024/1920x1080/2/c058", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5bf435_5bf4355b80138fabf645e2a39c9335a7.jpg/1024x1024/1920x1080/2/95c6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_7ed825_7ed825161b8e3f0b7e635bb2e26c9690.jpg/1024x1024/1920x1080/2/d5d3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_197345_1973451b12599443db39bbf2f850a8d3.jpg/1024x1024/1920x1080/2/42b6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_ada1aa_ada1aaf5bb515ecad34b45aae4bbc8be.jpg/1024x1024/1920x1080/2/5f06", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_1cd892_1cd892f249ee36109b7e7f325a4ff642.jpg/1024x1024/1920x1080/2/6194", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_fc1ca3_fc1ca3a5012c658618000144d85dc024.jpg/1024x1024/1920x1080/2/4e23", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4d8e89_4d8e89ce50ca47718a7617de63d15a98.jpg/1024x1024/1920x1080/2/25bf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_c43fa0_c43fa0b9ed0174d97a3f09cdbe82f09a.jpg/1024x1024/1920x1080/2/4370", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_808fdf_808fdfb22191b0ad568cab7274680b7b.jpg/1024x1024/1920x1080/2/b8a4", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_a3468e_a3468ee25d7d971d5ea42c56dd8c7581.jpg/1024x1024/1920x1080/2/7dcf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_94547d_94547d60ec9689c88eb2d4570dc6df67.jpg/1024x1024/1920x1080/2/9631", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_2f29c5_2f29c5f650d2577fb9f2bc426451fe90.jpg/1024x1024/1920x1080/2/3991", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5bfd72_5bfd728cef859fdc436c98902c3d2dff.jpg/1024x1024/1920x1080/2/9de1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_afeb74_afeb74c03b38429daac7afc624f16767.jpg/1024x1024/1920x1080/2/961c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_c9b5c1_c9b5c128a75e6042f1b48f5c1f306697.jpg/1024x1024/1920x1080/2/cec6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_0888b6_0888b6db7e2f701c15a916e8e0f0a9d5.jpg/1024x1024/1920x1080/2/6c53"]
 }, {
   "id": 6,
+  "type": "appart",
   "url": "https://www.realo.be/en/1180-ukkel/5194020?l=1862413088\n",
   "coordinates": [50.80240999999999, 4.340669999999999],
   "location": "Undisclosed address in 1180 Ukkel",
   "price": "840000",
+  "title" : "Superbes appartements modernes",
   "description": "",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_10527a_10527a42806b26c6fe8651cf3b6f3983.jpg/640x400/1920x1080/2/c33a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b6e6a8_b6e6a8b668c9d224f818b36f6f523223.jpg/640x400/1920x1080/2/ba50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cb159f_cb159f1726faa6ae61c0aaf7b89d39a5.jpg/640x399/1920x1080/2/d565", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_148fd2_148fd22d9b32c0a559c85cd1a8596883.jpg/640x400/1920x1080/2/e55e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2fdb19_2fdb19fd5ac54e21a4f42a2c3abeabaf.jpg/640x400/1920x1080/2/7163", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2cefd0_2cefd05ac4f90cba0fc4e1e117dcfe20.jpg/640x399/1920x1080/2/e7a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f418f_2f418f4ccd96ece7e54e7cd74f11d204.jpg/640x400/1920x1080/2/f4df", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_69c8fa_69c8fad918e02fb917c0c3d6afe75615.jpg/640x399/1920x1080/2/9c4b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d7bdd3_d7bdd3fbb68f33bdf2e3092d17bdfb40.jpg/640x400/1920x1080/2/c636"]
 }, {
   "id": 7,
+  "type": "appart",
   "url": "https://www.realo.be/en/1180-ukkel/5194020?cl=1221111087%2C767272278%2C198078492\n",
   "coordinates": [50.80240999999999, 4.340669999999999],
   "location": "1180 Ukkel",
   "price": "",
+  "title" : "Appartements à vendre - Quartier calme",
   "description": "",
   "properties": {},
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ce77c2_ce77c2c281b7ebf42e0877478549a1c9.jpg/1024x683/1920x1080/2/8c85"]
 }, {
   "id": 8,
+  "type": "appart",
   "url": "https://www.realo.be/en/1150-sint-pieters-woluwe/5194023?l=905258794\n",
   "coordinates": [50.8299809, 4.4335038],
   "location": "Undisclosed address in 1150 Sint-Pieters-Woluwe",
   "price": "305000",
+  "title" : "Appartement penthouse",
   "description": "Woluwe-St-Pierre, face aux étangs Mellaerts, appartement penthouse de +/- 120 m² au 5e étage (dernier) d'un immeuble de standing des années 50 avec ascenseur. Hall d'entrée avec vestiaire - WC séparé - Séjour avec parquet de +/- 40 m² avec large balcon & vue sur les étangs - Cuisine semi-équipée avec accès au balcon à l'arrière - 2 Chambres à coucher de +/- 13 & 15 m² avec parquet - 1 Salle de bains - 1 Cave et possibilité garage.",
   "properties": {
     "bedrooms": 2
@@ -95,10 +113,12 @@
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_828e36_828e36a6959b7612849f2ec20778674b.jpg/1000x750/1920x1080/2/f437", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cbb1a5_cbb1a5088e405dc8a06eb47640d0da9a.jpg/1000x750/1920x1080/2/04e8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2a0462_2a04627132ed80d5e431afbe4ae421cc.jpg/1000x750/1920x1080/2/4df1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8d1852_8d185204746f5fb40026e39db5beb7eb.jpg/750x1000/1920x1080/2/6082", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_70afec_70afec71d90478757cc4e8f82a6a763a.jpg/1000x750/1920x1080/2/9bb5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b91f23_b91f238e990595186190e37488dd2a30.jpg/1000x750/1920x1080/2/60d5"]
 }, {
   "id": 9,
+  "type": "house",
   "url": "https://www.realo.be/en/1140-evere/5194010?l=514038065\n",
   "coordinates": [50.87393530000001, 4.4009421],
   "location": "Undisclosed address in 1140 Evere",
   "price": "480000",
+  "title" : "Maison à Evere",
   "description": "Evere maison uni ou bi familiale offrant de nombreuse possibilités .Soit unifamilial avec living 45m² + cuisine équipée, 5 grandes chambres , 1 salle de bain avec jacuzzi et deux salle de douche , 3 wc OU actuellement 2 unités avec chacune living cuisine chambres et salle de douches et wc En soussol avec fenêtres possibilité bureau ou profession libérale - jardin 70m² actuellement couvert- rénové en 2005 A VOIR ABOSULEMNT TEL 0475.25.13.49 OU 02.242.12.00",
   "properties": {
     "bedrooms": 5
@@ -106,10 +126,12 @@
   "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a99ef_1a99ef492756cf2831d340ed248a59f7.jpg/751x564/1920x1080/2/5c2c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_11108d_11108dafd0b9dddc68f3d872f34f9a42.jpg/742x556/1920x1080/2/6e6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_fe2f26_fe2f26207c861cbfbc0b4c1a89c1869c.jpg/751x563/1920x1080/2/35f4", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_89effe_89effe5dfc0a16cd19bc0b6fc1835367.jpg/753x565/1920x1080/2/2bcf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a9249a_a9249a88bd95ea1ff9c6f31527c54680.jpg/752x564/1920x1080/2/517e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_40685f_40685fbfa4bae00aa64714b692024f5a.jpg/740x555/1920x1080/2/5554", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1db914_1db9146072777d449ffbf1a984562a86.jpg/740x555/1920x1080/2/fea1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a8c4b5_a8c4b5e5c9bcc8ec5245aeb621d976ef.jpg/263x574/1920x1080/2/5b55", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a19df_9a19df5eb0c978170b6ceb3ba1ba9142.jpg/745x559/1920x1080/2/bccd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_910f1c_910f1c0fffe0c1ca5896e534fef631f2.jpg/738x554/1920x1080/2/1a35", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6aabeb_6aabeb2781c19097f958b988935429f1.jpg/744x558/1920x1080/2/6eb7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f074ac_f074ac9613d098640256950230b42808.jpg/750x562/1920x1080/2/e533", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f339aa_f339aabc0dfed804f7767f59c712c35a.jpg/747x560/1920x1080/2/1758", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aadbb9_aadbb98680baf885b138ab52c0779b9e.jpg/743x557/1920x1080/2/bc94", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e92c2d_e92c2d2136cbd2f723ee395f50c29464.jpg/742x556/1920x1080/2/4802", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a89f2_1a89f2e34d501ee3d19de24c7d539387.jpg/744x558/1920x1080/2/ff61", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3283c1_3283c1b380a3e07db0df96d0cb57f31f.jpg/745x559/1920x1080/2/0ca7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc22b3_dc22b3ea635ca0fd85bdcf6ed6f8850e.jpg/744x558/1920x1080/2/adff"]
 }, {
   "id": 10,
+  "type": "appart",
   "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
   "coordinates": [50.8808582, 4.3227894],
   "location": "Undisclosed address in 1090 Jette",
   "price": "169000",
+  "title" : "Appartement charmant",
   "description": "Appartement charmant avec une chambre à coucher et jardin ensoleillé, dans une maison avec 3 unités. L'appartement dispose d'un salon, une salle à manger, cuisine, salle de bains, jardin orienté sud avec terrasse. Cave spacieuse.  Double vitrage, chauffage central au gaz, compteurs individuels.  Bon emplacement: à proximité du Parc de la Jeunesse, du Parc Roi Baudouin, à 200 m de l'arrêt de bus Rue Eugène Toussaint (correspondance métro),  près de la gare de Jette.  Pas de charges.",
   "properties": {
     "bathrooms": 1,
