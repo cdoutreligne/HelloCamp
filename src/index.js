@@ -1,8 +1,20 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var App = require('./App.js');
+
+var Router = require('react-router').Router;
+var Route = require('react-router').Route;
+var IndexRoute = require('react-router').IndexRoute;
+
+var App = require('./app.js').App;
+var HomePage = require('./homepage.js').HomePage;
+var SearchForm = require('./searchform.js').SearchForm;
 
 ReactDOM.render(
-  <App />, 
+  <Router>
+    <Route path="/" component={App}>
+      <IndexRoute component={HomePage} />
+      <Route path="searchform" component={SearchForm} />
+    </Route>
+  </Router>, 
   document.getElementById('root')
 );

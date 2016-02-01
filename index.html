@@ -3,102 +3,20 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Hello home!</title>
+  <title>Hello Camp!</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/sidebar.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
 <body>
-<div id="wrapper" class="toggled">
-
-        <!-- Sidebar -->
-        <div id="sidebar-wrapper">
-          <div class="sidebar-content">
-            <p class="small-sidebar-block sidebar-item-main">Home</p>
-            <p class="small-sidebar-block sidebar-item-main">Laissez-vous guider</p>
-            <p class="small-sidebar-block sidebar-item-main">Trouver un bien</p>
-            <p class="small-sidebar-block sidebar-item-main">Simulation rapide</p>
-            <div class="sidebar-block-container">
-              <p class="small-sidebar-block sidebar-item-main">Crédit habitation hello</p>
-              <p class="small-sidebar-block sidebar-item-main">Assurance incendie top habitation</p>
-              <p class="small-sidebar-block sidebar-item-main">Crédit habitation hello</p>
-            </div>
-            <div class="sidebar-block-container">
-              <p class="small-sidebar-block sidebar-item-main">The blue room</p>
-            </div>
-            <div class="sidebar-block-container">
-              <p class="small-sidebar-block">Faq</p>
-              <p class="small-sidebar-block">Disclaimer</p>
-              <p class="small-sidebar-block">Vie privée</p>
-              <p class="small-sidebar-block">Politique des cookies</p>
-            </div>
-            <div class="sidebar-block-container">
-              <a class="icon-twitter-disc menu-icon"></a>
-              <a class="icon-facebook-disc menu-icon"></a>
-              <a class="icon-mail-disc menu-icon"></a>
-            </div> 
-          </div>
-        </div>
-        <!-- /#sidebar-wrapper -->
-
-        <!-- Page Content -->
-        <div id="page-content-wrapper" class="main-container">
-            <div class="container-fluid navbar-container">
-            <nav class="navbar navbar-inverse full-transparent">
-              <div class="navbar-header">
-                <a class="icon-menu navbar-toggle menu-button" id="sidebar-toggle">&nbsp;MENU</a>
-              </div>
-              <div>
-                <ul class="nav navbar-nav pull-right">
-                  <li><a href="#" class="navbar-link">FR</a></li>
-                </ul>
-              </div>
-            </nav>
-            </div>
-        </div>
-        <!-- /#page-content-wrapper -->
-
-        <!-- -------------------------------- -->
-        <!-- Main page content for COMPONENTS -->
-        <!-- -------------------------------- -->
-
-
-        <!-- Home component -->
-        <div class="container-fluid vertical-center" style="background-color:#FFFFFF;">
-          <div class="row">
-            <img src="img/girl_table_top.jpg" style="position:absolute;top:0px;left:0px;z-index=-10 !important;">
-            <div class="col-md-6 col-md-offset-3 text-center">
-              <img class="md-logo" src="img/logo-hellobank-white-baseline.svg">
-                <h1>Hello home!</h1>
-                <h2>Acheter un bien, c’est simple et accessible</h2>
-                <br/>
-                <a class="btn btn-danger">Laissez-vous guider</a>
-                <p class="small-text">Passer directement à la simulation</p>
-            </div>
-          </div>
-        </div>
-        <!-- /Home component -->
-
-
-        <!-- -------------------------------- -->
-        <!-- /Main page content for COMPONENTS -->
-        <!-- -------------------------------- -->
+    <div id='root'>
     </div>
-    <!-- /#wrapper -->
 
-
-
-   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script language="javascript">
-    $("#sidebar-toggle").click(function(e) {
-    e.preventDefault();
-    $("#wrapper").toggleClass("toggled");
-    });
-  </script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="/static/bundle.js"></script>
 </body>
-
 </html>

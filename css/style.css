@@ -144,6 +144,7 @@ h2 {
 
 .sidebar-item-main {
   text-transform: uppercase;
+
 }
 
 .sidebar-item-secondary {
@@ -162,7 +163,30 @@ h2 {
   color : #FFFFFF;
   padding: 7px 0px 7px 0px;
   margin: 0px;
+  text-decoration: none;
 }
+
+a.small-sidebar-block:active
+{
+  color : #ff5a64 !important;
+  padding: 7px 0px 7px 0px;
+  margin: 0px;
+  text-decoration: none !important;
+}
+
+a.small-sidebar-block:visited
+{
+  color : #ff5a64 !important;
+  padding: 7px 0px 7px 0px;
+  margin: 0px;
+  text-decoration: none !important;
+}
+
+a {
+   color : #FFFFFF;
+  text-decoration: none !important;
+}
+
 
 .sidebar-block-container
 {
@@ -189,4 +213,11 @@ h2 {
 
 .vertical-center {
   margin-top:200px;
+}
+
+.home-image {
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index=-10 !important;
 }

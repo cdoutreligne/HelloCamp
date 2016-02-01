@@ -36,7 +36,9 @@
   },
   "dependencies": {
     "history": "^1.17.0",
+    "jquery": "^2.2.0",
     "react": "^0.14.0",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.14.0",
+    "react-router": "^2.0.0-rc5"
   }
 }
