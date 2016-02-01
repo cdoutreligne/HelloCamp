@@ -15,8 +15,6 @@ var HomeCard = React.createClass({
 
   render: function() {
     return (
-
-
         <div className="card-container">
             <div className="card-title">Superbe maison spacieuse</div> 
             <div><img className="card-image" src={ this.props.home.image[0] }/></div>
@@ -39,8 +37,6 @@ var HomeCard = React.createClass({
               </div>
             </div>
         </div>
-
-
     );
   }
 });
