@@ -1,9 +1,9 @@
 var React = require('react');
-var Results = require('./data.json');
+var Results = require('../data.json');
 
 var SearchResults = React.createClass({
   render: function() {
-    var resultList = Results.estates.map(function(estate) {
+    var resultList = Results.map(function(estate) {
       return (
         <Estate estateInfo = {estate} />
       );
