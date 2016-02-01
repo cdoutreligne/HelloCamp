@@ -230,7 +230,7 @@ a {
 }
 
 .dark-container-text {
-  color:#FFFFFF;
+  color:#FFFFFF !important;
 }
 
 .light-container {
