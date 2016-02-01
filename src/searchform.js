@@ -58,7 +58,6 @@ var SearchForm = React.createClass({
       };
 
       this.props.onClickSearch(searchCriteria);
-      alert("searchCriteria "+searchCriteria);
     },
 
     render: function() {
