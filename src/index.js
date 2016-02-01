@@ -18,7 +18,7 @@ ReactDOM.render(
       <Route path="homepage" component={HomePage} />
       <Route path="searchform" component={SearchForm} />
       <Route path="searchresults" component={SearchResults} />
-      <Route path="homecard" component={HomeCard} />
+      <Route path="homecard/:id" component={HomeCard} />
     </Route>
   </Router>, 
   document.getElementById('root')
