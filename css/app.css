@@ -1,5 +1,6 @@
 ul.results {
   color: black;
+  list-style-type: none;
 }
 
 ul.results img {

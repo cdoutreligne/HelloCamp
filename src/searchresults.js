@@ -9,7 +9,9 @@ var SearchResults = React.createClass({
       );
     });
     return(
-      <ul className="results">{resultList}</ul>
+      <div className="container">
+        <ul className="results">{resultList}</ul>
+      </div>
     );
   }
 });
@@ -17,11 +19,15 @@ var SearchResults = React.createClass({
 var Estate = React.createClass({
   render: function() {
     return (
-      <li>
-        <img src={this.props.estateInfo.image}></img>
-        <p>Location: {this.props.estateInfo.location}</p>
-        <p>Price: {this.props.estateInfo.price}</p>
-        <a href={this.props.estateInfo.url}>More</a>
+      <li className="row">
+        <div className="col-xs-2">
+          <img src={this.props.estateInfo.image}></img>
+        </div>
+        <div className="col-xs-10">
+          <p>Location: {this.props.estateInfo.location}</p>
+          <p>Price: {this.props.estateInfo.price}</p>
+          <a href={this.props.estateInfo.url}>More</a>
+        </div>
       </li>
     );
   }
