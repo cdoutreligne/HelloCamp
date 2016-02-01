@@ -93,7 +93,12 @@
 
    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="js/sidebar.js"></script>
+  <script language="javascript">
+    $("#sidebar-toggle").click(function(e) {
+    e.preventDefault();
+    $("#wrapper").toggleClass("toggled");
+    });
+  </script>
 </body>
 
 </html>
