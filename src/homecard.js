@@ -61,13 +61,22 @@ var HomeCard = React.createClass({
                   <div className="col-md-3 col-nopadding card-label">Address</div>
                   <div className="col-md-9 col-nopadding card-text">{ home.location }</div>
               </div>
+            </div>
+
+            <div className="container-fluid price-label">
               <div className="row text-right">
-                  <span className="card-label">Prix </span>
                   <span className="card-label">{ home.price }€</span>
               </div>
             </div>
 
-            <div className="container-fluid">
+            <div className="container-fluid bottom-align-block">
+              <div className="row">
+                <div className='btn-group btn-group-full'>
+                  <a href="#" className="btn btn-less btn-full"><i className="fa fa-bars"></i>&nbsp;Détails</a>
+                  <a href="#" className="btn btn-less btn-full"><i className="fa fa-star-o"></i>&nbsp;Favori</a>
+                  <a href="#" className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                </div>
+              </div>
             </div>
         </div>
     );
