@@ -154,7 +154,7 @@ var SearchForm = React.createClass({
                             <div className="row margin-in-dark-container">
                                 <div className="form-group">
                                     <label className="col-xs-3 col-sm-2 control-label dark-container-text">De</label>
-                                    <div className="col-xs-3" id="priceMin">
+                                    <div className="col-xs-3" id="roomNbrMin">
                                         <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" onBlur={this.validateAmount}/>
                                     </div>
                                     <label className="col-xs-1 col-sm-1 control-label dark-container-text">à</label>
@@ -166,14 +166,13 @@ var SearchForm = React.createClass({
                             <br/>
                             <div className="row margin-in-dark-container">
                                 <div className="col-md-12">
-
                                     <a href="#" className="btn-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
                                 </div>
                             </div>
                             {/* ************************** collapse ***************************** */}
-                            <div className="collapse" id="more">
+                            <div className="collapse " id="more">
                                 <div className="row margin-in-dark-container">
-                                        <label className="dark-container-text">surface:</label>
+                                    <label className="control-label dark-container-text">Surface:</label>
                                 </div>
                                 <div className="row margin-in-dark-container">
                                     <div className="form-group">
@@ -181,7 +180,7 @@ var SearchForm = React.createClass({
                                         <div className="col-xs-3" id="squareMin">
                                             <input type="text" name="squareMin" className="form-control" ref="squareMin" onBlur={this.validateAmount} />
                                         </div>
-                                        <label className="col-xs-1 col-sm-1 control-label dark-container-text">à</label>
+                                        <label className="col-xs-1 col-sm-1 control-label dark-container-text">et</label>
                                         <div className="col-xs-3" id="squareMax">
                                             <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;
                                         </div>
@@ -192,7 +191,6 @@ var SearchForm = React.createClass({
                                     <label className="control-label dark-container-text">Etat du bâtiment:</label>
                                 </div>
                                 <div className="row margin-in-dark-container">
-                                    <div class="form-group">
                                         <div className="checkbox">
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="prefect" ref="prefect" value="prefect" />Excellent état</label>
@@ -209,13 +207,11 @@ var SearchForm = React.createClass({
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="toBeRefresh" ref="toBeRefresh" value="toBeRefresh" />A rafraîchir</label>
                                         </div>
-                                    </div>
                                 </div>
                                 <div className="row margin-in-dark-container">
                                     <label className="control-label dark-container-text">Etat du bâtiment:</label>
                                 </div>
                                 <div className="row margin-in-dark-container">
-                                    <div class="form-group">
                                         <div className="checkbox">
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="garage" ref="garage" value="garage" />Garage</label>
@@ -224,13 +220,11 @@ var SearchForm = React.createClass({
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="terrace" ref="terrace" value="terrace" />Terrasse</label>
                                         </div>
-                                    </div>
                                 </div>
                             </div>
                             {/* ************************** end collapse ***************************** */}
-                           <div className="row margin-in-dark-container">
+                            <div className="row margin-in-dark-container">
                                 <div className="col-md-12">
-                                   
                                     <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
                                 </div>
                             </div>
