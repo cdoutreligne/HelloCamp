@@ -37,6 +37,16 @@ var SearchForm = React.createClass({
             $("#" + event.target.name).removeClass("has-error");
         }
     },
+    changeButton: function(event){
+      event.preventDefault();
+        if (event.target.innerHTML === 'Plus de critères') {
+            event.target.innerHTML = 'Moins de critères';
+            $("#more").removeClass("collapse");
+        } else {
+          event.target.innerHTML = 'Plus de critères';
+            $("#more").addClass("collapse");
+        };
+    },
     handleSaveSearch: function() {
         function cleanArray(actual) {
             var newArray = new Array();
@@ -196,8 +206,8 @@ var SearchForm = React.createClass({
                                 <br/>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <a role="button" data-toggle="collapse" href="#more" className="btn btn-primary btn-sm" aria-expanded="false" aria-controls="collapseSection">More</a>
-                                        <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Search</Link>
+                                        <a href="#" className="btn btn-primary btn-sm" onClick={this.changeButton}>Plus de critères</a> 
+                                        <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
                                     </div>
                                 </div>
                         </form>
