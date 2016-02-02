@@ -10,3 +10,8 @@ ul.results li {
 .test-inline {
   display: inline-block;
 }
+
+.margin-in-dark-container{
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
