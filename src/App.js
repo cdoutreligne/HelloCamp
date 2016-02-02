@@ -19,6 +19,7 @@ var App = React.createClass({
       wishlistIds: [7, 5, 3]
     }
   },
+  
   setSearchCriteria: function(data) {
     this.setState({searchCriteria: data});
   },
