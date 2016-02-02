@@ -8,7 +8,7 @@ var HomeCard = React.createClass({
   },
 
   componentDidMount: function() {
-    var id = this.props.params.id;
+/*    var id = this.props.params.id;*/
 
     this.setState(this.props.home);
   },
