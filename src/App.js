@@ -12,6 +12,7 @@ var App = React.createClass({
                   price: {min: '', max: ''},
                   roomNbr: {min: '', max: ''},
                   square: {min: '', max: ''},
+                  estateState: [],
                   garage:'',
                   terrace:''
                 }
