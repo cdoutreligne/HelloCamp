@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 var MenuButton = React.createClass({
   render: function() {
@@ -11,6 +12,7 @@ var MenuButton = React.createClass({
               </div>
               <div>
                 <ul className="nav navbar-nav pull-right">
+                  <li><Link className="navbar-link" to="/wishlist"><i className="fa fa-star"></i></Link></li>
                   <li><a href="#" className="navbar-link">FR</a></li>
                 </ul>
               </div>
