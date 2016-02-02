@@ -16,19 +16,6 @@ var HomeCard = React.createClass({
 
   render: function() {
 
-    /*var carouselItems = [];
-
-    for (var i = this.props.home.image.length - 1; i >= 0; i--) {
-      carouselItems[i] = "";
-      if (i === 0) {
-        carouselItems[i] += "<div className='item active'>";
-      }else{
-        carouselItems[i] += "<div className='item'>";
-      }
-      carouselItems[i] += "<img className='card-image' src='" + this.props.home.image[i] + "'/>";
-      carouselItems[i] += "</div>";
-      console.log(carouselItems[i]);
-    };*/
     var home = this.props.home;
     var carouselId = "imgCarousel" + home.id;
     var carouselIdHref = "#imgCarousel" + home.id;
@@ -48,7 +35,7 @@ var HomeCard = React.createClass({
             <div className="card-title">{ home.title }</div> 
             <div className="row">
               <div className="col-md-12">
-                <div id={carouselId} className="carousel" data-ride="carousel" data-interval="false">
+                <div id={carouselId} className="carousel card-carousel" data-ride="carousel" data-interval="false">
                   <div className="carousel-inner text-center" role="listbox">
                     {carouselItems}
                   </div>
@@ -81,6 +68,9 @@ var HomeCard = React.createClass({
                   <span className="card-label">Prix </span>
                   <span className="card-label">{ home.price }€</span>
               </div>
+            </div>
+
+            <div className="container-fluid">
             </div>
         </div>
     );
