@@ -1,9 +1,12 @@
 ul.results {
   color: black;
-  list-style-type: none;
+  list-style: none;
 }
 
 ul.results li {
-  display: inline-block;
+  float: left;
 }
 
+.test-inline {
+  display: inline-block;
+}

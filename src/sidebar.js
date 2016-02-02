@@ -34,9 +34,9 @@ var SideBar = React.createClass({
               <p className="small-sidebar-block">Politique des cookies</p>
             </div>
             <div className="sidebar-block-container">
-              <a className="icon-twitter-disc menu-icon"></a>
-              <a className="icon-facebook-disc menu-icon"></a>
-              <a className="icon-mail-disc menu-icon"></a>
+              <a className="iconHome-twitter-disc menu-icon"></a>
+              <a className="iconHome-facebook-disc menu-icon"></a>
+              <a className="iconHome-mail-disc menu-icon"></a>
             </div> 
           </div>
         </div>

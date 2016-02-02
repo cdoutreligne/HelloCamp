@@ -6,12 +6,14 @@ var SearchResults = React.createClass({
   render: function() {
     var resultList = Results.map(function(estate) {
       return (
-        <li><HomeCard home = {estate} /></li>
+        <li><HomeCard key={estate.id} home = {estate} /></li>
       );
     });
     return(
       <div className="dark-container">
+
         <ul className="row results">{resultList}</ul>
+
       </div>
     );
   }

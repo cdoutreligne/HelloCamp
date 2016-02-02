@@ -26,7 +26,11 @@
   font-style: normal
 }
 
-[class*='icon-']:before {
+/*----------------------------------*/
+/*MENU CLASSES*/
+/*----------------------------------*/
+
+[class*='iconHome-']:before {
     font-family: 'hellohouse-icon';
     speak: none;
     font-style: normal;
@@ -35,25 +39,25 @@
     text-transform: none;
     line-height: 1;
     //-webkit-font-smoothing: antialiased;
-}
+} 
 
-.icon-cross:before {
+.iconHome-cross:before {
     content: '';
 }
 
-.icon-twitter-disc:before {
+.iconHome-twitter-disc:before {
     content: '';
 }
 
-.icon-facebook-disc:before {
+.iconHome-facebook-disc:before {
     content: '';
 }
 
-.icon-mail-disc:before {
+.iconHome-mail-disc:before {
     content: '';
 }
 
-.icon-menu:before {
+.iconHome-menu:before {
   content: ""
 }
 
@@ -86,6 +90,10 @@
   cursor:pointer;
 }
 
+/*----------------------------------*/
+/*END MENU CLASSES*/
+/*----------------------------------*/
+
 body {
   font-family: "helloTypeRegular";
   background-image: url("../img/bg-1440-03.jpg");
@@ -99,6 +107,19 @@ h1 {
 
 h2 {
   color: #FFFFFF;
+}
+
+label {
+  font-weight: normal !important;
+}
+
+.carousel-inner{
+  width:100%;
+  max-height: 200px !important;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
 
 .navbar-toggle {
@@ -219,39 +240,36 @@ a {
   position:absolute;
   top:0px;
   left:0px;
-  z-index=-10 !important;
+  z-index: -10 !important;
 }
 
-/*rounded dar container for main components*/
 .dark-container {
   background : rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding : 10px;
+  margin: 15px;
 }
 
 .dark-container-text {
   color:#FFFFFF !important;
 }
 
-.card-container {
-  background: rgb(255,255,255);
-  border-radius: 10px;
-  padding : 10px;
-  width: 350px;
-  height: 400px;
-  margin: 5px 5px 5px 5px;
-}
-
 .card-image {
+<<<<<<< HEAD
   width: auto;
   max-width: 250px;
   height: auto;
   max-height: 250px;
+=======
+  width: 250px;
+  height: 250px;
   padding-bottom: 8px;
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
 }
 
 .card-title {
   font-family: helloTypeBold;
+  margin-bottom: 6px;
 }
 
 .card-description {
@@ -267,6 +285,10 @@ a {
   padding-right:8px;
 }
 
+.card-carousel {
+  margin-bottom: 8px;
+}
+
 .test {
   background-color: #88FF88;
 }
@@ -274,3 +296,23 @@ a {
 .col-nopadding {
   padding-left: 0px !important;
 }
+
+<<<<<<< HEAD
+=======
+.card-container {
+  background: rgb(255,255,255);
+  border-radius: 10px;
+  padding : 10px;
+  width: 350px;
+  height: 400px;
+  margin: 5px 5px 5px 5px;
+}
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94

@@ -8,7 +8,7 @@ var MenuButton = React.createClass({
             <div className="container-fluid navbar-container">
             <nav className="navbar navbar-inverse full-transparent">
               <div className="navbar-header">
-                <a className="icon-menu navbar-toggle menu-button" id="sidebar-toggle">&nbsp;MENU</a>
+                <a className="iconHome-menu navbar-toggle menu-button" id="sidebar-toggle">&nbsp;MENU</a>
               </div>
               <div>
                 <ul className="nav navbar-nav pull-right">
