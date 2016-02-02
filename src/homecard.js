@@ -16,8 +16,8 @@ var HomeCard = React.createClass({
   render: function() {
     return (
         <div className="card-container">
-            <div className="card-title">Superbe maison spacieuse</div> 
-            <div><img className="card-image" src={ this.props.home.image[0] }/></div>
+            <div className="card-title">{ this.props.home.title }</div> 
+            <div className="text-center"><img className="card-image" src={ this.props.home.image[0] }/></div>
             <div className="container-fluid">
               <div className="row">
                   <span className="card-label">Type</span>
@@ -28,8 +28,8 @@ var HomeCard = React.createClass({
                   <span className="card-text">{ this.props.home.properties.bedrooms }</span>
               </div>
               <div className="row">
-                  <span className="card-label">Localisation </span>
-                  <span className="card-text">{ this.props.home.properties.location }</span> 
+                  <div className="col-md-3 col-nopadding card-label">Address</div>
+                  <div className="col-md-9 col-nopadding card-text">{ this.props.home.location }</div>
               </div>
               <div className="row text-right">
                   <span className="card-label">Prix </span>
