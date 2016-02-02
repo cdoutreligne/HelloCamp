@@ -14,7 +14,8 @@ var App = React.createClass({
                   square: {min: '', max: ''},
                   garage:'',
                   terrace:''
-                }
+                },
+      wishlistIds: [5]
     }
   },
   setSearchCriteria: function(data) {
@@ -38,10 +39,10 @@ var App = React.createClass({
         <div id="wrapper" className="toggled">
 
         < SideBar />
-        < MenuButton />
+        < MenuButton/>
         { React.cloneElement(
             this.props.children, 
-            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria }
+            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, wishlistIds: this.state.wishlistIds }
           )
         }
         
