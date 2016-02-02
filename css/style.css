@@ -109,6 +109,10 @@ h2 {
   color: #FFFFFF;
 }
 
+label {
+  font-weight: normal !important;
+}
+
 .carousel-inner{
   width:100%;
   max-height: 200px !important;
@@ -251,13 +255,21 @@ a {
 }
 
 .card-image {
+<<<<<<< HEAD
+  width: auto;
+  max-width: 250px;
+  height: auto;
+  max-height: 250px;
+=======
   width: 250px;
   height: 250px;
   padding-bottom: 8px;
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
 }
 
 .card-title {
   font-family: helloTypeBold;
+  margin-bottom: 6px;
 }
 
 .card-description {
@@ -273,6 +285,10 @@ a {
   padding-right:8px;
 }
 
+.card-carousel {
+  margin-bottom: 8px;
+}
+
 .test {
   background-color: #88FF88;
 }
@@ -281,6 +297,8 @@ a {
   padding-left: 0px !important;
 }
 
+<<<<<<< HEAD
+=======
 .card-container {
   background: rgb(255,255,255);
   border-radius: 10px;
@@ -289,7 +307,12 @@ a {
   height: 400px;
   margin: 5px 5px 5px 5px;
 }
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
 
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94

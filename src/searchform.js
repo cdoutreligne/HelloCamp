@@ -13,6 +13,8 @@ var SearchForm = React.createClass({
         this.refs.localisation.value = this.props.searchCriteria.localisation;
         this.refs.priceMin.value = this.props.searchCriteria.price.min;
         this.refs.priceMax.value = this.props.searchCriteria.price.max;
+        console.log(this.props.searchCriteria.price.max);
+        console.log(this.refs.priceMax.value);
         this.refs.roomNbrMin.value = this.props.searchCriteria.roomNbr.min;
         this.refs.roomNbrMax.value = this.props.searchCriteria.roomNbr.max;
         this.refs.squareMin.value = this.props.searchCriteria.square.min;
@@ -36,6 +38,16 @@ var SearchForm = React.createClass({
         } else {
             $("#" + event.target.name).removeClass("has-error");
         }
+    },
+    changeButton: function(event){
+      event.preventDefault();
+        if (event.target.innerHTML === 'Plus de critères') {
+            event.target.innerHTML = 'Moins de critères';
+            $("#more").removeClass("collapse");
+        } else {
+          event.target.innerHTML = 'Plus de critères';
+            $("#more").addClass("collapse");
+        };
     },
     handleSaveSearch: function() {
         function cleanArray(actual) {
@@ -116,24 +128,38 @@ var SearchForm = React.createClass({
                             <label className="dark-container-text">Localisation:</label>
                             <input type="text" name="localisation" className="form-control" ref="localisation" />
                             <div className="row">
-                                <div className="col-sm-5">
-                                    <label className="dark-container-text">Prix: entre</label>
-                                    <div id="priceMin">
-                                        <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} />
+                                <div className="col-sm-12">
+                                    <label className="dark-container-text">Prix:</label>
                                     </div>
+                                </div>
+                                <div className="row">      
+                                <div className="col-sm-6">        
+                                <label className="dark-container-text">entre</label>                      
+                                    <div id="priceMin">
+                                        <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} defaultValue=""/>
+                                    </div>
+                                </div>
+                                <div className="col-sm-6">                      
                                     <div id="priceMax">
                                         <label className="dark-container-text">et</label>
                                         <input type="text" name="priceMax" className="form-control" ref="priceMax" onBlur={this.validateAmount}/>
                                     </div>
                                 </div>
                             </div>
-                            <label className="dark-container-text">Nombre de chambres: </label>
+                            <div className="row">
+                              <div className="col-sm-12">                            
+                                <label className="dark-container-text">Nombre de chambres: </label>
+                              </div>
+                            </div>
                             <div className="row">
                                 <div className="col-sm-3">
+                                <label className="dark-container-text">de</label>  
                                     <div id="roomNbrMin">
                                         <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" onBlur={this.validateAmount}/>
                                     </div>
-                                    <div id="roomNbrMax">
+                                </div>
+                                <div className="col-sm-3">                                       
+                                  <div id="roomNbrMax">
                                         <label className="dark-container-text">à</label>
                                         <input type="text" name="roomNbrMax" className="form-control" ref="roomNbrMax" onBlur={this.validateAmount}/>
                                     </div>
@@ -156,8 +182,7 @@ var SearchForm = React.createClass({
                                     <div className="col-sm-4">
                                       <div id="squareMax">
                                         <label className="dark-container-text">et</label>
-                                        <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>
-                                        <label className="dark-container-text">m2</label>
+                                        <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;<label className="dark-container-text">m²</label>
                                       </div>
                                     </div>
                                 </div>
@@ -196,8 +221,8 @@ var SearchForm = React.createClass({
                                 <br/>
                                 <div className="row">
                                     <div className="col-md-12">
-                                        <a role="button" data-toggle="collapse" href="#more" className="btn btn-primary btn-sm" aria-expanded="false" aria-controls="collapseSection">More</a>
-                                        <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Search</Link>
+                                        <a href="#" className="btn btn-primary btn-sm" onClick={this.changeButton}>Plus de critères</a> 
+                                        <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
                                     </div>
                                 </div>
                         </form>
