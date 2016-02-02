@@ -12,25 +12,15 @@ var App = React.createClass({
                   price: {min: '', max: ''},
                   roomNbr: {min: '', max: ''},
                   square: {min: '', max: ''},
+                  estateState: [],
                   garage:'',
                   terrace:''
-                }
+                },
+      wishlistIds: [5]
     }
   },
   setSearchCriteria: function(data) {
-    function cloneObject(obj) {
-      if (obj === null || typeof obj !== 'object') {
-          return obj;
-      }
-      var temp = obj.constructor(); 
-      for (var key in obj) {
-          temp[key] = cloneObject(obj[key]);
-      }
-      return temp;
-    }
-    var tempSearchCriteria = cloneObject(this.state.searchCriteria);   
-    this.setState({searchCriteria: tempSearchCriteria});
-    console.log("setSearchCriteria");
+    this.setState({searchCriteria: data});
   },
 
   render: function() {
@@ -38,10 +28,10 @@ var App = React.createClass({
         <div id="wrapper" className="toggled">
 
         < SideBar />
-        < MenuButton />
+        < MenuButton/>
         { React.cloneElement(
             this.props.children, 
-            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria }
+            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, wishlistIds: this.state.wishlistIds }
           )
         }
         

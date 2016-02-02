@@ -7,3 +7,6 @@ ul.results li {
   float: left;
 }
 
+.test-inline {
+  display: inline-block;
+}

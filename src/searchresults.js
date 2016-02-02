@@ -11,7 +11,9 @@ var SearchResults = React.createClass({
     });
     return(
       <div className="dark-container">
+        <div className="container">
         <ul className="row results">{resultList}</ul>
+        </div>
       </div>
     );
   }
