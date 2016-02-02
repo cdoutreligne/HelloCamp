@@ -9,16 +9,17 @@ var App = React.createClass({
       searchCriteria: {
                   estateType: [],
                   localisation: [],
-                  price: {min: '', max: ''},
-                  roomNbr: {min: '', max: ''},
-                  square: {min: '', max: ''},
+                  price: {},
+                  roomNbr: {},
+                  square: {},
                   estateState: [],
-                  garage:'',
-                  terrace:''
+                  garage:false,
+                  terrace:false
                 },
       wishlistIds: [5]
     }
   },
+
   setSearchCriteria: function(data) {
     this.setState({searchCriteria: data});
   },
