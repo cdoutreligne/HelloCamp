@@ -126,24 +126,38 @@ var SearchForm = React.createClass({
                             <label className="dark-container-text">Localisation:</label>
                             <input type="text" name="localisation" className="form-control" ref="localisation" />
                             <div className="row">
-                                <div className="col-sm-5">
-                                    <label className="dark-container-text">Prix: entre</label>
+                                <div className="col-sm-12">
+                                    <label className="dark-container-text">Prix:</label>
+                                    </div>
+                                </div>
+                                <div className="row">      
+                                <div className="col-sm-6">        
+                                <label className="dark-container-text">entre</label>                      
                                     <div id="priceMin">
                                         <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} />
                                     </div>
+                                </div>
+                                <div className="col-sm-6">                      
                                     <div id="priceMax">
                                         <label className="dark-container-text">et</label>
                                         <input type="text" name="priceMax" className="form-control" ref="priceMax" onBlur={this.validateAmount}/>
                                     </div>
                                 </div>
                             </div>
-                            <label className="dark-container-text">Nombre de chambres: </label>
+                            <div className="row">
+                              <div className="col-sm-12">                            
+                                <label className="dark-container-text">Nombre de chambres: </label>
+                              </div>
+                            </div>
                             <div className="row">
                                 <div className="col-sm-3">
+                                <label className="dark-container-text">de</label>  
                                     <div id="roomNbrMin">
                                         <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" onBlur={this.validateAmount}/>
                                     </div>
-                                    <div id="roomNbrMax">
+                                </div>
+                                <div className="col-sm-3">                                       
+                                  <div id="roomNbrMax">
                                         <label className="dark-container-text">à</label>
                                         <input type="text" name="roomNbrMax" className="form-control" ref="roomNbrMax" onBlur={this.validateAmount}/>
                                     </div>
@@ -166,8 +180,7 @@ var SearchForm = React.createClass({
                                     <div className="col-sm-4">
                                       <div id="squareMax">
                                         <label className="dark-container-text">et</label>
-                                        <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>
-                                        <label className="dark-container-text">m2</label>
+                                        <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;<label className="dark-container-text">m²</label>
                                       </div>
                                     </div>
                                 </div>
