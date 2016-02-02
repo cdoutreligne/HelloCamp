@@ -41,11 +41,13 @@ var SearchForm = React.createClass({
     },
     changeButton: function(event){
       event.preventDefault();
-        if (event.target.innerHTML === 'Plus de critères') {
-            event.target.innerHTML = 'Moins de critères';
+      //remonte de parent en parent en commencant par l'element lui-meme pour trouver le premier "a"
+      var elem = $(event.target).closest( "a" );
+        if ($("#more").hasClass("collapse")) {
+            elem.html('Moins de critères <i class="fa fa-angle-double-up"></i>');
             $("#more").removeClass("collapse");
         } else {
-          event.target.innerHTML = 'Plus de critères';
+          elem.html('Plus de critères <i class="fa fa-angle-double-down"></i>');
             $("#more").addClass("collapse");
         };
     },
@@ -101,93 +103,98 @@ var SearchForm = React.createClass({
     <div id="searchForm">
         <div className="container">
             <div className="row">
-                <div className="col-md-4 col-md-offset-4">
+                <div className="col-md-6 col-md-offset-2">
                     <div className="dark-container">
                         <form className="form-horizontal" role="form">
-                            <label className="control-label dark-container-text">Type de bien:</label>
-                            <div className="checkbox">
-                                <label className="dark-container-text">
-                                    <input type="checkbox" name="house" ref="house" value="house" />Maison</label>
-                            </div>
-                            <div className="checkbox">
-                                <label className="dark-container-text">
-                                    <input type="checkbox" name="appart" ref="appart" value="appart" />Appartemment</label>
-                            </div>
-                            <div className="checkbox">
-                                <label className="dark-container-text">
-                                    <input type="checkbox" name="ground" ref="ground" value="ground" />Terrain à batir</label>
-                            </div>
-                            <div className="checkbox">
-                                <label className="dark-container-text">
-                                    <input type="checkbox" name="investment" ref="investment" value="investment" />Immeuble de rapport</label>
-                            </div>
-                            <div className="checkbox">
-                                <label className="dark-container-text">
-                                    <input type="checkbox" name="commercial" ref="commercial" value="commercial" />Surface commerciale</label>
-                            </div>
-                            <label className="dark-container-text">Localisation:</label>
-                            <input type="text" name="localisation" className="form-control" ref="localisation" />
-                            <div className="row">
-                                <div className="col-sm-12">
-                                    <label className="dark-container-text">Prix:</label>
-                                    </div>
+                            <div className="row margin-in-dark-container">
+                                <label className="control-label dark-container-text">Type de bien:</label>
+                                <div className="checkbox">
+                                    <label className="dark-container-text">
+                                        <input type="checkbox" name="house" ref="house" value="house" />Maison</label>
                                 </div>
-                                <div className="row">      
-                                <div className="col-sm-6">        
-                                <label className="dark-container-text">entre</label>                      
-                                    <div id="priceMin">
-                                        <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} defaultValue=""/>
-                                    </div>
+                            </div>
+                            <div className="row margin-in-dark-container">
+                                <div className="checkbox">
+                                    <label className="dark-container-text">
+                                        <input type="checkbox" name="appart" ref="appart" value="appart" />Appartemment</label>
                                 </div>
-                                <div className="col-sm-6">                      
-                                    <div id="priceMax">
-                                        <label className="dark-container-text">et</label>
+                                <div className="checkbox">
+                                    <label className="dark-container-text">
+                                        <input type="checkbox" name="ground" ref="ground" value="ground" />Terrain à batir</label>
+                                </div>
+                                <div className="checkbox">
+                                    <label className="dark-container-text">
+                                        <input type="checkbox" name="investment" ref="investment" value="investment" />Immeuble de rapport</label>
+                                </div>
+                                <div className="checkbox">
+                                    <label className="dark-container-text">
+                                        <input type="checkbox" name="commercial" ref="commercial" value="commercial" />Surface commerciale</label>
+                                </div>
+                            </div>
+                            <div className="row margin-in-dark-container">
+                                <label className="dark-container-text">Localisation:</label>
+                                <input type="text" name="localisation" className="form-control" ref="localisation" />
+                            </div>
+                            <div className="row margin-in-dark-container">
+                                <label className="dark-container-text">Prix:</label>
+                            </div>
+                            <div className="row margin-in-dark-container">
+                                <div className="form-group">
+                                    <label className="col-xs-3 col-sm-2 control-label dark-container-text">Entre</label>
+                                    <div className="col-xs-3" id="priceMin">
+                                        <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} />
+                                    </div>
+                                    <label className="col-xs-1 col-sm-1 control-label dark-container-text">et</label>
+                                    <div className="col-xs-3" id="priceMax">
                                         <input type="text" name="priceMax" className="form-control" ref="priceMax" onBlur={this.validateAmount}/>
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
-                              <div className="col-sm-12">                            
-                                <label className="dark-container-text">Nombre de chambres: </label>
-                              </div>
+                            <div className="row margin-in-dark-container">
+                                <label className="dark-container-text">Nombre de chambres:</label>
                             </div>
-                            <div className="row">
-                                <div className="col-sm-3">
-                                <label className="dark-container-text">de</label>  
-                                    <div id="roomNbrMin">
+                            <div className="row margin-in-dark-container">
+                                <div className="form-group">
+                                    <label className="col-xs-3 col-sm-2 control-label dark-container-text">De</label>
+                                    <div className="col-xs-3" id="priceMin">
                                         <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" onBlur={this.validateAmount}/>
                                     </div>
-                                </div>
-                                <div className="col-sm-3">                                       
-                                  <div id="roomNbrMax">
-                                        <label className="dark-container-text">à</label>
+                                    <label className="col-xs-1 col-sm-1 control-label dark-container-text">à</label>
+                                    <div className="col-xs-3" id="roomNbrMax">
                                         <input type="text" name="roomNbrMax" className="form-control" ref="roomNbrMax" onBlur={this.validateAmount}/>
                                     </div>
                                 </div>
                             </div>
+                            <br/>
+                            <div className="row margin-in-dark-container">
+                                <div className="col-md-12">
+
+                                    <a href="#" className="btn-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
+                                </div>
+                            </div>
                             {/* ************************** collapse ***************************** */}
                             <div className="collapse" id="more">
-                                <div className="row">
-                                    <div className="col-sm-12">
+                                <div className="row margin-in-dark-container">
                                         <label className="dark-container-text">surface:</label>
-                                    </div>
                                 </div>
-                                <div className="row">
-                                    <div className="col-sm-4">
-                                        <label className="dark-container-text"> entre</label>
-                                        <div id="squareMin">
+                                <div className="row margin-in-dark-container">
+                                    <div className="form-group">
+                                        <label className="col-xs-3 col-sm-2 control-label dark-container-text">Entre</label>
+                                        <div className="col-xs-3" id="squareMin">
                                             <input type="text" name="squareMin" className="form-control" ref="squareMin" onBlur={this.validateAmount} />
                                         </div>
-                                    </div>
-                                    <div className="col-sm-4">
-                                      <div id="squareMax">
-                                        <label className="dark-container-text">et</label>
-                                        <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;<label className="dark-container-text">m²</label>
-                                      </div>
+                                        <label className="col-xs-1 col-sm-1 control-label dark-container-text">à</label>
+                                        <div className="col-xs-3" id="squareMax">
+                                            <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;
+                                        </div>
+                                        <label className="col-xs-1 col-sm-1 control-label dark-container-text">m²</label>
                                     </div>
                                 </div>
-                                <div className="row">
-                                        <label className="control-label dark-container-text">Etat du bâtiment:</label>
+                                <div className="row margin-in-dark-container">
+                                    <label className="control-label dark-container-text">Etat du bâtiment:</label>
+                                </div>
+                                <div className="row margin-in-dark-container">
+                                    <div class="form-group">
                                         <div className="checkbox">
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="prefect" ref="prefect" value="prefect" />Excellent état</label>
@@ -204,33 +211,38 @@ var SearchForm = React.createClass({
                                             <label className="dark-container-text">
                                                 <input type="checkbox" name="toBeRefresh" ref="toBeRefresh" value="toBeRefresh" />A rafraîchir</label>
                                         </div>
-                                        <div className="row">
-                                            <label className="control-label dark-container-text">Etat du bâtiment:</label>
-                                            <div className="checkbox">
-                                                <label className="dark-container-text">
-                                                    <input type="checkbox" name="garage" ref="garage" value="garage" />Garage</label>
-                                            </div>
-                                            <div className="checkbox">
-                                                <label className="dark-container-text">
-                                                    <input type="checkbox" name="terrace" ref="terrace" value="terrace" />Terrasse</label>
-                                            </div>
+                                    </div>
+                                </div>
+                                <div className="row margin-in-dark-container">
+                                    <label className="control-label dark-container-text">Etat du bâtiment:</label>
+                                </div>
+                                <div className="row margin-in-dark-container">
+                                    <div class="form-group">
+                                        <div className="checkbox">
+                                            <label className="dark-container-text">
+                                                <input type="checkbox" name="garage" ref="garage" value="garage" />Garage</label>
+                                        </div>
+                                        <div className="checkbox">
+                                            <label className="dark-container-text">
+                                                <input type="checkbox" name="terrace" ref="terrace" value="terrace" />Terrasse</label>
                                         </div>
                                     </div>
                                 </div>
-                                {/* ************************** end collapse ***************************** */}
-                                <br/>
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <a href="#" className="btn btn-primary btn-sm" onClick={this.changeButton}>Plus de critères</a> 
-                                        <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
-                                    </div>
+                            </div>
+                            {/* ************************** end collapse ***************************** */}
+                           <div className="row margin-in-dark-container">
+                                <div className="col-md-12">
+                                   
+                                    <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
                                 </div>
+                            </div>
                         </form>
-                        </div>
                     </div>
                 </div>
             </div>
-        </div>        );
+        </div>
+    </div>
+      );
     }
 });
 

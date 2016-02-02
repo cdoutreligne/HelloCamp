@@ -16,12 +16,21 @@ var App = React.createClass({
                   garage:'',
                   terrace:''
                 },
-      wishlistIds: [5]
+      wishlistIds: [7, 5, 3]
     }
   },
   
   setSearchCriteria: function(data) {
     this.setState({searchCriteria: data});
+  },
+
+  removeFavorite: function(favoriteId){
+    var array = this.state.wishlistIds;
+    var index = array.indexOf(favoriteId);
+    if (index > -1) {
+      array.splice(index, 1);
+    }
+    this.setState({wishlistIds: array});
   },
 
   render: function() {
@@ -32,7 +41,8 @@ var App = React.createClass({
         < MenuButton/>
         { React.cloneElement(
             this.props.children, 
-            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, wishlistIds: this.state.wishlistIds }
+            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, 
+              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite}
           )
         }
         
