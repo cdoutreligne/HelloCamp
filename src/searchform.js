@@ -1,5 +1,6 @@
 var React = require('react');
 var Link = require('react-router').Link;
+var $ = require('jquery');
 
 var SearchForm = React.createClass({
 
@@ -17,6 +18,13 @@ var SearchForm = React.createClass({
       this.refs.squareMax.value = this.props.searchCriteria.square.max;
       this.refs.garage.value = this.props.searchCriteria.garage;
       this.refs.terrace.value = this.props.searchCriteria.terrace;
+    },
+    validateAmount: function(event){
+      if (isNaN(event.target.value)){
+        $("#"+event.target.name).addClass("has-error");
+      } else {
+        $("#"+event.target.name).removeClass("has-error");
+      }
     },
     handleMoreCriteria: function() {
     },
@@ -93,22 +101,47 @@ var SearchForm = React.createClass({
                   <div className="row">
                     <div className="col-sm-5">
                   <label className="dark-container-text">Prix: entre</label> 
-                  <input type="text" name="priceMin" className="form-control" ref="priceMin" />
-                  <label className="dark-container-text">et</label><input type="text" name="priceMax" className="form-control" ref="priceMax" />
+                  <div id="priceMin">
+                    <input type="text" name="priceMin" className="form-control" ref="priceMin" onBlur={this.validateAmount} />
+                  </div>
+                  <div id="priceMax">                  
+                   <label className="dark-container-text">et</label><input type="text" name="priceMax" className="form-control" ref="priceMax" onBlur={this.validateAmount}/>
+                  </div>
                   </div>
                   </div>
                   <label className="dark-container-text">Nombre de chambres: </label> 
                   <div className="row">
                     <div className="col-sm-3">
-                      <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" />
+                    <div id="roomNbrMin">
+                      <input type="text" name="roomNbrMin" className="form-control" ref="roomNbrMin" onBlur={this.validateAmount}/>
+                      </div>
+                      <div id="roomNbrMax">
                         <label className="dark-container-text">à</label>
-                      <input type="text" name="roomNbrMax" className="form-control" ref="roomNbrMax" />
+                      <input type="text" name="roomNbrMax" className="form-control" ref="roomNbrMax" onBlur={this.validateAmount}/>
+                      </div>
                     </div>
                   </div>
-                  <br/>
+                  
+                
+                <div className="collapse" id="more">
+                    <div className="row">
+                   <div className="col-sm-4">
+                  <div id="squareMin">
+                  <label className="dark-container-text">surface: entre</label> 
+                    <input type="text" name="squareMin" className="form-control" ref="squareMin" onBlur={this.validateAmount} />
+                  </div>
+                  <div id="squareMax">
+                   <label className="dark-container-text">et</label>
+                    <input type="text" name="squareMax" className="form-control" ref="squareMax"  onBlur={this.validateAmount}/>
+                  </div>
+                </div>
+                  </div>
+                </div>         
+                <br/>         
                   <div className="row">
                     <div className="col-md-12">
-                    <input type="button" id="btnMore" className="btn btn-primary btn-sm" value="more" onClick={this.handleMoreCriteria}/>
+                    <a role="button" data-toggle="collapse" href="#more" className="btn btn-primary btn-sm" aria-expanded="false" aria-controls="collapseSection">More</a>
+                    
                     <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Search</Link>
                     </div>
                   </div>
