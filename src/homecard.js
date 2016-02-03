@@ -123,7 +123,7 @@ var HomeCard = React.createClass({
                   <span className="card-text">{ home.properties.bedrooms }</span>
               </div>
               <div className="row">
-                  <div className="col-md-3 col-nopadding card-label">Address</div>
+                  <div className="col-md-3 col-nopadding card-label">Addresse</div>
                   <div className="col-md-9 col-nopadding card-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</div>
               </div>
             </div>
