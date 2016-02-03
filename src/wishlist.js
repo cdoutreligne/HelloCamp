@@ -1,5 +1,6 @@
 var React = require('react');
 var HomeCard = require('./homecard.js').HomeCard;
+var Link = require('react-router').Link;
 
 var WishList = React.createClass({
   render: function(){
