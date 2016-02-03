@@ -164,7 +164,7 @@ var SearchForm = React.createClass({
                                 </div>
                             </div>
                             <div className="row margin-in-dark-container">
-                              <a href="#" className="btn-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
+                              <a href="#" className="btn-link my-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
                             </div>
                             {/* ************************** collapse ***************************** */}
                             <div className="collapse " id="more">
@@ -221,7 +221,7 @@ var SearchForm = React.createClass({
                             </div>
                             {/* ************************** end collapse ***************************** */}
                             <div className="row margin-in-dark-container">
-                                    <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
+                              <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
                             </div>
                         </form>
                     </div>
