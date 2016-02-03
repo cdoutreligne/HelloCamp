@@ -44,7 +44,7 @@ var HomeCard = React.createClass({
     {
       btnWish = <a className="btn btn-less btn-full" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
     } else {
-      btnWish = <a className="btn btn-less btn-full"><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
+      btnWish = <a className="btn btn-less btn-full" onClick={ this.handleAddWish }><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
     }
 
     return (
