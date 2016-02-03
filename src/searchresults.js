@@ -6,7 +6,6 @@ var $ = require('jquery');
 var SearchResults = React.createClass({
   filterResults: function(searchCrit) {
     var Results = this.props.estates;
-    console.log(searchCrit);
     var filtered = Results.filter(function(estate) {
       if (searchCrit.estateType.length == 0 || 1 + $.inArray(estate.type, searchCrit.estateType) ) {
         return true;
