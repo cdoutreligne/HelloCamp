@@ -27,6 +27,8 @@ var WishList = React.createClass({
       <div className="dark-container">
         <h3 className="dark-container-title">{resultList.length} Résults</h3>
         <ul className="row results">{resultList}</ul>
+        <Link to="/searchform" className="btn btn-primary btn-bottom-right">Nouvelle recherche</Link>
+        <Link to="/searchform" className="btn btn-primary btn-top-right">Nouvelle recherche</Link>
       </div>
     );
   }

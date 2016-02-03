@@ -141,6 +141,18 @@ label {
   background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
 }
 
+.btn-bottom-right {
+  position : absolute;
+  bottom : 20px;
+  right : 20px;
+}
+
+.btn-top-right {
+  position : absolute;
+  top : 20px;
+  right : 20px;
+}
+
 .wish-star
 {
   color:#FFFF00 !important;
@@ -278,6 +290,7 @@ a {
   padding : 10px;
   margin: 15px;
   color:#FFFFFF !important;
+  position:relative;
 }
 
 .dark-container-text {
