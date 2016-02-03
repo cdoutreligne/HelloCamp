@@ -1,0 +1,54 @@
+#carouselDetails {
+  width:100%;
+  max-height: 100% !important;
+}
+.buttonBorder{
+  border-color: white !important;
+  /*#34302F*/
+}
+.white-container {
+  overflow: hidden;
+  position: relative;
+  background : white;
+  border-radius: 10px;
+  padding : 10px;
+  margin: 15px;
+  color: black !important;
+  width: 100%;
+}
+.details-title {
+  font-family: helloTypeBold;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.details-price-label {
+  position: absolute;
+  color: #FFFFFF;
+  top: 60px;
+  left: 0px;
+  height: 50px;
+  width: 350px;
+  line-height: 30px;
+  background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
+  font-weight: bold;
+  font-size: 50px;
+  border-radius : 0px 0px 0px 0px;
+  padding: 5px;
+  padding-right: 15px;
+}
+.details-label {
+  font-family: helloTypeBold;
+  padding-right:8px;
+  padding-left:15px;
+}
+.details-text {
+  padding-right:8px;
+  font-size: 15px;
+  padding-left:15px;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
