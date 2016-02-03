@@ -122,6 +122,24 @@ label {
     background-image: none !important;
 }
 
+.btn-group-full {
+  width:100% !important;
+}
+
+.btn-full {
+  position: absolute;
+  width:118px !important;
+  border-radius: 0px !important;
+}
+
+.btn-less {
+  background-color: #555555;
+}
+
+.btn-brand { 
+  background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
+}
+
 .navbar-toggle {
   display: block;
 }
@@ -204,7 +222,7 @@ a.small-sidebar-block:visited
 }
 
 a {
-   color : #FFFFFF;
+  color : #FFFFFF;
   text-decoration: none !important;
 }
 
@@ -254,17 +272,28 @@ a {
   color:#FFFFFF !important;
 }
 
+/*----------------------------------*/
+/*CARD CLASSES*/
+/*----------------------------------*/
+
+.card-container {
+  background: rgb(255,255,255);
+  border-radius: 10px;
+  padding : 10px;
+  width: 352px;
+  height: 400px;
+  margin: 10px 10px 10px 10px;
+  position: relative;
+  overflow: hidden;
+}
+
 .card-image {
-<<<<<<< HEAD
   width: auto;
   max-width: 250px;
   height: auto;
   max-height: 250px;
-=======
   width: 250px;
   height: 250px;
-  padding-bottom: 8px;
->>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
 }
 
 .card-title {
@@ -289,30 +318,40 @@ a {
   margin-bottom: 8px;
 }
 
-.test {
-  background-color: #88FF88;
-}
+/*----------------------------------*/
+/*END CARD CLASSES*/
+/*----------------------------------*/
 
 .col-nopadding {
   padding-left: 0px !important;
 }
 
-<<<<<<< HEAD
-=======
-.card-container {
-  background: rgb(255,255,255);
-  border-radius: 10px;
-  padding : 10px;
-  width: 350px;
-  height: 400px;
-  margin: 5px 5px 5px 5px;
-}
->>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
-
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 9509b4e6613b3ccc024f037bc83fbfe97024ac94
+.text-valign {
+  display: inline-block !important;
+  vertical-align: middle !important;
+}
+
+.bottom-align-block {
+  position: absolute;
+  left:0;
+  bottom: 0;
+  width: 352px;
+}
+
+.price-label {
+  position: absolute;
+  color: #FFFFFF;
+  top: 50px;
+  left: 0px;
+  height: 30px;
+  width: 100px;
+  line-height: 30px;
+  /*background-color: rgba(220,60,60,0.85);*/
+  background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
+  font-weight: bold;
+  border-radius : 0px 4px 4px 0px;
+}
