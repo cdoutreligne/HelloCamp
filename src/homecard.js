@@ -13,6 +13,10 @@ var HomeCard = React.createClass({
     this.props.removeFavorite(this.props.home.id);
   },
 
+  handleAddWish: function() {
+    this.props.onWishAdd(this.props.home.id);
+  },
+
   handleDetails: function() {
     this.props.onDisplayDetails(this.props.home);
   },
