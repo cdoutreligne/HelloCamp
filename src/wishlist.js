@@ -26,7 +26,10 @@ var WishList = React.createClass({
       <div className="dark-container with-buttons-bottom">
         <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
         <ul className="row results">{resultList}</ul>
-        <Link to="/searchform" className="btn btn-primary btn-bottom-left">Nouvelle recherche</Link>
+        <div className="btn-bottom-left">
+        <Link to="/searchresults" className="btn btn-primary">Retour à la liste</Link>&nbsp;&nbsp;
+        <Link to="/searchform" className="btn btn-primary">Nouvelle recherche</Link>
+        </div>
       </div>
     );
   }
