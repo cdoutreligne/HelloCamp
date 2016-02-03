@@ -50,9 +50,24 @@ var HomeCard = React.createClass({
       btnWish = <a className="btn btn-less btn-full" onClick={ this.handleAddWish }><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
     }
 
+    var homeType = "";
+    switch (home.type)
+    {
+      case "house" :
+        homeType = "Maison";
+        break;
+      case "appart" : 
+        homeType = "Appartement";
+        break;
+      default :
+        homeType = "";
+        break;
+    }
+
+
     return (
         <div className="card-container">
-            <div className="card-title">{ home.title }</div> 
+            <div className="card-title">{ home.address.city } - { homeType }</div> 
             <div className="row">
               <div className="col-md-12">
                 <div id={carouselId} className="carousel card-carousel" data-ride="carousel" data-interval="false">
@@ -73,8 +88,10 @@ var HomeCard = React.createClass({
             </div>
             <div className="container-fluid">
               <div className="row">
-                  <span className="card-label">Type</span>
-                  <span className="card-text">{ home.type }</span>          
+                  <div className="col-md-12 col-nopadding card-text">{ home.title }</div>
+              </div>
+              <div className="row">
+        
                   <span className="card-label">Surface</span>
                   <span className="card-text">125m²</span>               
                   <span className="card-label">Nb.&nbsp;Ch.</span>
@@ -82,7 +99,7 @@ var HomeCard = React.createClass({
               </div>
               <div className="row">
                   <div className="col-md-3 col-nopadding card-label">Address</div>
-                  <div className="col-md-9 col-nopadding card-text">{ home.location }</div>
+                  <div className="col-md-9 col-nopadding card-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</div>
               </div>
             </div>
 
