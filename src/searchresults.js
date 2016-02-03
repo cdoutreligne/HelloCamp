@@ -74,9 +74,9 @@ var SearchResults = React.createClass({
     var results = resultList.length; 
     resultList = resultList.map(function(estate) {
         return (
-          <li key={estate.id}><HomeCard home = {estate} /></li>
+          <li key={estate.id}><HomeCard home = {estate} removeFavorite={this.props.removeFavorite} addFavorite={this.props.addFavorite}/></li>
         );
-      });
+      }.bind(this));
     return(
       <div className="dark-container">
         <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>

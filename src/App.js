@@ -33,6 +33,12 @@ var App = React.createClass({
     this.setState({wishlistIds: array});
   },
 
+  addFavorite: function(favoriteId){
+    var array = this.state.wishlistIds;
+    array.push(favoriteId);
+    this.setState({wishlistIds: array});
+  },
+
   render: function() {
     return (
         <div id="wrapper" className="toggled">
@@ -42,7 +48,7 @@ var App = React.createClass({
         { React.cloneElement(
             this.props.children, 
             {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, 
-              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite}
+              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite}
           )
         }
         
