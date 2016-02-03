@@ -77,7 +77,7 @@ var SearchResults = React.createClass({
         );
       }.bind(this));
     return(
-      <div className="dark-container dark-container-with-buttons">
+      <div className="dark-container with-buttons-bottom">
         <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
         <ul className="row results row-normal">{resultList}</ul>
         <Link to="/searchform" className="btn btn-primary btn-bottom-left">Nouvelle recherche</Link>
