@@ -25,6 +25,7 @@ var WishList = React.createClass({
     }.bind(this));
     return(
       <div className="dark-container">
+        <h3 className="dark-container-title">{resultList.length} Résults</h3>
         <ul className="row results">{resultList}</ul>
       </div>
     );
