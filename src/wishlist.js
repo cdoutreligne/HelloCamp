@@ -5,15 +5,12 @@ var Link = require('react-router').Link;
 var WishList = React.createClass({
   render: function(){
     var Results = this.props.estates;
-    var wishlistIds = this.props.wishlistIds;
     var filterList = function(){
       var tempArray = [];
       for (var i = Results.length - 1; i >= 0; i--) {
-        for (var j = wishlistIds.length - 1; j >= 0; j--) {
-          if(wishlistIds[j] === Results[i].id) {
-            tempArray.push(Results[i]);
-          }
-        };
+        if(Results[i].wish){
+          tempArray.push(Results[i]);
+        }
       };
       return tempArray;
     }
