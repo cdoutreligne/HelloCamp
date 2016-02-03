@@ -8,6 +8,11 @@ var HomeCard = React.createClass({
     };
   },
 
+  handleRemoveWish: function()
+  {
+    this.props.onWishRemove(this.props.home.id);
+  },
+
   componentDidMount: function() {
   },
 
@@ -17,15 +22,22 @@ var HomeCard = React.createClass({
     var carouselId = "imgCarousel" + home.id;
     var carouselIdHref = "#imgCarousel" + home.id;
     var carouselItems = home.image.map(function(item) {
-      var className = (item === home.image[0]) ? "item active" : "item";
+      var carouselClassName = (item === home.image[0]) ? "item active" : "item";
       return (
-        <div className={className}>
+        <div className={carouselClassName}>
           <img className="card-image" src={item}/>
         </div>
       );
-    }.bind(this)
-    );
+    }.bind(this));
 
+    var btnWish;
+
+    if (this.props.wish)
+    {
+      btnWish = <a className="btn btn-less btn-full" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
+    } else {
+      btnWish = <a className="btn btn-less btn-full"><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
+    }
 
     return (
         <div className="card-container">
@@ -73,7 +85,7 @@ var HomeCard = React.createClass({
               <div className="row">
                 <div className='btn-group btn-group-full'>
                   <a href="#" className="btn btn-less btn-full"><i className="fa fa-bars"></i>&nbsp;Détails</a>
-                  <a href="#" className="btn btn-less btn-full"><i className="fa fa-star-o"></i>&nbsp;Favori</a>
+                  {btnWish}
                   <a href="#" className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
                 </div>
               </div>

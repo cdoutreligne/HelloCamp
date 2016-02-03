@@ -127,6 +127,7 @@ label {
 }
 
 .btn-full {
+  border : 0px;
   position: absolute;
   width:118px !important;
   border-radius: 0px !important;
@@ -138,6 +139,11 @@ label {
 
 .btn-brand { 
   background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
+}
+
+.wish-star
+{
+  color:#FFFF00 !important;
 }
 
 .navbar-toggle {
