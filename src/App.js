@@ -24,6 +24,10 @@ var App = React.createClass({
     this.setState({searchCriteria: data});
   },
 
+  displayDetails: function(estate) {
+    this.setState({home: estate});
+  },
+
   removeFavorite: function(favoriteId){
     var array = this.state.wishlistIds;
     var index = array.indexOf(favoriteId);
@@ -47,8 +51,9 @@ var App = React.createClass({
         < MenuButton/>
         { React.cloneElement(
             this.props.children, 
-            {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, 
-              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite}
+            {onClickSearch: this.setSearchCriteria, onDisplayDetails: this.displayDetails, searchCriteria: this.state.searchCriteria, 
+              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite,
+              home: this.state.home}
           )
         }
         
