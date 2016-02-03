@@ -1,12 +1,11 @@
 var React = require('react');
 var Link = require('react-router').Link;
-var Results = require('../data.json');
 var HomeCard = require('./homecard.js').HomeCard;
 var $ = require('jquery');
 
 var SearchResults = React.createClass({
- 
   filterResults: function(searchCrit) {
+    var Results = this.props.estates;
     var filtered = Results.filter(function(estate) {
       if (searchCrit.estateType.length == 0 || 1 + $.inArray(estate.type, searchCrit.estateType) ) {
         return true;
@@ -80,8 +79,13 @@ var SearchResults = React.createClass({
     return(
       <div className="dark-container">
         <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
-        <ul className="row results">{resultList}</ul>
-        <Link to="/searchform" className="btn btn-primary col-xs-offset-1">Nouvelle recherche</Link>
+
+        <ul className="row results row-normal">{resultList}</ul>
+
+
+        <Link to="/searchform" className="btn btn-primary push-right">Nouvelle recherche</Link>
+
+
       </div>
     );
   }

@@ -12,10 +12,12 @@ var HomeCard = React.createClass({
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
+    this.props.home.wish = false;
   },
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
+    this.props.home.wish = true;
   },
 
   handleDetails: function() {
@@ -41,7 +43,7 @@ var HomeCard = React.createClass({
 
     var btnWish;
 
-    if (this.props.wish)
+    if (this.props.home.wish)
     {
       btnWish = <a className="btn btn-less btn-full" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
     } else {
