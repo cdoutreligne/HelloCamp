@@ -13,8 +13,6 @@ var SearchForm = React.createClass({
         this.refs.localisation.value = this.props.searchCriteria.localisation;
         this.refs.priceMin.value = this.props.searchCriteria.price.min;
         this.refs.priceMax.value = this.props.searchCriteria.price.max;
-        console.log(this.props.searchCriteria.price.max);
-        console.log(this.refs.priceMax.value);
         this.refs.roomNbrMin.value = this.props.searchCriteria.roomNbr.min;
         this.refs.roomNbrMax.value = this.props.searchCriteria.roomNbr.max;
         this.refs.squareMin.value = this.props.searchCriteria.square.min;
