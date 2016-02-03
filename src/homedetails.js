@@ -15,7 +15,7 @@ var HomeDetails = React.createClass({
       data: JSON.stringify(this.props.home),
       type: 'POST',
       complete : function(){
-        console.log("Removed " + this.props.home.id + " from favorite");
+        // console.log("Removed " + this.props.home.id + " from favorite");
       }.bind(this)
     });
   },
@@ -31,7 +31,7 @@ var HomeDetails = React.createClass({
       data: JSON.stringify(this.props.home),
       type: 'POST',
       complete : function(){
-        console.log("Added " + this.props.home.id + " from favorite");
+        // console.log("Added " + this.props.home.id + " from favorite");
       }.bind(this)
     });
   },
@@ -75,7 +75,7 @@ var HomeDetails = React.createClass({
     }
     
     return (
-        <div className="white-container center">
+         <div className="white-container center">
             <div className="details-title">{ home.address.city } { homeType }</div>
             <div className="row">
                 <div className="col-md-8">
@@ -97,44 +97,55 @@ var HomeDetails = React.createClass({
                     <div className="row">
                         <div className="col-md-12">
                             <div className="row">
-                                <span className="details-label">Type</span>
-                                <span className="details-text">{home.type}</span>
+                                <div className="col-md-12 padding-zero">
+                                    <span className="details-label">{home.title}</span>
+                                </div>
                             </div>
                             <div className="row">
-                                <span className="details-label">Surface</span>
-                                <span className="details-text">125m²</span>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-label">Superficie</span>
+                                </div>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-text">{home.surface}</span>
+                                </div>
                             </div>
                             <div className="row">
-                                <span className="details-label">Nb.&nbsp;Ch.</span>
-                                <span className="details-text">{home.properties.bedrooms}</span>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-label">Nombre de chambres</span>
+                                </div>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-text">{home.properties.bedrooms}</span>
+                                </div>
                             </div>
                             <div className="row">
-                                <span className="details-label">Address</span>
-                                <span className="details-text">{home.location}</span>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-label">Addresse du bien</span>
+                                </div>
+                                <div className="col-md-6 padding-zero">
+                                    <span className="details-text">{home.location}</span>
+                                </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="row">
-             <div className="col-md-12">
-             <span className="details-label">Description</span>
-             <span className="details-text">{home.description}</span>
-             
-             </div>
-            </div>
-            <div className="container-fluid details-price-label">
-                <div className="row text-right">
-                    <span className="details-label">{formatPrice}€</span>
+                <div className="row">
+                    <div className="col-md-12 addSpace">
+                        <span className="details-label addSpace">Description</span>
+                        <span className="details-text addSpace">{home.description}</span>
+                    </div>
                 </div>
-            </div>
-            <div className="pull-bottom">
-                <div className="row margin-in-dark-container">
-                    <div className="btn-group btn-group-justified">
-                        <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
-                        {btnWish}
-                        <a href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                <div className="container-fluid details-price-label">
+                    <div className="row text-right">
+                        <span className="details-label">{formatPrice}€</span>
+                    </div>
+                </div>
+                <div className="pull-bottom">
+                    <div className="row margin-in-dark-container">
+                        <div className="btn-group btn-group-justified">
+                            <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
+                            {btnWish}
+                            <a href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                        </div>
                     </div>
                 </div>
             </div>
