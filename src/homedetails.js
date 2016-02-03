@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 var HomeDetails = React.createClass({
   getInitialState: function() {
@@ -94,7 +95,7 @@ var HomeDetails = React.createClass({
             <div className="pull-bottom">
                 <div className="row margin-in-dark-container">
                     <div className="btn-group btn-group-justified">
-                        <Link to="/searchResults" className="btn btn-less btn-full"><i className="fa fa-bars"></i>&nbsp;Retour aux résultats</Link>
+                        <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
                         <a href="#" className="btn btn-less buttonBorder"><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>
                         <a href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
                     </div>
