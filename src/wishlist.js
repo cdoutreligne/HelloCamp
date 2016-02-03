@@ -23,7 +23,7 @@ var WishList = React.createClass({
     var resultList = filterList().map(function(estate) {
       return (
         <li key={estate.id}>
-          <HomeCard home = {estate} />
+          <HomeCard home = {estate} wish={true}/>
           <a className="btn btn-default" onClick={this.handleRemoveFav.bind(this, estate.id)}>Remove Fav</a>
         </li>
       );
