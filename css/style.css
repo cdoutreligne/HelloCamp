@@ -153,6 +153,12 @@ label {
   right : 20px;
 }
 
+.btn-bottom-left {
+  position : absolute;
+  bottom : 20px;
+  left : 20px;
+}
+
 .wish-star
 {
   color:#FFFF00 !important;
@@ -299,6 +305,10 @@ a {
 
 .dark-container-title {
   margin-left:20px;
+}
+
+.dark-container-with-buttons {
+  padding-bottom: 50px;
 }
 
 
