@@ -8,9 +8,12 @@ var HomeCard = React.createClass({
     };
   },
 
-  handleRemoveWish: function()
-  {
+  handleRemoveWish: function() {
     this.props.onWishRemove(this.props.home.id);
+  },
+
+  handleDetails: function() {
+    this.props.onDisplayDetails(this.props.home);
   },
 
   componentDidMount: function() {
@@ -84,9 +87,9 @@ var HomeCard = React.createClass({
             <div className="container-fluid bottom-align-block">
               <div className="row">
                 <div className='btn-group btn-group-full'>
-                  <a href="#" className="btn btn-less btn-full"><i className="fa fa-bars"></i>&nbsp;Détails</a>
+                  <a className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</a>
                   {btnWish}
-                  <a href="#" className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                  <a className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
                 </div>
               </div>
             </div>
