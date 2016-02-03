@@ -288,10 +288,18 @@ a {
 }
 
 .card-image {
+<<<<<<< HEAD
+  width: auto;
+=======
+>>>>>>> c2e0b51ed72ed4c7118cdbdd5af4b774a55036bc
   max-width: 250px;
   max-height: 250px;
   width: 250px;
   height: 250px;
+<<<<<<< HEAD
+=======
+  padding-bottom: 8px;
+>>>>>>> c2e0b51ed72ed4c7118cdbdd5af4b774a55036bc
 }
 
 .card-title {
@@ -324,10 +332,21 @@ a {
   padding-left: 0px !important;
 }
 
+
+.card-container {
+  background: rgb(255,255,255);
+  border-radius: 10px;
+  padding : 10px;
+  width: 350px;
+  height: 400px;
+  margin: 5px 5px 5px 5px;
+}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .text-valign {
   display: inline-block !important;
   vertical-align: middle !important;
@@ -353,3 +372,4 @@ a {
   font-weight: bold;
   border-radius : 0px 4px 4px 0px;
 }
+
