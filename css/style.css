@@ -175,6 +175,11 @@ label {
   color:#FFFFFF !important;
 }
 
+.row-normal {
+  padding:10px !important;
+  margin:0px !important;
+}
+
 .full-transparent
 {
   //opacity: 0 !important;
@@ -280,7 +285,7 @@ a {
 }
 
 .dark-container-title {
-  margin-left:40px;
+  margin-left:20px;
 }
 
 
@@ -297,6 +302,11 @@ a {
   margin: 10px 10px 10px 10px;
   position: relative;
   overflow: hidden;
+}
+
+.test
+{
+  background-color: #88FFFF;
 }
 
 .card-image {
