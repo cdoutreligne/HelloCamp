@@ -8,7 +8,7 @@ var SearchResults = React.createClass({
  
   filterResults: function(searchCrit) {
     var filtered = Results.filter(function(estate) {
-      if (1 + $.inArray(estate.type, searchCrit.estateType) ) {
+      if (searchCrit.estateType.length == 0 || 1 + $.inArray(estate.type, searchCrit.estateType) ) {
         return true;
       } else {
         return false;
