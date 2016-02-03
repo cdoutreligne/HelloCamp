@@ -19,7 +19,7 @@ var WishList = React.createClass({
     var resultList = filterList().map(function(estate) {
       return (
         <li key={estate.id}>
-          <HomeCard home = {estate} wish={true} removeFavorite={this.props.removeFavorite}/>
+          <HomeCard home = {estate} removeFavorite={this.props.removeFavorite}/>
         </li>
       );
     }.bind(this));

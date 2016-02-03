@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 // <div className="text-center"><img className="card-image" src={ this.props.home.image[0] }/></div>
 
 var HomeCard = React.createClass({
@@ -11,15 +12,16 @@ var HomeCard = React.createClass({
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
+    this.props.home.wish = false;
   },
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
-    this.props.wish = true;
+    this.props.home.wish = true;
   },
 
   handleDetails: function() {
-    this.props.onDisplayDetails(this.props.home);
+    this.props.displayDetails(this.props.home);
   },
 
   componentDidMount: function() {
@@ -41,7 +43,7 @@ var HomeCard = React.createClass({
 
     var btnWish;
 
-    if (this.props.wish)
+    if (this.props.home.wish)
     {
       btnWish = <a className="btn btn-less btn-full" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
     } else {
@@ -93,7 +95,7 @@ var HomeCard = React.createClass({
             <div className="container-fluid bottom-align-block">
               <div className="row">
                 <div className='btn-group btn-group-full'>
-                  <a className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</a>
+                  <Link to="/homedetails" className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</Link>
                   {btnWish}
                   <a className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
                 </div>
