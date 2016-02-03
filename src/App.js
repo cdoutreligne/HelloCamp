@@ -16,8 +16,23 @@ var App = React.createClass({
                   garage:'',
                   terrace:''
                 },
-      wishlistIds: [7, 5, 3]
+      wishlistIds: [],
+      estates: []
     }
+  },
+
+  loadData: function(){
+    $.get({
+      url: "http://localhost:3333/db",
+      success: function(data){
+        this.setState({estates: data}); 
+      }.bind(this)
+    });
+  },
+
+  componentWillMount: function(){
+    this.loadData();
+    setInterval(this.loadData, 3000);
   },
   
   setSearchCriteria: function(data) {
@@ -48,7 +63,8 @@ var App = React.createClass({
         { React.cloneElement(
             this.props.children, 
             {onClickSearch: this.setSearchCriteria , searchCriteria: this.state.searchCriteria, 
-              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite}
+              wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite,
+              estates: this.state.estates}
           )
         }
         

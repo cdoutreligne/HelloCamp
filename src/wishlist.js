@@ -1,9 +1,9 @@
 var React = require('react');
-var Results = require('../data.json');
 var HomeCard = require('./homecard.js').HomeCard;
 
 var WishList = React.createClass({
   render: function(){
+    var Results = this.props.estates;
     var wishlistIds = this.props.wishlistIds;
     var filterList = function(){
       var tempArray = [];

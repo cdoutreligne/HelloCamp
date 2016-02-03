@@ -1,12 +1,11 @@
 var React = require('react');
 var Link = require('react-router').Link;
-var Results = require('../data.json');
 var HomeCard = require('./homecard.js').HomeCard;
 var $ = require('jquery');
 
 var SearchResults = React.createClass({
- 
   filterResults: function(searchCrit) {
+    var Results = this.props.estates;
     var filtered = Results.filter(function(estate) {
       if (searchCrit.estateType.length == 0 || 1 + $.inArray(estate.type, searchCrit.estateType) ) {
         return true;
