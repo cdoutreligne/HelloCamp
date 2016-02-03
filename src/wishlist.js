@@ -3,10 +3,6 @@ var Results = require('../data.json');
 var HomeCard = require('./homecard.js').HomeCard;
 
 var WishList = React.createClass({
-  handleRemoveFav: function(id){
-    this.props.removeFavorite(id);
-  },
-
   render: function(){
     var wishlistIds = this.props.wishlistIds;
     var filterList = function(){
@@ -23,8 +19,7 @@ var WishList = React.createClass({
     var resultList = filterList().map(function(estate) {
       return (
         <li key={estate.id}>
-          <HomeCard home = {estate} wish={true}/>
-          <a className="btn btn-default" onClick={this.handleRemoveFav.bind(this, estate.id)}>Remove Fav</a>
+          <HomeCard home = {estate} wish={true} removeFavorite={this.props.removeFavorite}/>
         </li>
       );
     }.bind(this));

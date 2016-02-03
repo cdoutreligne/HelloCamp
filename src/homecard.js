@@ -10,7 +10,7 @@ var HomeCard = React.createClass({
 
   handleRemoveWish: function()
   {
-    this.props.onWishRemove(this.props.home.id);
+    this.props.removeFavorite(this.props.home.id);
   },
 
   componentDidMount: function() {
