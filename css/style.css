@@ -161,7 +161,8 @@ label {
 
 .wish-star
 {
-  color:#FFFF00 !important;
+  /*color:#FFFF00 !important;*/
+  color:#4ECEDE !important;
 }
 
 .navbar-toggle {
