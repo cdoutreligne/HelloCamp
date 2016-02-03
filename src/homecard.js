@@ -14,7 +14,7 @@ var HomeCard = React.createClass({
   },
 
   handleAddWish: function() {
-    this.props.onWishAdd(this.props.home.id);
+    this.props.addFavorite(this.props.home.id);
   },
 
   handleDetails: function() {
