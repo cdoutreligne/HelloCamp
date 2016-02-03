@@ -13,11 +13,33 @@ var HomeCard = React.createClass({
   {
     this.props.removeFavorite(this.props.home.id);
     this.props.home.wish = false;
+
+    $.ajax({
+      url: "http://localhost:3333/" + this.props.home.id,
+      dataType: 'json',
+      contentType: 'application/json; charset=UTF-8',
+      data: JSON.stringify(this.props.home),
+      type: 'POST',
+      complete : function(){
+        console.log("Removed " + this.props.home.id + " from favorite");
+      }.bind(this)
+    });
   },
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
     this.props.home.wish = true;
+
+    $.ajax({
+      url: "http://localhost:3333/" + this.props.home.id,
+      dataType: 'json',
+      contentType: 'application/json; charset=UTF-8',
+      data: JSON.stringify(this.props.home),
+      type: 'POST',
+      complete : function(){
+        console.log("Added " + this.props.home.id + " from favorite");
+      }.bind(this)
+    });
   },
 
   handleDetails: function() {
