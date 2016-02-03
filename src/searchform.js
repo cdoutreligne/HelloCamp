@@ -131,10 +131,12 @@ var SearchForm = React.createClass({
                                         <input type="checkbox" name="commercial" ref="commercial" value="commercial" />Surface commerciale</label>
                                 </div>
                             </div>
+                            <br/>
                             <div className="row margin-in-dark-container">
                                 <label className="dark-container-text">Localisation:</label>
                                 <input type="text" name="localisation" className="form-control" ref="localisation" />
                             </div>
+                             <br/>
                             <div className="row margin-in-dark-container">
                                 <label className="dark-container-text">Prix:</label>
                             </div>
@@ -172,6 +174,7 @@ var SearchForm = React.createClass({
                                 </div>
                             </div>
                             {/* ************************** collapse ***************************** */}
+                             <br/>
                             <div className="collapse " id="more">
                                 <div className="row margin-in-dark-container">
                                     <label className="control-label dark-container-text">Surface:</label>
@@ -210,8 +213,9 @@ var SearchForm = React.createClass({
                                                 <input type="checkbox" name="toBeRefresh" ref="toBeRefresh" value="toBeRefresh" />A rafraîchir</label>
                                         </div>
                                 </div>
+                                 <br/>
                                 <div className="row margin-in-dark-container">
-                                    <label className="control-label dark-container-text">Etat du bâtiment:</label>
+                                    <label className="control-label dark-container-text">Plus:</label>
                                 </div>
                                 <div className="row margin-in-dark-container">
                                         <div className="checkbox">
