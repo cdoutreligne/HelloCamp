@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 // <div className="text-center"><img className="card-image" src={ this.props.home.image[0] }/></div>
 
 var HomeCard = React.createClass({
@@ -11,14 +12,38 @@ var HomeCard = React.createClass({
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
+    this.props.home.wish = false;
+
+    $.ajax({
+      url: "http://localhost:3333/" + this.props.home.id,
+      dataType: 'json',
+      contentType: 'application/json; charset=UTF-8',
+      data: JSON.stringify(this.props.home),
+      type: 'POST',
+      complete : function(){
+        console.log("Removed " + this.props.home.id + " from favorite");
+      }.bind(this)
+    });
   },
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
+    this.props.home.wish = true;
+
+    $.ajax({
+      url: "http://localhost:3333/" + this.props.home.id,
+      dataType: 'json',
+      contentType: 'application/json; charset=UTF-8',
+      data: JSON.stringify(this.props.home),
+      type: 'POST',
+      complete : function(){
+        console.log("Added " + this.props.home.id + " from favorite");
+      }.bind(this)
+    });
   },
 
   handleDetails: function() {
-    this.props.onDisplayDetails(this.props.home);
+    this.props.displayDetails(this.props.home);
   },
 
   componentDidMount: function() {
@@ -40,16 +65,31 @@ var HomeCard = React.createClass({
 
     var btnWish;
 
-    if (this.props.wish)
+    if (this.props.home.wish)
     {
       btnWish = <a className="btn btn-less btn-full" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
     } else {
-      btnWish = <a className="btn btn-less btn-full"><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
+      btnWish = <a className="btn btn-less btn-full" onClick={ this.handleAddWish }><i className="fa fa-star-o"></i>&nbsp;Ajouter</a>;
     }
+
+    var homeType = "";
+    switch (home.type)
+    {
+      case "house" :
+        homeType = "Maison";
+        break;
+      case "appart" : 
+        homeType = "Appartement";
+        break;
+      default :
+        homeType = "";
+        break;
+    }
+
 
     return (
         <div className="card-container">
-            <div className="card-title">{ home.title }</div> 
+            <div className="card-title">{ home.address.city } - { homeType }</div> 
             <div className="row">
               <div className="col-md-12">
                 <div id={carouselId} className="carousel card-carousel" data-ride="carousel" data-interval="false">
@@ -70,8 +110,10 @@ var HomeCard = React.createClass({
             </div>
             <div className="container-fluid">
               <div className="row">
-                  <span className="card-label">Type</span>
-                  <span className="card-text">{ home.type }</span>          
+                  <div className="col-md-12 col-nopadding card-text">{ home.title }</div>
+              </div>
+              <div className="row">
+        
                   <span className="card-label">Surface</span>
                   <span className="card-text">125m²</span>               
                   <span className="card-label">Nb.&nbsp;Ch.</span>
@@ -79,7 +121,7 @@ var HomeCard = React.createClass({
               </div>
               <div className="row">
                   <div className="col-md-3 col-nopadding card-label">Address</div>
-                  <div className="col-md-9 col-nopadding card-text">{ home.location }</div>
+                  <div className="col-md-9 col-nopadding card-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</div>
               </div>
             </div>
 
@@ -92,7 +134,7 @@ var HomeCard = React.createClass({
             <div className="container-fluid bottom-align-block">
               <div className="row">
                 <div className='btn-group btn-group-full'>
-                  <a className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</a>
+                  <Link to="/homedetails" className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</Link>
                   {btnWish}
                   <a className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
                 </div>

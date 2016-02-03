@@ -141,6 +141,24 @@ label {
   background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
 }
 
+.btn-bottom-right {
+  position : absolute;
+  bottom : 20px;
+  right : 20px;
+}
+
+.btn-top-right {
+  position : absolute;
+  top : 20px;
+  right : 20px;
+}
+
+.btn-bottom-left {
+  position : absolute;
+  bottom : 20px;
+  left : 20px;
+}
+
 .wish-star
 {
   color:#FFFF00 !important;
@@ -173,6 +191,11 @@ label {
 .navbar-link {
   z-index:500;
   color:#FFFFFF !important;
+}
+
+.row-normal {
+  padding:10px !important;
+  margin:0px !important;
 }
 
 .full-transparent
@@ -273,11 +296,21 @@ a {
   padding : 10px;
   margin: 15px;
   color:#FFFFFF !important;
+  position:relative;
 }
 
 .dark-container-text {
   color:#FFFFFF !important;
 }
+
+.dark-container-title {
+  margin-left:20px;
+}
+
+.with-buttons-bottom {
+  padding-bottom: 50px;
+}
+
 
 /*----------------------------------*/
 /*CARD CLASSES*/
@@ -294,10 +327,15 @@ a {
   overflow: hidden;
 }
 
+.test
+{
+  background-color: #88FFFF;
+}
+
 .card-image {
-  max-width: 250px;
+  max-width: 350px;
   max-height: 250px;
-  width: 250px;
+  width: 350px;
   height: 250px;
 }
 
