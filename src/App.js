@@ -32,7 +32,6 @@ var App = React.createClass({
 
   componentWillMount: function(){
     this.loadData();
-    setInterval(this.loadData, 3000);
   },
   
   setSearchCriteria: function(data) {
