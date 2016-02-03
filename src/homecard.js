@@ -76,10 +76,10 @@ var HomeCard = React.createClass({
     switch (home.type)
     {
       case "house" :
-        homeType = "Maison";
+        homeType = " - Maison";
         break;
       case "appart" : 
-        homeType = "Appartement";
+        homeType = " - Appartement";
         break;
       default :
         homeType = "";
@@ -87,9 +87,11 @@ var HomeCard = React.createClass({
     }
 
 
+    var price = Intl.NumberFormat().format(home.price);
+
     return (
         <div className="card-container">
-            <div className="card-title">{ home.address.city } - { homeType }</div> 
+            <div className="card-title">{ home.address.city }{ homeType }</div> 
             <div className="row">
               <div className="col-md-12">
                 <div id={carouselId} className="carousel card-carousel" data-ride="carousel" data-interval="false">
@@ -115,8 +117,9 @@ var HomeCard = React.createClass({
               <div className="row">
         
                   <span className="card-label">Surface</span>
-                  <span className="card-text">125m²</span>               
-                  <span className="card-label">Nb.&nbsp;Ch.</span>
+                  <span className="card-text">{ home.surface }m²</span>
+                                 
+                  <span className="card-label">{ (home.properties.bedrooms) ? "Chambres" : "" }</span>
                   <span className="card-text">{ home.properties.bedrooms }</span>
               </div>
               <div className="row">
@@ -127,7 +130,7 @@ var HomeCard = React.createClass({
 
             <div className="container-fluid price-label">
               <div className="row text-right">
-                  <span className="card-label">{ home.price }€</span>
+                  <span className="card-label">{ price }€</span>
               </div>
             </div>
 

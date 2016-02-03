@@ -24,7 +24,7 @@ var WishList = React.createClass({
     var results = resultList.length; 
     return(
       <div className="dark-container with-buttons-bottom">
-        <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
+        <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "biens" : "bien"} dans votre watchlist</h3>
         <ul className="row results">{resultList}</ul>
         <div className="btn-bottom-left">
         <Link to="/searchresults" className="btn btn-primary">Retour à la liste</Link>&nbsp;&nbsp;
