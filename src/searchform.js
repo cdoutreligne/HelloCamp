@@ -112,8 +112,6 @@ var SearchForm = React.createClass({
                                     <label className="dark-container-text">
                                         <input type="checkbox" name="house" ref="house" value="house" />Maison</label>
                                 </div>
-                            </div>
-                            <div className="row margin-in-dark-container">
                                 <div className="checkbox">
                                     <label className="dark-container-text">
                                         <input type="checkbox" name="appart" ref="appart" value="appart" />Appartemment</label>
@@ -131,12 +129,10 @@ var SearchForm = React.createClass({
                                         <input type="checkbox" name="commercial" ref="commercial" value="commercial" />Surface commerciale</label>
                                 </div>
                             </div>
-                            <br/>
                             <div className="row margin-in-dark-container">
                                 <label className="dark-container-text">Localisation:</label>
                                 <input type="text" name="localisation" className="form-control" ref="localisation" />
                             </div>
-                             <br/>
                             <div className="row margin-in-dark-container">
                                 <label className="dark-container-text">Prix:</label>
                             </div>
@@ -167,14 +163,10 @@ var SearchForm = React.createClass({
                                     </div>
                                 </div>
                             </div>
-                            <br/>
                             <div className="row margin-in-dark-container">
-                                <div className="col-md-12">
-                                    <a href="#" className="btn-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
-                                </div>
+                              <a href="#" className="btn-link" onClick={this.changeButton} id="criteria">Plus de critères <i className='fa fa-angle-double-down'></i></a>
                             </div>
                             {/* ************************** collapse ***************************** */}
-                             <br/>
                             <div className="collapse " id="more">
                                 <div className="row margin-in-dark-container">
                                     <label className="control-label dark-container-text">Surface:</label>
@@ -187,7 +179,7 @@ var SearchForm = React.createClass({
                                         </div>
                                         <label className="col-xs-1 col-sm-1 control-label dark-container-text">et</label>
                                         <div className="col-xs-3" id="squareMax">
-                                            <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>&nbsp;
+                                            <input type="text" name="squareMax" className="form-control" ref="squareMax" onBlur={this.validateAmount}/>
                                         </div>
                                         <label className="col-xs-1 col-sm-1 control-label dark-container-text">m²</label>
                                     </div>
@@ -213,7 +205,6 @@ var SearchForm = React.createClass({
                                                 <input type="checkbox" name="toBeRefresh" ref="toBeRefresh" value="toBeRefresh" />A rafraîchir</label>
                                         </div>
                                 </div>
-                                 <br/>
                                 <div className="row margin-in-dark-container">
                                     <label className="control-label dark-container-text">Plus:</label>
                                 </div>
@@ -230,9 +221,7 @@ var SearchForm = React.createClass({
                             </div>
                             {/* ************************** end collapse ***************************** */}
                             <div className="row margin-in-dark-container">
-                                <div className="col-md-12">
                                     <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-primary btn-sm pull-right">Rechercher</Link>
-                                </div>
                             </div>
                         </form>
                     </div>
