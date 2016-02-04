@@ -93,7 +93,8 @@ var HomeDetails = React.createClass({
     };
     return (
          <div className="white-container center">
-            <div className="details-title">{ home.address.city } { homeType }</div>
+            <div className="details-title">{ home.address.city } - {home.title}</div>
+            
             <div className="row">
                 <div className="col-md-8">
                     <div id={carouselId} className="carousel " data-ride="carousel" data-interval="false">
@@ -112,12 +113,13 @@ var HomeDetails = React.createClass({
                 </div>
                 <div className="col-md-4">
                     <div className="row">
+                      <div className="col-md-12 padding-zero">
+                       {googleMap}
+                      </div>
+                    </div>
+                    <div className="row">
                         <div className="col-md-12">
-                            <div className="row">
-                                <div className="col-md-12 padding-zero">
-                                    <span className="details-title">{home.title}</span>
-                                </div>
-                            </div>
+
                             <br />
                             <div className="row">
                                 <div className="col-md-5 padding-zero">
@@ -142,11 +144,6 @@ var HomeDetails = React.createClass({
                                 <div className="col-md-7 padding-zero">
                                     <span className="details-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</span>
                                 </div>
-                            </div>
-                            <div className="row">
-                             <div className="col-md-12 padding-zero">
-                             {googleMap}
-                              </div>
                             </div>
                         </div>
                     </div>
