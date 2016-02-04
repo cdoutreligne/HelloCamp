@@ -27,45 +27,47 @@ var Simulation = React.createClass({
 
   render: function(){
     return(
-      <div className="dark-container">
-        <div className="simulationResult">
-          <h2>Votre résultat</h2>
-          <table>
-            <tbody>
-              <tr>
-                <td className="halfRow">
-                  <h3>Montant du prêt</h3>
-                  <p>{this.priceHome()}</p>
-                </td>
-                <td className="halfRow">
-                  <h3>Durée</h3>
-                  <p>20 ans</p>
-                </td>
-              </tr>
+      <div className="row">
+        <div className="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3"> 
+          <div className="simulationResult dark-container">
+            <h2>Votre résultat</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td className="halfRow">
+                    <h3>Montant du prêt</h3>
+                    <p>{this.priceHome()}</p>
+                  </td>
+                  <td className="halfRow">
+                    <h3>Durée</h3>
+                    <p>20 ans</p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td colSpan="2">
-                  <h3>Mensualité</h3>
-                  <p>{this.pricePerMonth()}</p>
-                </td>
-              </tr>
+                <tr>
+                  <td colSpan="2">
+                    <h3>Mensualité</h3>
+                    <p>{this.pricePerMonth()}</p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td colSpan="2">
-                  <h3>Taux annuel fixe</h3>
-                  <p>2,90 %</p>
-                </td>
-              </tr>
+                <tr>
+                  <td colSpan="2">
+                    <h3>Taux annuel fixe</h3>
+                    <p>2,90 %</p>
+                  </td>
+                </tr>
 
-              <tr>
-                <td colSpan="2">
-                  <h3 id="inlineCol">Coût du crédit après 20 ans :</h3><p id="inlineCol2">{this.totalCostPrice()}</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                <tr>
+                  <td colSpan="2">
+                    <h3 id="inlineCol">Coût du crédit après 20 ans :</h3><p id="inlineCol2">{this.totalCostPrice()}</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
 
-          <a className="btn btnTransparant">Continuer</a>
+            <a className="btn btnTransparant">Continuer</a>
+          </div>
         </div>
       </div>
     );

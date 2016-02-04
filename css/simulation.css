@@ -1,12 +1,13 @@
 .simulationResult{
-  width: 500px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding: 0px 25px;
 }
 
 .simulationResult table{
-  width: 500px;
+  width: 100%;
+  margin: 0px auto;
   border-collapse: collapse;
 }
 
