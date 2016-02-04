@@ -2,6 +2,8 @@ var React = require('react');
 
 var Simulation = React.createClass({
   render: function(){
+  var home = this.props.home;
+  console.log(home);
     return(
       <div className="dark-container">
         <div className="simulationResult">
@@ -11,7 +13,7 @@ var Simulation = React.createClass({
               <tr>
                 <td className="halfRow">
                   <h3>Montant du prêt</h3>
-                  <p>300.000 €</p>
+                  <p>home.price</p>
                 </td>
                 <td className="halfRow">
                   <h3>Durée</h3>
