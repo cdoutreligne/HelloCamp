@@ -16,7 +16,6 @@ var App = React.createClass({
                   garage:'',
                   terrace:''
                 },
-      wishlistIds: [],
       estates: []
     }
   },
@@ -43,18 +42,23 @@ var App = React.createClass({
   },
 
   removeFavorite: function(favoriteId){
-    var array = this.state.wishlistIds;
-    var index = array.indexOf(favoriteId);
-    if (index > -1) {
-      array.splice(index, 1);
-    }
-    this.setState({wishlistIds: array});
+    var array = this.state.estates;
+    for (var i = array.length - 1; i >= 0; i--) {
+      if(array[i].id === favoriteId){
+        array[i].wish = false;
+      }
+    };
+    this.setState({estates: array});
   },
 
   addFavorite: function(favoriteId){
-    var array = this.state.wishlistIds;
-    array.push(favoriteId);
-    this.setState({wishlistIds: array});
+    var array = this.state.estates;
+    for (var i = array.length - 1; i >= 0; i--) {
+      if(array[i].id === favoriteId){
+        array[i].wish = true;
+      }
+    };
+    this.setState({estates: array});
   },
 
   render: function() {
