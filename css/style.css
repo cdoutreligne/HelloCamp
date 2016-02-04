@@ -346,8 +346,8 @@ a {
 .card-image {
   max-width: 350px;
   max-height: 250px;
-  width: 350px;
-  height: 250px;
+  width: auto;
+  height: auto;
 }
 
 .card-title {

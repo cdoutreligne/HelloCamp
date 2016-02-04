@@ -3,12 +3,6 @@ var Link = require('react-router').Link;
 // <div className="text-center"><img className="card-image" src={ this.props.home.image[0] }/></div>
 
 var HomeCard = React.createClass({
-  getInitialState: function() {
-    return {
-      home: {}
-    };
-  },
-
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
