@@ -62,10 +62,6 @@ var Simulation = React.createClass({
           <div className="simulationResult dark-container">
             <h2>Votre résultat</h2>
 
-            <form>
-              <input id='yearSlider' type='range' name="years" min="15" max="25" value={this.state.selectedYears} step="1" onChange={this.handleChange}/>
-            </form>
-
             <table>
               <tbody>
                 <tr>
@@ -76,6 +72,9 @@ var Simulation = React.createClass({
                   <td className="halfRow">
                     <h3>Durée</h3>
                     <p>{this.state.selectedYears} ans</p>
+                    <form>
+                      <input id='yearSlider' type='range' name="years" min="15" max="25" value={this.state.selectedYears} step="1" onChange={this.handleChange}/>
+                    </form>
                   </td>
                 </tr>
 
