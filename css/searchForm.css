@@ -1,8 +1,17 @@
 .margin-in-dark-container{
-  margin-left: 15px !important;
-  margin-right: 15px !important;
-  margin-bottom: 15px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+  margin-bottom: 10px !important;
 }
 .my-link{
   color:#70A9FF !important;
+}
+.center-search {
+  margin: auto  !important;
+  padding: 10px  !important;
+  width: 600px !important;
+
+}
+.col-search {
+  padding-left:0 !important;
 }
