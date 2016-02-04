@@ -144,7 +144,7 @@ var HomeDetails = React.createClass({
                         <div className="btn-group btn-group-justified">
                             <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
                             {btnWish}
-                            <a href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                            <Link to="/simulation" href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</Link>
                         </div>
                     </div>
                 </div>

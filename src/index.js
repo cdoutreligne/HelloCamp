@@ -12,6 +12,7 @@ var SearchResults = require('./searchresults.js').SearchResults;
 var HomeDetails = require('./homedetails.js').HomeDetails;
 var HomeCard = require('./homecard.js').HomeCard;
 var WishList = require('./wishlist.js').WishList;
+var Simulation = require('./simulation.js').Simulation;
 
 ReactDOM.render(
   <Router>
@@ -23,6 +24,7 @@ ReactDOM.render(
       <Route path="homedetails" component={HomeDetails} />
       <Route path="homecard/:id" component={HomeCard} />
       <Route path="wishlist" component={WishList} />
+      <Route path="simulation" component={Simulation} />
     </Route>
   </Router>, 
   document.getElementById('root')

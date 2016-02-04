@@ -137,7 +137,7 @@ var HomeCard = React.createClass({
                 <div className='btn-group btn-group-full'>
                   <Link to="/homedetails" className="btn btn-less btn-full" onClick={this.handleDetails}><i className="fa fa-bars"></i>&nbsp;Détails</Link>
                   {btnWish}
-                  <a className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</a>
+                  <Link to="/simulation" className="btn btn-brand btn-full"><i className="fa fa-euro"></i>&nbsp;Simulation</Link>
                 </div>
               </div>
             </div>
