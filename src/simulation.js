@@ -1,6 +1,8 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 var Simulation = React.createClass({
+
   prettifyValue: function(number){
     number = number.toFixed(2) + '';
     x = number.split('.');
@@ -66,7 +68,7 @@ var Simulation = React.createClass({
               </tbody>
             </table>
 
-            <a className="btn btnTransparant">Continuer</a>
+            <Link to="/searchresults" className="btn btnTransparant">Continuer</Link>
           </div>
         </div>
       </div>
