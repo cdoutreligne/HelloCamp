@@ -17,7 +17,7 @@ var WishList = React.createClass({
     var resultList = filterList().map(function(estate) {
       return (
         <li key={estate.id}>
-          <HomeCard home = {estate} removeFavorite={this.props.removeFavorite}/>
+          <HomeCard home = {estate} removeFavorite={this.props.removeFavorite} displayDetails={this.props.onDisplayDetails}/>
         </li>
       );
     }.bind(this));
@@ -26,7 +26,7 @@ var WishList = React.createClass({
       <div className="dark-container with-buttons-bottom">
         <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "biens" : "bien"} dans votre watchlist</h3>
         <ul className="row results">{resultList}</ul>
-        <div className="btn-bottom-left">
+        <div className="btn-bottom-right">
         <Link to="/searchresults" className="btn btn-brand-flat"><i className="fa fa-reply"></i>&nbsp;Retour à la liste</Link>&nbsp;&nbsp;
         <Link to="/searchform" className="btn btn-brand-flat"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
         </div>

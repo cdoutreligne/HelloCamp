@@ -1,4 +1,5 @@
 var React = require('react');
+var Link = require('react-router').Link;
 
 var HomePage = React.createClass({
   render: function() {
@@ -11,7 +12,7 @@ var HomePage = React.createClass({
                 <h1>Hello home!</h1>
                 <h2>Acheter un bien, c’est simple et accessible</h2>
                 <br/>
-                <a className="btn btn-danger">Laissez-vous guider</a>
+                <Link to="/searchresults" className="btn btn-danger">Laissez-vous guider</Link>
                 <p className="small-text">Passer directement à la simulation</p>
             </div>
           </div>
