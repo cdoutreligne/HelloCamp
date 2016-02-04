@@ -9,6 +9,7 @@ var App = require('./app.js').App;
 var HomePage = require('./homepage.js').HomePage;
 var SearchForm = require('./searchform.js').SearchForm;
 var SearchResults = require('./searchresults.js').SearchResults;
+var SearchViaMapResults = require('./searchViaMapResults.js').SearchViaMapResults;
 var HomeDetails = require('./homedetails.js').HomeDetails;
 var HomeCard = require('./homecard.js').HomeCard;
 var WishList = require('./wishlist.js').WishList;
@@ -21,6 +22,7 @@ ReactDOM.render(
       <Route path="homepage" component={HomePage} />
       <Route path="searchform" component={SearchForm} />
       <Route path="searchresults" component={SearchResults} />
+      <Route path="SearchViaMapResults" component={SearchViaMapResults} />
       <Route path="homedetails" component={HomeDetails} />
       <Route path="homecard/:id" component={HomeCard} />
       <Route path="wishlist" component={WishList} />
