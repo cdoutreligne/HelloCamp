@@ -29,6 +29,14 @@ var SearchResults = React.createClass({
         }
       })
       .filter(function(estate) {
+        if (searchCrit.localisation === '' ||
+            (estate.location !== undefined && estate.location !== '' && estate.location.toLowerCase().indexOf(searchCrit.localisation.toLowerCase()) !== -1)) {
+          return true;
+        } else {
+          return false;
+        }
+      })
+      .filter(function(estate) {
         if (searchCrit.roomNbr.min === '' ||
             (estate.properties.bedrooms !== undefined && estate.properties.bedrooms !== '' && parseInt(estate.properties.bedrooms, 10) >= parseInt(searchCrit.roomNbr.min, 10))) {
           return true;

@@ -44,7 +44,15 @@ var HomeDetails = React.createClass({
     var home = this.props.home;
     var carouselId = "imgCarousel" + home.id;
     var carouselIdHref = "#imgCarousel" + home.id;
-    var formatPrice = Intl.NumberFormat().format(home.price)
+    var formatPrice = Intl.NumberFormat().format(home.price);
+
+    var carouselIndicators = home.image.map(function(item,i) {
+      var className = (item === home.image[0]) ? "active" : "";
+      return (
+        <li data-target={carouselId} data-slide-to={i} className={className}></li>
+      );
+    }.bind(this));
+
     var carouselItems = home.image.map(function(item) {
       var className = (item === home.image[0]) ? "item active" : "item";
       return (
@@ -52,8 +60,7 @@ var HomeDetails = React.createClass({
           <img src={item}/>
         </div>
       );
-    }.bind(this)
-  );
+    }.bind(this));
 
     var btnWish;
 
@@ -97,7 +104,10 @@ var HomeDetails = React.createClass({
             
             <div className="row">
                 <div className="col-md-8">
-                    <div id={carouselId} className="carousel " data-ride="carousel" data-interval="false">
+                    <div id={carouselId} className="carousel" data-ride="carousel" data-interval="false">
+                        <ol className="carousel-indicators">
+                          {carouselIndicators}
+                        </ol>
                         <div id="carouselDetails" className="carousel-inner text-center" role="listbox">
                             {carouselItems}
                         </div>
@@ -163,6 +173,7 @@ var HomeDetails = React.createClass({
                     <div className="row margin-in-white-container">
                         <div className="btn-group btn-group-justified">
                             <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
+                            <Link to="/searchForm" className="btn btn-less buttonBorder"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
                             {btnWish}
                             <Link to="/simulation" href="#" className="btn btn-brand buttonBorder"><i className="fa fa-euro"></i>&nbsp;Simulation</Link>
                         </div>
