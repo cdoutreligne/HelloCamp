@@ -1,5 +1,8 @@
 var React = require('react');
 var Link = require('react-router').Link;
+var GoogleMapLoader = require('react-google-maps').GoogleMapLoader;
+var GoogleMap = require('react-google-maps').GoogleMap;
+var Marker = require('react-google-maps').Marker;
 
 var HomeDetails = React.createClass({
 
@@ -41,7 +44,7 @@ var HomeDetails = React.createClass({
     var home = this.props.home;
     var carouselId = "imgCarousel" + home.id;
     var carouselIdHref = "#imgCarousel" + home.id;
-    var formatPrice = Intl.NumberFormat().format(home.price) 
+    var formatPrice = Intl.NumberFormat().format(home.price)
     var carouselItems = home.image.map(function(item) {
       var className = (item === home.image[0]) ? "item active" : "item";
       return (
@@ -54,7 +57,7 @@ var HomeDetails = React.createClass({
 
     var btnWish;
 
-    if (this.props.home.wish)
+    if (home.wish)
     {
       btnWish = <a className="btn btn-less buttonBorder" onClick={ this.handleRemoveWish }><i className="fa fa-star wish-star"></i>&nbsp;Enlever</a>;
     } else {
@@ -66,14 +69,28 @@ var HomeDetails = React.createClass({
       case "house" :
         homeType = "- Maison";
         break;
-      case "appart" : 
+      case "appart" :
         homeType = "- Appartement";
         break;
       default :
         homeType = "";
         break;
     }
-    
+    // "coordinates": [50.7747465, 4.244960499999999],
+    var latitude;
+    var longitude;
+    var displayMap = false;
+    if( null!==home.coordinates){
+        latitude = home.coordinates[0];
+        longitude = home.coordinates[1];
+        displayMap = true;
+    }
+    var marker = {lat: latitude, lng: longitude};
+    var mapMarkers = <Marker position={marker} />;
+    var googleMap = "";
+    if (displayMap){
+      googleMap=<section style={{height: "366px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
+    };
     return (
          <div className="white-container center">
             <div className="details-title">{ home.address.city } { homeType }</div>
@@ -98,40 +115,46 @@ var HomeDetails = React.createClass({
                         <div className="col-md-12">
                             <div className="row">
                                 <div className="col-md-12 padding-zero">
-                                    <span className="details-label">{home.title}</span>
+                                    <span className="details-title">{home.title}</span>
                                 </div>
                             </div>
+                            <br />
                             <div className="row">
-                                <div className="col-md-6 padding-zero">
+                                <div className="col-md-5 padding-zero">
                                     <span className="details-label">Superficie</span>
                                 </div>
-                                <div className="col-md-6 padding-zero">
-                                    <span className="details-text">{home.surface}</span>
+                                <div className="col-md-7 padding-zero">
+                                    <span className="details-text">{home.surface} m²</span>
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-md-6 padding-zero">
-                                    <span className="details-label">Nombre de chambres</span>
+                                <div className="col-md-5 padding-zero">
+                                    <span className="details-label">Chambres</span>
                                 </div>
-                                <div className="col-md-6 padding-zero">
+                                <div className="col-md-7 padding-zero">
                                     <span className="details-text">{home.properties.bedrooms}</span>
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-md-6 padding-zero">
-                                    <span className="details-label">Addresse du bien</span>
+                                <div className="col-md-5 padding-zero">
+                                    <span className="details-label">Addresse</span>
                                 </div>
-                                <div className="col-md-6 padding-zero">
-                                    <span className="details-text">{home.location}</span>
+                                <div className="col-md-7 padding-zero">
+                                    <span className="details-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</span>
                                 </div>
+                            </div>
+                            <div className="row">
+                             <div className="col-md-12 padding-zero">
+                             {googleMap}
+                              </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-md-12 addSpace">
-                        <span className="details-label addSpace">Description</span>
-                        <span className="details-text addSpace">{home.description}</span>
+                        <span className="details-desc details-desc-align">Description</span><br/>
+                        <div className="details-text details-desc-align justify">{home.description}</div>
                     </div>
                 </div>
                 <div className="container-fluid details-price-label">
@@ -140,7 +163,7 @@ var HomeDetails = React.createClass({
                     </div>
                 </div>
                 <div className="pull-bottom">
-                    <div className="row margin-in-dark-container">
+                    <div className="row margin-in-white-container">
                         <div className="btn-group btn-group-justified">
                             <Link to="/searchResults" className="btn btn-less buttonBorder"><i className="fa fa-reply"></i>&nbsp;Retour aux résultats</Link>
                             {btnWish}
