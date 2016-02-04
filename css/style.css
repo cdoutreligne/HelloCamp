@@ -96,7 +96,7 @@
 
 body {
   font-family: "helloTypeRegular";
-  background-image: url("../img/bg-1440-03.jpg");
+  background: url("../img/bg-1440-03.jpg") no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -134,11 +134,21 @@ label {
 }
 
 .btn-less {
-  background-color: #555555;
+  /*background-color: #555555;*/
+  background : linear-gradient(rgb(119,119,119),rgb(51,51,51));
+}
+
+.btn-less:hover {
+  color:#4ECEDE !important;
+
 }
 
 .btn-brand { 
   background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
+}
+
+.btn-brand:hover {
+    border:0px !important;
 }
 
 .btn-bottom-right {
