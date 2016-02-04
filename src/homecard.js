@@ -122,7 +122,11 @@ var HomeCard = React.createClass({
               </div>
               <div className="row">
                   <div className="col-md-3 col-nopadding card-label">Addresse</div>
-                  <div className="col-md-9 col-nopadding card-text">{ (home.address.street !== "") ? home.address.street : ""}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</div>
+                  <div className="col-md-9 col-nopadding card-text">{ (home.address.street !== "") ? home.address.street : "(Rue non définie)"}{ (home.address.street !== "" && home.address.number !== "") ? ", " : "" }{ (home.address.number !== "") ? home.address.number : "" }</div>
+              </div>
+              <div className="row">
+                  <div className="col-md-3 col-nopadding card-label"></div>
+                  <div className="col-md-9 col-nopadding card-text">{ (home.address.postcode !== "") ? home.address.postcode : "" }&nbsp;{ (home.address.city !== "") ? home.address.city : ""}</div>
               </div>
             </div>
 
