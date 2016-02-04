@@ -135,20 +135,34 @@ label {
 
 .btn-less {
   /*background-color: #555555;*/
+  color : #FFFFFF;
   background : linear-gradient(rgb(119,119,119),rgb(51,51,51));
 }
 
 .btn-less:hover {
-  color:#4ECEDE !important;
-
+  color:#FFFFFF !important; 
+  background : linear-gradient(rgb(99,99,99),rgb(31,31,31));
 }
 
 .btn-brand { 
+  color : #FFFFFF;
   background : linear-gradient(rgb(79,210,225), rgb(51,128,166));
 }
 
 .btn-brand:hover {
-    border:0px !important;
+  color : #FFFFFF;
+  border:0px !important;
+  background : linear-gradient(rgb(59,158,191), rgb(31,79,102));
+}
+
+.btn-brand-flat {
+  background: rgb(51,133,142);
+  color : #FFFFFF;
+}
+
+.btn-brand-flat:hover {
+  background: rgb(30,78,84);
+  color : #FFFFFF;
 }
 
 .btn-bottom-right {
