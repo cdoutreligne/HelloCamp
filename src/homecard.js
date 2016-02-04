@@ -12,7 +12,6 @@ var HomeCard = React.createClass({
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
-    this.props.home.wish = false;
 
     $.ajax({
       url: "http://localhost:3333/" + this.props.home.id,
@@ -28,7 +27,6 @@ var HomeCard = React.createClass({
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
-    this.props.home.wish = true;
 
     $.ajax({
       url: "http://localhost:3333/" + this.props.home.id,
