@@ -103,10 +103,10 @@ var SearchViaMapResults = React.createClass({
             return ({
                 lat: estate.coordinates[0],
                 lng: estate.coordinates[1],
-                icon: "img/logo-hellobank-white-baseline.png",
+                icon: "img/home_marker_small.png",
                 // icon: "img/house.png",
 
-                label: String.fromCharCode('A'.charCodeAt() + i)
+              //  label: String.fromCharCode('A'.charCodeAt() + i)
             });
         }.bind(this));
         
@@ -116,7 +116,7 @@ var SearchViaMapResults = React.createClass({
                 lat: marker.lat,
                 lng: marker.lng
             };
-            return (<Marker position={mymarker}  icon={marker.icon}  label={marker.label}/>);
+            return (<Marker position={mymarker}  icon={marker.icon} />);
         });
 
         var googleMap = "";
