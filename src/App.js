@@ -32,9 +32,6 @@ var App = React.createClass({
            }
            );
        }
-       console.log("****lat in app"+currentPosition.lat)
-       console.log("****lng in app"+currentPosition.lng)
-
        this.setState({coordinates: currentPosition});
   },
 
