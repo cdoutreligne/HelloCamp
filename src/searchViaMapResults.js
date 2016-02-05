@@ -57,11 +57,8 @@ var SearchViaMapResults = React.createClass({
 
             if (null !== coordinates) {
                 latitudeA = coordinates.lat;
-                // console.log("coordinates.lat: "+coordinates.lat);
                 longitudeA = coordinates.lng;
-                 // console.log("coordinates.lng: "+coordinates.lng);
             } else {
-                // console.log("*** pas de coordonnée de client ***");
                 return false;
             };
 
@@ -72,7 +69,6 @@ var SearchViaMapResults = React.createClass({
                 return (dist<=radius);
                 
             } else {
-                // console.log("*** pas de coordonées du bien ***");
                 return false;
             };
         });
@@ -104,9 +100,6 @@ var SearchViaMapResults = React.createClass({
                 lat: estate.coordinates[0],
                 lng: estate.coordinates[1],
                 icon: "img/home_marker_small.png",
-                // icon: "img/house.png",
-
-              //  label: String.fromCharCode('A'.charCodeAt() + i)
             });
         }.bind(this));
         
