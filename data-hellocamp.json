@@ -217,7 +217,7 @@
   "type": "appart",
   "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
   "surface" : "180",
-  "coordinates": [50.8808582, 4.3227894],
+  "coordinates": [50.8793508,4.2996875],
   "location": "Rue du pont, 20 1090 Jette",
   "address": {
     "street" : "Rue du pont",
@@ -239,7 +239,7 @@
   "type": "appart",
   "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
   "surface" : "235",
-  "coordinates": [50.8808582, 4.3227894],
+  "coordinates": [50.790354,4.3271998,13],
   "location": "Bd. des champs, 93 1090 Jette",
       "address": {
         "street" : "Bd. des champs",

@@ -5,12 +5,15 @@ var GoogleMapLoader = require('react-google-maps').GoogleMapLoader;
 var GoogleMap = require('react-google-maps').GoogleMap;
 var Marker = require('react-google-maps').Marker;
 var HomeCard = require('./homecard.js').HomeCard;
+var browserHistory = require('react-router').browserHistory;
+
 
 var SearchViaMapResults = React.createClass({
 
     getInitialState: function() {
         return {
-          radiusState: 10
+          radiusState: 10,
+          homeMap :{}
         }
     },
     componentDidMount: function() {
@@ -74,6 +77,13 @@ var SearchViaMapResults = React.createClass({
         });
         return filtered;
     },
+    handleMapClick: function(estate, event) {
+        console.log("click***********");
+        // this.props.onDisplayDetails(estate);
+        this.setState({homeMap:estate});
+        // browserHistory.push('/homedetails');
+
+    },
 
     render: function() {
         function cloneObject(obj) {
@@ -94,42 +104,56 @@ var SearchViaMapResults = React.createClass({
         var resultListForMap = cloneObject(resultList);
         var i = -1;
         var markers = resultListForMap.map(function(estate) {
+        // console.log(estate);
 
              i++;
             return ({
                 lat: estate.coordinates[0],
                 lng: estate.coordinates[1],
                 icon: "img/home_marker_small.png",
+                estate: estate
             });
         }.bind(this));
+
         
         var mapMarkers = markers.map(function(marker) {
-           
             var mymarker = {
                 lat: marker.lat,
                 lng: marker.lng
-            };
-            return (<Marker position={mymarker}  icon={marker.icon} />);
-        });
+            };//onMouseover={this.handleMapClick.bind(this, marker.estate)} 
+            return (<Marker position={mymarker} onClick={this.handleMapClick.bind(this, marker.estate)} icon={marker.icon} />);
+        }.bind(this));
+
 
         var googleMap = "";
-        googleMap = <section style={{height: "400px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
-
+        googleMap = <section style={{height: "400px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap  defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
 
         resultList = resultList.map(function(estate) {
             return (
                 <li key={estate.id}><HomeCard home={estate} removeFavorite={this.props.removeFavorite} addFavorite={this.props.addFavorite} displayDetails={this.props.onDisplayDetails}/></li>
             );
         }.bind(this));
-
+        var individualMap ="";
+        if(this.state.homeMap.id){
+            individualMap = <HomeCard home={this.state.homeMap} removeFavorite={this.props.removeFavorite} addFavorite={this.props.addFavorite} displayDetails={this.props.onDisplayDetails}/>;
+        }
         return (
         <div className="dark-container with-buttons-bottom">
             <div className="form-group"><h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"} autour de moi dans un rayon de <input type="text" name="radius" className="form-control input-inline-small" id="radius" ref="radius" onChange={this.handleChange} /> km</h3></div>
-            <div className="row center-map">
+            <div className="row">
                 <div className="col-md-12 padding-zero">
-                    <div className="dark-container-map center-search-map">
-                        {googleMap}
-                    </div>
+
+                        <div className="col-md-8 dark-container-map center-search-map">
+                          {googleMap}
+                        </div>
+                        <div className="col-md-1">
+                        <ul className="row results row-normal">
+                        <li >
+                          {individualMap}
+                          </li>
+                          </ul>
+                        </div>
+
                 </div>
             </div>
             <ul className="row results row-normal">{resultList}</ul>
