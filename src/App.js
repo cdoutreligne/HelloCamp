@@ -8,7 +8,7 @@ var App = React.createClass({
     return {
       searchCriteria: {
                   estateType: [],
-                  localisation: [],
+                  localisation: '',
                   price: {min: '', max: ''},
                   roomNbr: {min: '', max: ''},
                   square: {min: '', max: ''},
