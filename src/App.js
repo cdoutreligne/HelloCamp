@@ -16,8 +16,24 @@ var App = React.createClass({
                   garage:'',
                   terrace:''
                 },
-      estates: []
+      estates: [],
+      coordinates: {}
     }
+  },
+  componentDidMount: function() {
+       var currentPosition = {
+           "lat" : 50.847345,
+           "lng" : 4.358552
+       }
+       if (navigator.geolocation) {
+           navigator.geolocation.getCurrentPosition(function (position) {
+             currentPosition.lat = position.coords.latitude;
+             currentPosition.lng = position.coords.longitude;
+           }
+           );
+       }
+
+       this.setState({coordinates: currentPosition});
   },
 
   loadData: function(){
@@ -71,7 +87,7 @@ var App = React.createClass({
             this.props.children, 
             {onClickSearch: this.setSearchCriteria, onDisplayDetails: this.displayDetails, searchCriteria: this.state.searchCriteria, 
               wishlistIds: this.state.wishlistIds, removeFavorite: this.removeFavorite, addFavorite: this.addFavorite,
-              home: this.state.home, estates: this.state.estates}
+              home: this.state.home, estates: this.state.estates, localCoordinates: this.state.coordinates}
           )
         }
         

@@ -16,3 +16,8 @@
 .col-search {
   padding-left:0 !important;
 }
+
+.center-map {
+  margin: auto;
+  width: 65%;
+} 
