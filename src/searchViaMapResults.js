@@ -117,26 +117,22 @@ var SearchViaMapResults = React.createClass({
 
         return (
 
-    <div className="dark-container-map center-map">
-        <row>
-            <div className="col-md-12 padding-zero">
+    <div className="dark-container with-buttons-bottom">
             <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
-            <div className="dark-container center-search">
+        <div className="row center-map">
+            <div className="col-md-12 padding-zero">
+            <div className="dark-container-map center-search">
                 {googleMap}
             </div>
             </div>
-        </row>
-        <row>
-        <div className="col-md-12 padding-zero">
-            <ul className="row results row-normal">{resultList}</ul>
         </div>
-        </row>
+        <div className="row">
+            
+                <ul className="row results row-normal">{resultList}</ul>
+            
+        </div>
         <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
-      </div>
-
-        );
-
-    }
+    </div>);}
 });
 
 module.exports.SearchViaMapResults = SearchViaMapResults;
