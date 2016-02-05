@@ -6,13 +6,12 @@ var HomeCard = React.createClass({
   handleRemoveWish: function()
   {
     this.props.removeFavorite(this.props.home.id);
-
     $.ajax({
-      url: "http://localhost:3333/" + this.props.home.id,
+      url: "https://api-hellohomeplus.herokuapp.com/estates/" + this.props.home.id,
       dataType: 'json',
       contentType: 'application/json; charset=UTF-8',
       data: JSON.stringify(this.props.home),
-      type: 'POST',
+      type: 'PATCH',
       complete : function(){
         console.log("Removed " + this.props.home.id + " from favorite");
       }.bind(this)
@@ -21,13 +20,12 @@ var HomeCard = React.createClass({
 
   handleAddWish: function() {
     this.props.addFavorite(this.props.home.id);
-
     $.ajax({
-      url: "http://localhost:3333/" + this.props.home.id,
+      url: "https://api-hellohomeplus.herokuapp.com/estates/" + this.props.home.id,
       dataType: 'json',
       contentType: 'application/json; charset=UTF-8',
       data: JSON.stringify(this.props.home),
-      type: 'POST',
+      type: 'PATCH',
       complete : function(){
         console.log("Added " + this.props.home.id + " from favorite");
       }.bind(this)
