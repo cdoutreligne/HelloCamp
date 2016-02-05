@@ -8,7 +8,7 @@ var App = React.createClass({
     return {
       searchCriteria: {
                   estateType: [],
-                  localisation: [],
+                  localisation: '',
                   price: {min: '', max: ''},
                   roomNbr: {min: '', max: ''},
                   square: {min: '', max: ''},
@@ -32,6 +32,8 @@ var App = React.createClass({
            }
            );
        }
+       console.log("****lat in app"+currentPosition.lat)
+       console.log("****lng in app"+currentPosition.lng)
 
        this.setState({coordinates: currentPosition});
   },
