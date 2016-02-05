@@ -15,7 +15,7 @@
 }
 
 .center-search-map {
-  margin: auto  !important;
+  margin-left: 60px  !important;
   padding: 10px  !important;
   width: 800px !important;
 
@@ -24,9 +24,13 @@
   padding-left:0 !important;
 }
 
-.center-map {
+/*.center-map {
   margin: auto;
   width: 65%;
+} */
+
+.center-map {
+  padding-left: 60px !important;
 } 
 
 .input-inline-small {

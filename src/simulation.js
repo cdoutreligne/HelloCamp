@@ -60,7 +60,7 @@ var Simulation = React.createClass({
       <div className="row">
         <div className="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3"> 
           <div className="simulationResult dark-container">
-            <h2>Votre résultat</h2>
+            <h2>Votre simulation</h2>
 
             <table>
               <tbody>

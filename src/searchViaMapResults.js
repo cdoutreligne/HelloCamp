@@ -140,7 +140,7 @@ var SearchViaMapResults = React.createClass({
         return (
         <div className="dark-container with-buttons-bottom">
             <div className="form-group"><h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"} autour de moi dans un rayon de <input type="text" name="radius" className="form-control input-inline-small" id="radius" ref="radius" onChange={this.handleChange} /> km</h3></div>
-            <div className="row center-map">
+            <div className="row">
                 <div className="col-md-12 padding-zero">
 
                         <div className="col-md-8 dark-container-map center-search-map">
