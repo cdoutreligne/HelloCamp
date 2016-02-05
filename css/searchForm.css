@@ -10,6 +10,13 @@
 .center-search {
   margin: auto  !important;
   padding: 10px  !important;
+  width: 600px !important;
+
+}
+
+.center-search-map {
+  margin: auto  !important;
+  padding: 10px  !important;
   width: 800px !important;
 
 }

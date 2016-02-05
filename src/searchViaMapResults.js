@@ -130,7 +130,7 @@ var SearchViaMapResults = React.createClass({
                 <div className="col-md-12 padding-zero">
 
                     
-                      <div className="dark-container-map center-search">
+                      <div className="dark-container-map center-search-map">
                         {googleMap}
                     </div>
                    
