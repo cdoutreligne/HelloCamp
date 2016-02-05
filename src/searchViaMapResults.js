@@ -8,15 +8,32 @@ var HomeCard = require('./homecard.js').HomeCard;
 
 var SearchViaMapResults = React.createClass({
 
+    getInitialState: function() {
+        return {
+          radiusState: 10
+        }
+    },
+    componentDidMount: function() {
+        this.refs.radius.value = this.state.radiusState;
+    },
+    handleChange: function(event){
+
+        if (isNaN(event.target.value)) {
+            $("#" + event.target.name).addClass("has-error");
+            return;
+        } else {
+            $("#" + event.target.name).removeClass("has-error");
+        }
+
+        var radius = this.refs.radius.value;
+        if (radius>0){
+            this.setState({radiusState:radius});
+        }
+    },
 
     filterResults: function(coordinates) {
         var Results = this.props.estates;
       function distance(lat1, lon1, lat2, lon2) {
-        console.log("lat1 :"+lat1);
-        console.log("lon1 :"+lon1);
-        console.log("lat2 :"+lat2);
-        console.log("lon2 :"+lon2);
-
             var radlat1 = Math.PI * lat1/180;
             var radlat2 = Math.PI * lat2/180;
             var theta = lon1-lon2;
@@ -29,11 +46,9 @@ var SearchViaMapResults = React.createClass({
 
             return dist;
         }
- 
+        var radius = this.state.radiusState;
         var filtered = Results.filter(function(estate) {
-            // hardcodé temporairement
-            var radius = 20.0; //x km
-            //coordonnée du client
+           //coordonnée du client
             var latitudeA;
             var longitudeA;
             //coordonnée du bien
@@ -42,11 +57,11 @@ var SearchViaMapResults = React.createClass({
 
             if (null !== coordinates) {
                 latitudeA = coordinates.lat;
-                console.log("coordinates.lat: "+coordinates.lat);
+                // console.log("coordinates.lat: "+coordinates.lat);
                 longitudeA = coordinates.lng;
-                 console.log("coordinates.lng: "+coordinates.lng);
+                 // console.log("coordinates.lng: "+coordinates.lng);
             } else {
-                console.log("*** pas de coordonnée de client ***");
+                // console.log("*** pas de coordonnée de client ***");
                 return false;
             };
 
@@ -57,7 +72,7 @@ var SearchViaMapResults = React.createClass({
                 return (dist<=radius);
                 
             } else {
-                console.log("*** pas de coordonées du bien ***");
+                // console.log("*** pas de coordonées du bien ***");
                 return false;
             };
         });
@@ -88,10 +103,10 @@ var SearchViaMapResults = React.createClass({
             return ({
                 lat: estate.coordinates[0],
                 lng: estate.coordinates[1],
-                icon: "img/logo-hellobank-white-baseline.png",
+                icon: "img/home_marker_small.png",
                 // icon: "img/house.png",
 
-                label: String.fromCharCode('A'.charCodeAt() + i)
+              //  label: String.fromCharCode('A'.charCodeAt() + i)
             });
         }.bind(this));
         
@@ -101,7 +116,7 @@ var SearchViaMapResults = React.createClass({
                 lat: marker.lat,
                 lng: marker.lng
             };
-            return (<Marker position={mymarker}  icon={marker.icon}  label={marker.label}/>);
+            return (<Marker position={mymarker}  icon={marker.icon} />);
         });
 
         var googleMap = "";
@@ -116,23 +131,33 @@ var SearchViaMapResults = React.createClass({
         }.bind(this));
 
         return (
-
-    <div className="dark-container with-buttons-bottom">
+        <div className="dark-container with-buttons-bottom">
             <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
-        <div className="row center-map">
-            <div className="col-md-12 padding-zero">
-            <div className="dark-container-map center-search">
-                {googleMap}
+            <div className="row center-map">
+                <div className="col-md-12 padding-zero">
+
+                    <div className="row">
+                        <div className="col-md-1">
+                            Dans un rayon de
+                        </div>
+                        <div className="col-md-1">
+                            <input type="text" name="radius" className="form-control" id="radius" ref="radius" onChange={this.handleChange} />
+                        </div>
+                        <div className="dark-container-title col-md-1">
+                            km
+                        </div>
+                      <div className="dark-container-map center-search">
+                        {googleMap}
+                    </div>
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-        <div className="row">
-            
+            <div className="row">
                 <ul className="row results row-normal">{resultList}</ul>
-            
+            </div>
+            <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
         </div>
-        <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
-    </div>);}
+);}
 });
 
 module.exports.SearchViaMapResults = SearchViaMapResults;
