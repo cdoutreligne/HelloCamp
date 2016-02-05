@@ -22,8 +22,8 @@ var App = React.createClass({
   },
   componentDidMount: function() {
        var currentPosition = {
-           "lat" : 0,
-           "lng" : 0
+           "lat" : 50.847345,
+           "lng" : 4.358552
        }
        if (navigator.geolocation) {
            navigator.geolocation.getCurrentPosition(function (position) {

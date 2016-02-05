@@ -11,9 +11,6 @@ var SearchViaMapResults = React.createClass({
 
     filterResults: function(coordinates) {
         var Results = this.props.estates;
-console.log("Results: "+Results);
-console.log("coordinates: "+coordinates);
-
       function distance(lat1, lon1, lat2, lon2) {
         console.log("lat1 :"+lat1);
         console.log("lon1 :"+lon1);
@@ -50,7 +47,6 @@ console.log("coordinates: "+coordinates);
                  console.log("coordinates.lng: "+coordinates.lng);
             } else {
                 console.log("*** pas de coordonnée de client ***");
-
                 return false;
             };
 
@@ -58,12 +54,10 @@ console.log("coordinates: "+coordinates);
                 latitudeB = estate.coordinates[0];
                 longitudeB = estate.coordinates[1];
                 var dist = distance(latitudeA, longitudeA, latitudeB, longitudeB, radius);
-console.log(dist);
                 return (dist<=radius);
                 
             } else {
                 console.log("*** pas de coordonées du bien ***");
-
                 return false;
             };
         });
@@ -84,26 +78,34 @@ console.log(dist);
         var marker = this.props.localCoordinates;
 
         var resultList = this.filterResults(marker);
-console.log("result list: "+resultList)
         var results = resultList.length;
-        var resultListForMap = cloneObject(resultList);
 
+        var resultListForMap = cloneObject(resultList);
+        var i = -1;
         var markers = resultListForMap.map(function(estate) {
+
+             i++;
             return ({
                 lat: estate.coordinates[0],
-                lng: estate.coordinates[1]
+                lng: estate.coordinates[1],
+                icon: "img/logo-hellobank-white-baseline.png",
+                // icon: "img/house.png",
+
+                label: String.fromCharCode('A'.charCodeAt() + i)
             });
         }.bind(this));
+        
         var mapMarkers = markers.map(function(marker) {
+           
             var mymarker = {
                 lat: marker.lat,
                 lng: marker.lng
             };
-            return (<Marker position={mymarker} />);
+            return (<Marker position={mymarker}  icon={marker.icon}  label={marker.label}/>);
         });
 
         var googleMap = "";
-        googleMap = <section style={{height: "366px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
+        googleMap = <section style={{height: "400px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
 
 
 
@@ -115,12 +117,20 @@ console.log("result list: "+resultList)
 
         return (
 
-            <div className="dark-container with-buttons-bottom">
-       <div className="dark-container center-search">
-                       {googleMap}
-                     </div>
-        <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
-        <ul className="row results row-normal">{resultList}</ul>
+    <div className="dark-container-map center-map">
+        <row>
+            <div className="col-md-12 padding-zero">
+            <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
+            <div className="dark-container center-search">
+                {googleMap}
+            </div>
+            </div>
+        </row>
+        <row>
+        <div className="col-md-12 padding-zero">
+            <ul className="row results row-normal">{resultList}</ul>
+        </div>
+        </row>
         <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
       </div>
 
