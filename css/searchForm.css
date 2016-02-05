@@ -16,20 +16,7 @@
 .col-search {
   padding-left:0 !important;
 }
-.dark-container-map {
-  overflow: hidden;
-  position: relative;
-  background: black;
-  border-radius: 10px;
-  padding-left: 5px !important;
-  padding-right: 5px !important;
-  padding-top: 5px !important;
-  padding-bottom: 5px !important;
-  margin-top: 5px !important;
-  color: white !important;
-  width: 100%;
 
-}
 .center-map {
   margin: auto;
   width: 65%;

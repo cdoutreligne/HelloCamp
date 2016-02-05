@@ -1,0 +1,413 @@
+[{
+  "id": 0,
+  "url": "https://www.realo.be/en/ukkel/5388294?l=986811323\n",
+  "wish": false,
+  "type": "house",
+  "coordinates": [50.4593883,4.7834004],
+  "location": "Rue des Mésanges, 80 5600 Namur",
+  "surface" : "125",
+  "address": {
+    "street" : "Rue des Mésanges",
+    "number" : "80",
+    "city" : "Namur",
+    "postcode" : "5600"
+  },
+  "price": "1295000",
+  "description": "En plein centre-ville de Namur (expo), cette somptueuse demeure de caractère peut accueillir toutes professions libérales (médecin, avocats, experts etc ...). Sur quatre niveaux, le rez est spécifiquement dédié à une activité professionnelle avec garage, salle d'attente et deux bureaux. Les étages sont destinés au privé avec cuisine équipée, salle de bains, 3 belles chambres et vaste grenier aménageable. Structure du bâtiment très saine (béton pout tous les niveaux) et entièrement cavée. Environnement de qualité, à deux pas des commerces, écoles et grands axes de communication. Faire offre à partir de 227 500 euros (prix souhaité : 235.000 euros). Visites sur rendez-vous au 0474/016 016. Plus d?infos et de photos sur www.AICC.be",
+  "title": "Superbe maison spacieuse",
+  "properties": {
+    "bathrooms": 3,
+    "bedrooms": 5
+  },
+  "image": [
+    "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_465bf9_465bf9081fe5dc3985d393a57e8995ec.jpg/685x514/1920x1080/2/7e01", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6622c0_6622c0622f179678a1750faf5f13a2c5.jpg/685x514/1920x1080/2/b1aa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aa9524_aa952492f2be311a25daf3169f9c52ef.jpg/685x514/1920x1080/2/c3f3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b96a3e_b96a3e2df32348fb1b0c0b4807c6a1dc.jpg/685x514/1920x1080/2/7143", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b591b8_b591b8343520a2621e3b6853184a37fb.jpg/685x514/1920x1080/2/abef", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ccc38b_ccc38bf0774e98b7e286b624f404e8d9.jpg/685x514/1920x1080/2/28af", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc61b0_dc61b016a160a76bd579c4c341afe782.jpg/685x514/1920x1080/2/fea8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_58efc7_58efc726066dab31016cc72332ad10cd.jpg/685x514/1920x1080/2/d90e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_280268_2802688441d0d56fc99a307ccd9e4692.jpg/685x514/1920x1080/2/6d2a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f49189_f4918937df3befc68b4e023afe40820a.jpg/685x514/1920x1080/2/5bbe", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f0806_2f0806d90b0a90c8772b54cb3fa43ac5.jpg/685x514/1920x1080/2/6a82", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ade2fd_ade2fdabdd33408a07afa4a5fcc41b6c.jpg/685x514/1920x1080/2/d800"
+  ]
+}, {
+  "id": 1,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/hendrik-vanhouchestraat-24-1600-sint-pieters-leeuw/2800146?l=745666888\n",
+  "coordinates": [50.7747465, 4.244960499999999],
+  "surface" : "130",
+  "location": "Hendrik Vanhouchestraat 24, 1600 Sint-Pieters-Leeuw",
+  "address": {
+    "street" : "Hendrik Vanhouchestraat",
+    "number" : "24",
+    "city" : "Sint-Pieters-Leeuw",
+    "postcode" : "1600"
+  },
+  "price": "335000",
+  "description": "Maison très practique avec vue magnifique! Au rdc un hall d'entrée, living, salle à manger, cuisine equipée et garage. Au 1er étage un hall de nuit, 3 chambres spacieuses, une chambre de douche et un petit grenier. Aussi equipé avec un grenier, une terrasse avec débarras et un joli jardin!",
+  "title": "Maison 3 façades",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 3
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_110c76_110c760956862da5243ab0d4d4c37065.jpg/1024x680/1920x1080/2/ef74", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b6eaf1_b6eaf15ea477b31ec93e5c224093042e.jpg/1024x680/1920x1080/2/4f2c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_39fd5e_39fd5ed2f94650119e9599cab34b8846.jpg/1024x680/1920x1080/2/8d6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f22348_f22348c372c10e8b4afbdcd2a1810688.jpg/1024x680/1920x1080/2/e00c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_81ec6f_81ec6f906ff090776d0623de365cfb2a.jpg/680x1024/1920x1080/2/4ce3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_951ec4_951ec402d61d3aabd2a37c8ff5ae7e9f.jpg/1024x680/1920x1080/2/c15e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_eb859b_eb859b7383e47a2fbb4c6a6986f4064c.jpg/1024x680/1920x1080/2/16f0", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e54b2b_e54b2b566e6320c35b145c3eeb3ab80f.jpg/1024x680/1920x1080/2/29f5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d490bd_d490bd0f299b15d602f9216ee0f067c5.jpg/1024x680/1920x1080/2/915f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_0168dc_0168dc31d839322d0f42ece92b271791.jpg/1024x690/1920x1080/2/8a6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_769731_769731c94283cf46d7dceffafc0452a7.jpg/680x1024/1920x1080/2/a60f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d2f18e_d2f18e04b53f1c47647e594ec4cc94a2.jpg/680x1024/1920x1080/2/0bfa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_989b76_989b76455ab283f6c63c5e0ef3992e85.jpg/1024x680/1920x1080/2/3df8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6abcd3_6abcd39cbf331df6912a27dd3cd1c32b.jpg/1024x680/1920x1080/2/a97c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d24fc0_d24fc0dff828a217cae26f07b5234d6b.jpg/1024x680/1920x1080/2/48c9", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_11e2b9_11e2b98b735cd7e8caed20ccdfcef0ac.jpg/1024x680/1920x1080/2/b9fa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a2c0a_1a2c0a6ebe97c01a206a3f4197fae6ff.jpg/680x1024/1920x1080/2/4754", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8dc4a8_8dc4a8fa7b7d2bd2c88dc5ca6fb67dbd.jpg/1626x1080/1920x1080/2/87f1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_591c53_591c5333e7b699e139a95fbace69df22.jpg/680x1024/1920x1080/2/5133"]
+}, {
+  "id": 2,
+  "wish": false,
+  "type": "appart",
+  "surface" : "150",
+  "url": "https://www.realo.be/en/yorkshirelaan-1200-sint-lambrechts-woluwe/197340?l=1927607634\n",
+  "coordinates": [50.8548448, 4.4307418],
+  "location": "Yorkshirelaan, 1200 Sint-Lambrechts-Woluwe",
+  "address": {
+    "street" : "Yorkshirelaan",
+    "number" : "",
+    "city" : "Sint-Lambrechts-Woluwe",
+    "postcode" : "1200"
+  },
+  "price": "329000",
+  "title": "Appartement moderne",
+  "description": "Appartement moderne",
+  "properties": {
+    "bedrooms": 2
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_89bcab_89bcab0365274b3deb3ba7842c25ad54.jpg/480x480/1920x1080/2/7080", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_1fb711_1fb711625be16f98feb8a857db4ff297.jpg/746x420/1920x1080/2/bd50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4d42e2_4d42e2c755168544fa61e05c12e8118a.jpg/681x481/1920x1080/2/5271", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_51be0a_51be0a07e996f74eb8189575fde83b03.jpg/743x419/1920x1080/2/79d1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_6ae2c7_6ae2c75de77dc2c4b28ef616cfc6c429.jpg/753x425/1920x1080/2/8510", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_220f53_220f53fd9a986024a5ac67a225c2e606.jpg/685x483/1920x1080/2/2489", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_34fd55_34fd55f336bd70785a1af06b37534340.jpg/694x490/1920x1080/2/6e71", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_669193_669193b25a9dd0f96ef83f30506149ce.jpg/681x480/1920x1080/2/2d59"]
+}, {
+  "id": 3,
+  "wish": false,
+  "type": "appart",
+  "url": "https://www.realo.be/en/francois-couteauxstraat-6-1090-jette/113109?l=969228033\n",
+  "surface" : "140",
+  "coordinates": [50.8785244, 4.3296306],
+  "location": "François Couteauxstraat 6, 1090 Jette",
+  "address": {
+    "street" : "François Couteauxstraat",
+    "number" : "6",
+    "city" : "Jette",
+    "postcode" : "1090"
+  },
+  "properties": {
+    "bedrooms": 2
+  },
+  "price": "975000",
+  "title": "Appartement à vendre",
+  "description": "Adres ---- www.immobpc.be ---  Immeuble de Rapport comprenant : Rdch Droite : Appartement de 70 m², Living 32 m², cuisine semi éqp 11 m², Chambre 15 m², sdb 7 m², toil sép, Jardin/cour 52 m² ; Rdch Gauche : Appartement 75 m², Living 32 m², Cuis semi éqp 10 m², 2 ch (12 m²-11 m²), sdb 3 m², toil sép, jardin/cour 52 m², 1ER Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 2ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép ; 3ième Etage : 2 Appartements, Chaque appartement 85 m², Living 32 m², Cuis semi éqp 10 m², 2 slpks (16 m² -13 m²), sdb 3 m², toil sép. Partout PVC-double vitrage, Chauffage coll au gaz.+  Infos www.immobpc.be",
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_724bb7_724bb7f52ef3d98baafeaeaa0068a8b1.jpg/800x450/1920x1080/2/b8a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_63b9ce_63b9ceb33a8cc4abce1d24eb6436b356.jpg/800x450/1920x1080/2/e980", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e56805_e568056b99ecfd82878c5bff6e0dfd6f.jpg/800x450/1920x1080/2/3441", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_954339_954339b7362798af15d6bb7aaf37474c.jpg/800x450/1920x1080/2/a7d5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_366832_366832f1effb010df0ede85fb42d2ebe.jpg/273x487/1920x1080/2/2e41", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_691ad7_691ad7d2a6073225ddd4149e70a472b3.jpg/800x450/1920x1080/2/986d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a894f_9a894f0eba632d2c509fdaf2126e0367.jpg/273x487/1920x1080/2/c64f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_06998c_06998cde22b1bf647e9d188194d2712f.jpg/800x450/1920x1080/2/9085", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ede579_ede57978a02ec99b64525198d154ad09.jpg/800x450/1920x1080/2/457b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_efb8be_efb8be77179027b3faeb50282ce0551f.jpg/800x450/1920x1080/2/ea3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4067fa_4067fa5c08fc6b24e8a515b8955ca5a0.jpg/800x450/1920x1080/2/2c3f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_70489a_70489af86e22cdd5699c1fc26c30c748.jpg/800x450/1920x1080/2/94ff", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_72b950_72b950b0856b0891082bf75ac7e9e4f8.jpg/800x450/1920x1080/2/a343", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a30b6_9a30b6782186208dc908c497a3adae35.jpg/800x450/1920x1080/2/895b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3681b3_3681b307992c0ca07bd29c7d1e8db200.jpg/800x450/1920x1080/2/ccf3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2d10d7_2d10d7e0803513c88825a2d0d6dda3f1.jpg/273x487/1920x1080/2/7736", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_81ed1e_81ed1e8ac977e51344d888d84bde5290.jpg/800x450/1920x1080/2/60c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a70307_a70307899520f66572d472581c38e223.jpg/800x450/1920x1080/2/88ea", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_26287c_26287c74e7694babf8642e85b94fc2c0.jpg/800x450/1920x1080/2/1940", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ef8111_ef8111f1a44b95f0280ec7b45b70a513.jpg/800x450/1920x1080/2/bf99", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4810d3_4810d3cfe827d895dc84e23a67efbd3b.jpg/800x450/1920x1080/2/47ba", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f44248_f44248fc74451e709fb56bc35a861777.jpg/800x450/1920x1080/2/54ad", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_639ee9_639ee95d0417197c5eb574b12b1a510e.jpg/800x450/1920x1080/2/ccd5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_c01479_c01479fcc8143768440b64206a68d37c.jpg/800x450/1920x1080/2/6ee3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_74d61e_74d61e7a4564323feb26c7e18b6bef45.jpg/273x487/1920x1080/2/ec28", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b5a6b0_b5a6b0c63346d4d7da0201c9117bf10a.jpg/800x450/1920x1080/2/ac15", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_785b87_785b879ea415abe83ca4f2ab5e262be2.jpg/800x450/1920x1080/2/9f19", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_07f3a3_07f3a360fa0c087cc4516bb0a1e5aa88.jpg/800x450/1920x1080/2/622c"]
+}, {
+  "id": 4,
+  "wish": false,
+  "type": "commercial",
+  "url": "https://www.realo.be/en/1030-schaarbeek/5194019?l=1939369359\n",
+  "surface" : "350",
+  "coordinates": [50.8674164, 4.3772981],
+  "location": "1030 Schaarbeek",
+  "address": {
+    "street" : "",
+    "number" : "",
+    "city" : "Schaarbeek",
+    "postcode" : "1030"
+  },
+  "price": "1750000",
+  "title": "Nouvelles surfaces à vendre",
+  "description": "Btiment mixte (industriel,bureau,commerce) comprenant 3100 m2 de bureau , espace polyvalent multiple grand espace bureau, dpt, garage. ventuellement grande galerie commerciale, possibilit aussi de construire un ilot de plus d' une dizaine d'appartement et d'une vingtaine de garage tout en gardant la galerie commerciale sur 2 niveaux. Remarque : un permis d'urbanisme existe pour ce btiment et un autre btiment commercial donnant sur la rue de Brabant pour un projet d'une grande galerie commerciale, des appartements, bureaux et garages.Excellente rentabilit pour tout investissement !!Infos et visites : info@besimmo.be 02/469.17.69 et 0476/35.89.83",
+  "properties": {},
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6676c2_6676c260bb3ffbdc73fe42b26c47e2f2.jpg/325x448/1920x1080/2/82c1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_7d2443_7d2443cbd1cc1d82ed07faa31aaedec5.jpg/800x496/1920x1080/2/b14e"]
+}, {
+  "id": 5,
+  "wish": false,
+  "type": "appart",
+  "surface" : "150",
+  "url": "https://www.realo.be/en/emile-bockstaellaan-5-1020-laken/5507090?l=1698288540\n",
+  "coordinates": [50.8701416, 4.3434363],
+  "location": "Emile Bockstaellaan 5, 1020 Laken",
+  "address": {
+    "street" : "Emile Bockstaellaan",
+    "number" : "5",
+    "city" : "Laken",
+    "postcode" : "1020"
+  },
+  "price": "135000",
+  "title": "Appartements à vendre - Laeken",
+  "description": "QUARTIER PARC DE TERVUREN - BELLE MAISON DE VILLE -POSSIBILITE PROFESSION LIBERALE OU REZ COMMERCIAL - TRES GRAND SALON LUMINEUX - CUISINE AMERICAINE - VERANDA - 3 CHAMBRES - GRENIER AMENAGE - SALLE DE BAIN - 2 SALLES DE DOUCHE - GRAND JARDIN - PEB 253 KW/M² - A VOIR !",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 2
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_2f3f9c_2f3f9ccdbadc0cac0ca0d47faf2b98cc.jpg/1024x1024/1920x1080/2/af75", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_213bd9_213bd915f375c5d999b9bccc84f5d62e.jpg/1024x1024/1920x1080/2/dea6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_107eb5_107eb5e3bea3d55b3f4986c04a60566d.jpg/1024x1024/1920x1080/2/0345", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_3e0cf3_3e0cf3e763d9e02c45327f496c44ef91.jpg/1024x1024/1920x1080/2/d51d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_b3c25d_b3c25d7ea8e630563cdb48b34ae0ea54.jpg/1024x1024/1920x1080/2/b686", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_05fc7a_05fc7a68f17f7d74f02ea334fbd33516.jpg/1024x1024/1920x1080/2/d1cd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_f51288_f5128805c3a01d0fbccc17513142b2e2.jpg/1024x1024/1920x1080/2/aefa", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5794f8_5794f8399fbb482eda2737e38fad9584.jpg/1024x1024/1920x1080/2/4d71", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_ae589d_ae589d302d2d4211bd559221f36b75d6.jpg/1024x1024/1920x1080/2/f138", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_68edcc_68edccd15e1bc9d3990b2e68b041d5b8.jpg/1024x1024/1920x1080/2/94f8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_56d119_56d1195db5b453be2925de23880e82ff.jpg/1024x1024/1920x1080/2/f755", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_75b489_75b489ad26cd9c872a4332ee87ebc9e6.jpg/1024x1024/1920x1080/2/2a7c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_7ff47e_7ff47eb7528b62bd8733f36c6dfebdc8.jpg/1024x1024/1920x1080/2/e664", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4e0eee_4e0eee3cb503ec7df7bb09c42fbce77a.jpg/1024x1024/1920x1080/2/ab34", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_bf0b02_bf0b0203e7b8857269970ebbd5ed3a7c.jpg/1024x1024/1920x1080/2/adf0", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_f544e3_f544e3eb2c44daf91aad26baf1ae70e2.jpg/1024x1024/1920x1080/2/c058", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5bf435_5bf4355b80138fabf645e2a39c9335a7.jpg/1024x1024/1920x1080/2/95c6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_7ed825_7ed825161b8e3f0b7e635bb2e26c9690.jpg/1024x1024/1920x1080/2/d5d3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_197345_1973451b12599443db39bbf2f850a8d3.jpg/1024x1024/1920x1080/2/42b6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_ada1aa_ada1aaf5bb515ecad34b45aae4bbc8be.jpg/1024x1024/1920x1080/2/5f06", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_1cd892_1cd892f249ee36109b7e7f325a4ff642.jpg/1024x1024/1920x1080/2/6194", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_fc1ca3_fc1ca3a5012c658618000144d85dc024.jpg/1024x1024/1920x1080/2/4e23", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_4d8e89_4d8e89ce50ca47718a7617de63d15a98.jpg/1024x1024/1920x1080/2/25bf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_c43fa0_c43fa0b9ed0174d97a3f09cdbe82f09a.jpg/1024x1024/1920x1080/2/4370", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_808fdf_808fdfb22191b0ad568cab7274680b7b.jpg/1024x1024/1920x1080/2/b8a4", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_a3468e_a3468ee25d7d971d5ea42c56dd8c7581.jpg/1024x1024/1920x1080/2/7dcf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_94547d_94547d60ec9689c88eb2d4570dc6df67.jpg/1024x1024/1920x1080/2/9631", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_2f29c5_2f29c5f650d2577fb9f2bc426451fe90.jpg/1024x1024/1920x1080/2/3991", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_5bfd72_5bfd728cef859fdc436c98902c3d2dff.jpg/1024x1024/1920x1080/2/9de1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_afeb74_afeb74c03b38429daac7afc624f16767.jpg/1024x1024/1920x1080/2/961c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_c9b5c1_c9b5c128a75e6042f1b48f5c1f306697.jpg/1024x1024/1920x1080/2/cec6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_0888b6_0888b6db7e2f701c15a916e8e0f0a9d5.jpg/1024x1024/1920x1080/2/6c53"]
+}, {
+  "id": 6,
+  "wish": false,
+  "type": "appart",
+  "url": "https://www.realo.be/en/1180-ukkel/5194020?l=1862413088\n",
+  "surface" : "160",
+  "coordinates": [50.80240999999999, 4.340669999999999],
+  "location": "1180 Ukkel",
+  "address": {
+    "street" : "",
+    "number" : "",
+    "city" : "Uccle",
+    "postcode" : "1180"
+  },
+  "price": "840000",
+  "title": "Superbes appartements modernes",
+  "description": "",
+  "properties": {
+    "bedrooms": 3
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_10527a_10527a42806b26c6fe8651cf3b6f3983.jpg/640x400/1920x1080/2/c33a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b6e6a8_b6e6a8b668c9d224f818b36f6f523223.jpg/640x400/1920x1080/2/ba50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cb159f_cb159f1726faa6ae61c0aaf7b89d39a5.jpg/640x399/1920x1080/2/d565", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_148fd2_148fd22d9b32c0a559c85cd1a8596883.jpg/640x400/1920x1080/2/e55e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2fdb19_2fdb19fd5ac54e21a4f42a2c3abeabaf.jpg/640x400/1920x1080/2/7163", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2cefd0_2cefd05ac4f90cba0fc4e1e117dcfe20.jpg/640x399/1920x1080/2/e7a5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2f418f_2f418f4ccd96ece7e54e7cd74f11d204.jpg/640x400/1920x1080/2/f4df", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_69c8fa_69c8fad918e02fb917c0c3d6afe75615.jpg/640x399/1920x1080/2/9c4b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d7bdd3_d7bdd3fbb68f33bdf2e3092d17bdfb40.jpg/640x400/1920x1080/2/c636"]
+}, {
+  "id": 7,
+  "wish": false,
+  "type": "appart",
+  "surface" : "90",
+  "url": "https://www.realo.be/en/1180-ukkel/5194020?cl=1221111087%2C767272278%2C198078492\n",
+  "coordinates": [50.8034779,4.3379127],
+  "location": "1180 Uccle",
+  "address": {
+    "street" : "Rue des combattants",
+    "number" : "52",
+    "city" : "Uccle",
+    "postcode" : "1180"
+  },
+  "price": "115000",
+  "title": "Appartements à vendre - Quartier calme",
+  "description": "",
+  "properties": {
+    "bedrooms": 1
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ce77c2_ce77c2c281b7ebf42e0877478549a1c9.jpg/1024x683/1920x1080/2/8c85"]
+}, {
+  "id": 8,
+  "wish": false,
+  "type": "appart",
+  "url": "https://www.realo.be/en/1150-sint-pieters-woluwe/5194023?l=905258794\n",
+  "coordinates": [50.8299809, 4.4335038],
+  "surface" : "150",
+  "location": "1150 Woluwe St. Pierre",
+  "address": {
+    "street" : "Rue de la Berwinne",
+    "number" : "126A",
+    "city" : "Woluwe St. Pierre",
+    "postcode" : "1150"
+  },
+  "price": "305000",
+  "title": "Appartement penthouse",
+  "description": "Woluwe-St-Pierre, face aux étangs Mellaerts, appartement penthouse de +/- 120 m² au 5e étage (dernier) d'un immeuble de standing des années 50 avec ascenseur. Hall d'entrée avec vestiaire - WC séparé - Séjour avec parquet de +/- 40 m² avec large balcon & vue sur les étangs - Cuisine semi-équipée avec accès au balcon à l'arrière - 2 Chambres à coucher de +/- 13 & 15 m² avec parquet - 1 Salle de bains - 1 Cave et possibilité garage.",
+  "properties": {
+    "bedrooms": 2
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_828e36_828e36a6959b7612849f2ec20778674b.jpg/1000x750/1920x1080/2/f437", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cbb1a5_cbb1a5088e405dc8a06eb47640d0da9a.jpg/1000x750/1920x1080/2/04e8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_2a0462_2a04627132ed80d5e431afbe4ae421cc.jpg/1000x750/1920x1080/2/4df1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8d1852_8d185204746f5fb40026e39db5beb7eb.jpg/750x1000/1920x1080/2/6082", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_70afec_70afec71d90478757cc4e8f82a6a763a.jpg/1000x750/1920x1080/2/9bb5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b91f23_b91f238e990595186190e37488dd2a30.jpg/1000x750/1920x1080/2/60d5"]
+}, {
+  "id": 9,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1140-evere/5194010?l=514038065\n",
+  "surface" : "160",
+  "coordinates": [50.87393530000001, 4.4009421],
+  "location": "1140 Evere",
+  "address": {
+    "street" : "",
+    "number" : "",
+    "city" : "Evere",
+    "postcode" : "1140"
+  },
+  "price": "480000",
+  "title": "Maison à Evere",
+  "description": "Evere maison uni ou bi familiale offrant de nombreuse possibilités .Soit unifamilial avec living 45m² + cuisine équipée, 5 grandes chambres , 1 salle de bain avec jacuzzi et deux salle de douche , 3 wc OU actuellement 2 unités avec chacune living cuisine chambres et salle de douches et wc En soussol avec fenêtres possibilité bureau ou profession libérale - jardin 70m² actuellement couvert- rénové en 2005 A VOIR ABOSULEMNT TEL 0475.25.13.49 OU 02.242.12.00",
+  "properties": {
+    "bedrooms": 5
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a99ef_1a99ef492756cf2831d340ed248a59f7.jpg/751x564/1920x1080/2/5c2c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_11108d_11108dafd0b9dddc68f3d872f34f9a42.jpg/742x556/1920x1080/2/6e6a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_fe2f26_fe2f26207c861cbfbc0b4c1a89c1869c.jpg/751x563/1920x1080/2/35f4", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_89effe_89effe5dfc0a16cd19bc0b6fc1835367.jpg/753x565/1920x1080/2/2bcf", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a9249a_a9249a88bd95ea1ff9c6f31527c54680.jpg/752x564/1920x1080/2/517e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_40685f_40685fbfa4bae00aa64714b692024f5a.jpg/740x555/1920x1080/2/5554", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1db914_1db9146072777d449ffbf1a984562a86.jpg/740x555/1920x1080/2/fea1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a8c4b5_a8c4b5e5c9bcc8ec5245aeb621d976ef.jpg/263x574/1920x1080/2/5b55", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9a19df_9a19df5eb0c978170b6ceb3ba1ba9142.jpg/745x559/1920x1080/2/bccd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_910f1c_910f1c0fffe0c1ca5896e534fef631f2.jpg/738x554/1920x1080/2/1a35", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6aabeb_6aabeb2781c19097f958b988935429f1.jpg/744x558/1920x1080/2/6eb7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f074ac_f074ac9613d098640256950230b42808.jpg/750x562/1920x1080/2/e533", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f339aa_f339aabc0dfed804f7767f59c712c35a.jpg/747x560/1920x1080/2/1758", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_aadbb9_aadbb98680baf885b138ab52c0779b9e.jpg/743x557/1920x1080/2/bc94", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e92c2d_e92c2d2136cbd2f723ee395f50c29464.jpg/742x556/1920x1080/2/4802", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1a89f2_1a89f2e34d501ee3d19de24c7d539387.jpg/744x558/1920x1080/2/ff61", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3283c1_3283c1b380a3e07db0df96d0cb57f31f.jpg/745x559/1920x1080/2/0ca7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dc22b3_dc22b3ea635ca0fd85bdcf6ed6f8850e.jpg/744x558/1920x1080/2/adff"]
+}, {
+  "id": 10,
+  "wish": false,
+  "type": "appart",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "180",
+  "coordinates": [50.8808582, 4.3227894],
+  "location": "Rue du pont, 20 1090 Jette",
+  "address": {
+    "street" : "Rue du pont",
+    "number" : "20",
+    "city" : "Jette",
+    "postcode" : "1090"
+  },
+  "price": "169000",
+  "title": "Appartement charmant",
+  "description": "Appartement charmant avec une chambre à coucher et jardin ensoleillé, dans une maison avec 3 unités. L'appartement dispose d'un salon, une salle à manger, cuisine, salle de bains, jardin orienté sud avec terrasse. Cave spacieuse.  Double vitrage, chauffage central au gaz, compteurs individuels.  Bon emplacement: à proximité du Parc de la Jeunesse, du Parc Roi Baudouin, à 200 m de l'arrêt de bus Rue Eugène Toussaint (correspondance métro),  près de la gare de Jette.  Pas de charges.",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 1
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3ff91d_3ff91dc2cef4e11be9bffc7e139a47b8.jpg/1000x665/1920x1080/2/473a", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_89a7e8_89a7e81d20d6127b5a22ad7837c4d17a.jpg/1000x665/1920x1080/2/cd87", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_20ef7a_20ef7a0faf3427b4d233d3df4e98dbc0.jpg/1000x665/1920x1080/2/4171", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_0e2cc8_0e2cc8ebf0e66fa67742a19a0f7d2a83.jpg/1000x665/1920x1080/2/f491", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cdd7a7_cdd7a7f0b1e99a0f64c056df11d2b27b.jpg/1000x665/1920x1080/2/2488", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_c8bc41_c8bc412cd4238416afc7b124986c951c.jpg/1000x665/1920x1080/2/5cbc", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b83a2c_b83a2c5cfa89ab9928353180f8da757d.jpg/1000x665/1920x1080/2/95b0", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_08a875_08a87596e958777b54309de013e1a918.jpg/1000x665/1920x1080/2/a278", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_a23025_a23025c432ef3f1f66ad07c4c191b031.jpg/1000x665/1920x1080/2/4681", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_436142_436142aaa53f9cb92a738330202b17be.jpg/1000x665/1920x1080/2/e3ec", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_0737a9_0737a9cb232bdcd65e02208ea407bfac.jpg/1000x665/1920x1080/2/4cbb", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d39a01_d39a01d0d87750ac2de7f1e9d2fbccd8.jpg/680x1024/1920x1080/2/2e09", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dbb3e7_dbb3e7955516dea8a0dd01e7f931ce82.jpg/1000x613/1920x1080/2/5112"]
+}, {
+  "id": 11,
+  "wish": false,
+  "type": "appart",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "235",
+  "coordinates": [50.8808582, 4.3227894],
+  "location": "Bd. des champs, 93 1090 Jette",
+      "address": {
+        "street" : "Bd. des champs",
+        "number" : "93",
+        "city" : "Uccle",
+        "postcode" : "1180"
+      },
+  "price": "265000",
+  "title": "Idéalement situé",
+      "description": "Idéalement situé à proximité de la place Saint-Job et du Lycée Français, dans un cadre calme et verdoyant, magnifique appartement d'une superficie de +/-100m² comprenant: hall d'entrée, lumineux séjour avec feu ouvert, salle à manger, 3 chambres (14, 10, 10m²), salle de bains, wc séparé. Cave. Terrasse.  Parking commun. PEB: C. A VISITER! Plus d'infos: www.bonnivers.be",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 5
+  },
+      "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/listing_c6d901_c6d9015108a1911aa7d1b90a4570a077.jpg/736x552/1920x1080/2/1d82"]
+}, {
+  "id": 12,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "220",
+  "coordinates": [50.96459100000001, 4.3735259],
+  "location": "Kruisstraat, 38 1851 Humbeek",
+      "address": {
+        "street" : "Kruisstraat",
+        "number" : "38",
+        "city" : "Humbeek",
+        "postcode" : "1851"
+      },
+  "price": "395000",
+  "title": "Maison spacieuse et authentique",
+  "description": "Maison spacieuse et authentique, situé dans un environnement tranquille et vert à Humbeek. Hall d’entrée, toilette de visiteurs, séjour spacieux, salle à manger avec cuisine semi-ouvert et installé. L’escalier en bois vous mène au premier étage. Là vous trouvez une chambre à coucher spacieuse et salle de bains luxueuse (douche, baignoire et lavabo double). Au deuxième étage il y a une très grande chambre à coucher. Cave et garage. Jardin aménagé avec gazébo et 2 terrasses. La maison est rénové et donne confort et espace combiné avec des caractéristiques authentique en contraste avec le éléments moderne.",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 2
+  },
+  "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8edaec_8edaeceecad7ba6b18336694121e0d2c.jpg/585x392/1920x1080/2/0fe4", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_4ab42e_4ab42e27a434c8f5ba904ab394741da2.jpg/585x392/1920x1080/2/bc50", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_fde2af_fde2afb07777fc0e7920256e8e6a1c4e.jpg/585x392/1920x1080/2/e803", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_92f734_92f734ef991a7747a6bfe49b1862ae00.jpg/585x392/1920x1080/2/3b8e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_54d137_54d13706425729e702b0c4c62aa51969.jpg/585x392/1920x1080/2/5940", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9182f0_9182f035c7bb5244ad15e7925a39b763.jpg/585x392/1920x1080/2/f95c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_c9eed7_c9eed76fc26c835f4b160a202ad5e0a7.jpg/585x392/1920x1080/2/8c56", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ae605a_ae605a10b76b7d4f00c966f2f65b40cc.jpg/585x392/1920x1080/2/3a04", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1d6370_1d63704974c7f5e532b1df05dffd2b9c.jpg/585x392/1920x1080/2/e46e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_03dae6_03dae654f84dbe57366fdcbef76b4b15.jpg/585x392/1920x1080/2/ac82", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_27c4ea_27c4ea082621cd1cd080dbde1896d633.jpg/263x392/1920x1080/2/78c5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_7a8106_7a8106f35f274d9613ff60b36b18756c.jpg/585x392/1920x1080/2/c42b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d349bc_d349bc7fb4c63a48bfaedf9e02a2519a.jpg/585x392/1920x1080/2/ea25", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_640716_6407163ca98ef283c1cfc88316487c70.jpg/585x392/1920x1080/2/a9f6", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_5f4c1d_5f4c1d021dd1e92df8f55dd5ae15aa0c.jpg/585x392/1920x1080/2/1393", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_12a438_12a4388bab433be9c62b76e474346dda.jpg/585x392/1920x1080/2/e61b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d37bff_d37bffc6fb68175d8c6439d31a65dc6c.jpg/585x392/1920x1080/2/0a0d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_846c8d_846c8d880f32c20dd3c0bb9d44b98cd0.jpg/585x392/1920x1080/2/d71e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_082128_082128f3a98ec1f3403a9e93f0cad53e.jpg/608x392/1920x1080/2/87b8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_728897_728897ac99c581c577cd1f2f3c29fdf8.jpg/585x392/1920x1080/2/ca7d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_dea404_dea40458da8064e959c1cb12e18ca454.jpg/527x392/1920x1080/2/13ca", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_100a2a_100a2a555bf221ae196edf484ecbe780.jpg/585x392/1920x1080/2/6a02"]
+}, {
+  "id": 13,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "310",
+  "coordinates": [50.8524255, 4.170368799999999],
+  "location": "Langestraat,71 1090 Jette",
+      "address": {
+        "street" : "Langestraat",
+        "number" : "71",
+        "city" : "Wambeek",
+        "postcode" : "1741"
+      },
+  "price": "345000",
+  "title": "+++VENDU SOUS RESERVE+++",
+    "description": "+++VENDU SOUS RESERVE+++\r\n\r\nImmo De Coninck vous propose, près du centre de Wambeek: \r\n\r\ncette grande maison équipée sur une parcelle de +/-29a77, grande allée et grand bâtiment apart, très grand jardin avec maisonnette et serre, beau vue sur région agricole, possibilité d’utiliser la maison comme maison de soin (3 ch, sdb et kitchinette au rez) ou bureaux/profession libre (max.100m²), sur +/-25m d’un arrêt autobus (bus 127, ligne Bruxelles-Ninove).\r\n\r\nREZ: hall d’entrée avec vestiaire, grand living & petit bureau apart, grande cuisine avec coin de déjeuner, toilette séparée avec lave-mains, salle de bain (double lavabo, baignoire), 3 chambres à coucher, kitchenette (double évier, hotte), débarras, veranda, allée 4 voitures, bâtiment suppl. (+/-5m21 sur 14m73 de profondeur): garage 2 voitures + 2 débarras, très grand jardin avec maisonette et serre. \r\n\r\n1ER ETAGE: couloir, espace sanitaire (lavabo, grand armoir), 2 chambres à coucher, petit grenier. \r\n\r\nRemarques: maison a étée rénovée + agrandie en 1974, cc gaz de ville, poêle au bois au living, vanes thermostatiques, poêle au gaz au véranda, chassis afzelia double vitrage, volets partout au rez, velux au premier étage, porte de garage sectonial, puit d’eau, fosse septique (connecter aux égouts), connection télévision digitale au living et 2 chambres à l’étage, toiture principal et mûrs isolés, construction du garage refait en 2003.\r\n\r\nPour plus d’info/visite: Marleen De Coninck: 0497/43.22.85",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 2
+  },
+    "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_165b62_165b625722343bedd3d9ce834d7ceb3c.jpg/800x600/1920x1080/2/4a89", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_bbed89_bbed89f3caa8390c285c5bcc90b0c0b1.jpg/565x753/1920x1080/2/23a1", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1f4015_1f401542441737fdc99a418adf39562b.jpg/800x600/1920x1080/2/edd2", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_02566a_02566a982d62b25a422f9c3d162fe80d.jpg/800x600/1920x1080/2/43bb", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f15532_f15532057d45f859bfc7da858ffe464b.jpg/800x600/1920x1080/2/979d", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_90725c_90725cf0f90401c120b7f2078757e7e9.jpg/562x749/1920x1080/2/d355", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9b2284_9b228422907a3ef1ed1e87fc14e5552a.jpg/562x750/1920x1080/2/1bb9", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9e1044_9e1044c6e7dfb73caeed24acd21ed8be.jpg/800x600/1920x1080/2/2081", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_91a97e_91a97ee57ce4a4b3d7887096ddc6b37f.jpg/800x600/1920x1080/2/fc8b", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_0dcfd6_0dcfd67b39e2070f3e1a0936554c854f.jpg/557x743/1920x1080/2/7aa5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_869bee_869beef1a7d988ec0efdef0184cd8362.jpg/800x600/1920x1080/2/e0a7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_53e612_53e612a48eea3d3fb033ce8bcd86ff79.jpg/800x600/1920x1080/2/bd9f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b1e37d_b1e37d7ab5ac9333324ab031a87f850c.jpg/800x600/1920x1080/2/5279", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3f8914_3f89140a6b9044d3da373e10e85360c7.jpg/560x747/1920x1080/2/cfdd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_268111_268111ff310d146e66fc9974a2daa8b0.jpg/800x600/1920x1080/2/0a90", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_5faafd_5faafdb60373081e09bbbe05ac075cf3.jpg/800x600/1920x1080/2/62ef", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1f5c1d_1f5c1de31879fd2355198a0d9a7f3b3d.jpg/800x600/1920x1080/2/1a52", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_3aea60_3aea60d7686b58d7f0ca5c2afa570346.jpg/800x600/1920x1080/2/8745", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9c839c_9c839cadd966eb6bada646c8d65d0a40.jpg/800x600/1920x1080/2/5021", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_91c32d_91c32d2c20dd89f3bc9dcc8ce5f7aecf.jpg/800x597/1920x1080/2/68c8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_052618_052618ef2f8e7948b9cfaa324bc725d7.jpg/800x600/1920x1080/2/f688", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_5a78ac_5a78ac2a9b880dcb9e38121f8814dcbe.jpg/800x600/1920x1080/2/f497", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ce829d_ce829d8685fe84df26a9678a1f2e7d58.jpg/800x600/1920x1080/2/5e8f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_d8b2a7_d8b2a7b9ec28cd0f251c725659cb733b.jpg/800x600/1920x1080/2/5fb3", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_84796f_84796fec11faed064d06a452e85ea053.jpg/800x600/1920x1080/2/d654", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e11b0b_e11b0b8372fe1d0f7d0c29ec1847615e.jpg/800x600/1920x1080/2/13d8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_821bb9_821bb9aea8ae5c4c441e4b52718880cd.jpg/800x600/1920x1080/2/8de8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_cc281f_cc281f9fafbc3bc7828ef0da70e9e6e3.jpg/478x748/1920x1080/2/6212"]
+}, {
+  "id": 14,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "480",
+  "coordinates": [50.83508459999999, 4.4455867],
+  "location": "Ierlandstraat 3, 1060 Sint-Gillis",
+      "address": {
+        "street" : "Ierlandstraat",
+        "number" : "3",
+        "city" : "Sint-Gillis",
+        "postcode" : "1060"
+      },
+  "price": "570000",
+  "title": "Maison écologique",
+  "description": "Superficie : 1 are 10\n\nRC : 1048\n\nSection urbanistique : B330 N3 - Partition : P0000 - Code 2F - RC 1048\n\nCertificat électrique conforme\n\nPEB : D- 210  \n23982 kwh/Ep/an  \nEmission CO2 : 44 Kg CO2 (m²/an)",
+  "properties": {
+    "bathrooms": 2,
+    "bedrooms": 5
+  },
+    "image": ["https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_249839_2498391b65d80a16624c71db6986a8d9.jpg/1537x1024/1920x1080/2/28cd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_7c8742_7c87428735f28f644b455a7cc9533f4b.jpg/1537x1024/1920x1080/2/77f8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b501fb_b501fb4e2b29935b8ecca29c7311fae1.jpg/1537x1024/1920x1080/2/103c", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f2b98d_f2b98d84bc31f231324f36228d3b831a.jpg/1537x1024/1920x1080/2/acf8", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_8a1a64_8a1a641d4832b40dcf8346f0906c4dde.jpg/1537x1024/1920x1080/2/1fe7", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_1e537e_1e537e1d360ddb7ffb6c765ce7aa9be9.jpg/1365x1024/1920x1080/2/879f", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_b84a68_b84a68657ca5e10b57c022cb8f8fa13b.jpg/1365x1024/1920x1080/2/f6bd", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_54b5f2_54b5f2d477bb22258ff0356d8b2b9731.jpg/1365x1024/1920x1080/2/cd91", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_95c46f_95c46fb160b2ba00e920822254e50445.jpg/1365x1024/1920x1080/2/8591", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_be9d1a_be9d1a5f611092b16b3d37cb94fb228e.jpg/1537x1024/1920x1080/2/0381", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6b8b34_6b8b3411258554cd3948ea6fbaedf68f.jpg/1537x1024/1920x1080/2/9987", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_856e9f_856e9f3efde93462955c45795f0ef591.jpg/1537x1024/1920x1080/2/291e", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_f19031_f190318fe2115abc4c5d635032727182.jpg/1537x1024/1920x1080/2/b635", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_536704_5367040c3cdb00eb9ba197a01818bad3.jpg/1537x1024/1920x1080/2/85bc", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_6ed73b_6ed73b082de5eac9b7f93ec302008cbb.jpg/768x1024/1920x1080/2/1fc2", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ccefa2_ccefa241abd698e5794b1991159f9a53.jpg/768x1024/1920x1080/2/03eb", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_e619fe_e619fe481ec594b59c83f5b2e4384aea.jpg/1365x1024/1920x1080/2/18e5", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_9cf983_9cf9832453ba905b43850e9d034d933d.jpg/768x1024/1920x1080/2/5c27", "https://d3k9mx2sflgxll.cloudfront.net/image/5/BE-master_listing_ff68a7_ff68a79d364c8d34326aba8a41f500c5.jpg/1365x1024/1920x1080/2/6026"]
+}, {
+  "id": 15,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "360",
+  "coordinates": [50.7234191,5.3138856],
+  "location": "Rue des combattants, 80A 4360 Oreye",
+      "address": {
+        "street" : "Rue des combattants",
+        "number" : "80A",
+        "city" : "Oreye",
+        "postcode" : "4360"
+      },
+  "price": "680000",
+  "title": "Belle fermette en pierre",
+  "description": "Tige du Bois de Gras,10,6941 Durbuy( Borlon), fermette ancienne non attenante et rénovée.Au rez: hall, cuisine équipée, living en L cheminée + cassette, donnant sur grande terrasse + escalier ext.vers jard(verger, potager),1 ch,wc, remise,1er: hall nuit, 3 ch . dont une avec cabine douche et lavabo, salle de bains, grenier aménageable 112 m² poss 2 ch en plus. Sous sol:garage, cellier, buanderie, cave à vin,chaufferie.En annexe, 1 gar +car port. 33 a 93 dont un terrain boisé contigu au jardin. chauf. cent. mazout,peb en cours, endroit calme serein,300 m altitude,peu circulation, habitation ou comme gîte 9 personnes. Prix 349.000€ Visite sur RDV 0475/48.80.67 PIERARD&PARTNERS ipi 103.690",
+  "properties": {
+    "bathrooms": 3,
+    "bedrooms": 8
+  },
+    "image": ["http://pictures.immoweb.be/photos/0/4/8/0/5/4/2/6/4805426_1.jpg?cache=20140207163900","http://pictures.immoweb.be/photos/0/4/8/0/5/4/2/6/4805426_2.jpg?cache=20140207164136","http://pictures.immoweb.be/photos/0/4/8/0/5/4/2/6/4805426_3.jpg?cache=20140207164614","http://pictures.immoweb.be/photos/0/4/8/0/5/4/2/6/4805426_4.jpg?cache=20140207164909"]
+}, {
+  "id": 16,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "140",
+  "coordinates": [50.6920892,5.2285906],
+  "location": "Rue des mésanges, 2 4300 Waremme",
+      "address": {
+        "street" : "Rue des mésanges",
+        "number" : "2",
+        "city" : "Waremme",
+        "postcode" : "4300"
+      },
+  "price": "269000",
+  "title": "Villa  à vendre",
+  "description": "Votre agence immobilière PackPRO IMMO vous invite à découvrir cette magnifique VILLA située à Waremme au lieu-dit: Wérihet. Jouissant d'un cadre agréable et charmant, cette villa de 3 Ch, grand séjour, cuisine équipée avec espace dinatoire, terrasse, garage et buanderie sur une parcelle de 540 m2 vous séduira rapidement... Ne tardez pas à prendre rendez-vous pour une visite ! Belle Opportunité !",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 3
+  },
+  "image": ["http://pictures.immoweb.be/photos/0/6/0/5/0/5/8/2/6050582_1.jpg?cache=20160106052557","http://pictures.immoweb.be/photos/0/6/0/5/0/5/8/2/6050582_2.jpg?cache=20151120044455","http://pictures.immoweb.be/photos/0/6/0/5/0/5/8/2/6050582_3.jpg?cache=20151120044455","http://pictures.immoweb.be/photos/0/6/0/5/0/5/8/2/6050582_6.jpg?cache=20151120044455"]
+}, {
+  "id": 17,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "400",
+  "coordinates": [50.5460394,5.4535506],
+  "location": "Av. de la chevauchée, 60 4120 Neupré",
+      "address": {
+        "street" : "Av. de la chevauchée",
+        "number" : "60",
+        "city" : "Neupré",
+        "postcode" : "4120"
+      },
+  "price": "975000",
+  "title": "Villa Neuve contemporaine",
+  "description": "Nouvelle Villa 4 façades des MAISONS SOMAFI (www.somafi-immo.be) dans le quartier recherché du bois de Rognac à Neupré .La villa est équipée des dernières nouveautés : pompe à chaleur ; chauffage par le sol ; double flux ; panneaux photovoltaïques ;châssis triple vitrage en aluminium . D'une superficie de +-400 m² habitable hors grenier , elle dispose de 4 grandes chambres , dressing , 2 salles de bain , 1 bar , 1 bureau , 1 grand living , 2 garages , 1 buanderie etc. Le séjour hyper lumineux est ouvert sur une superbe piscine chauffée . Cette nouvelle Villa pourra encore faire l'objet de quelques changements. Sa finition clé sur porte  et les choix restent ouverts à ce stade du chantier . Tel : 0495/813098",
+  "properties": {
+    "bathrooms": 2,
+    "bedrooms": 5
+  },
+  "image": ["http://pictures.immoweb.be/photos/0/6/0/5/2/7/7/4/6052774_2.jpg?cache=20151121071229","http://pictures.immoweb.be/photos/0/6/0/5/2/7/7/4/6052774_1.jpg?cache=20151121071229"]
+}, {
+  "id": 18,
+  "wish": false,
+  "type": "house",
+  "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
+  "surface" : "115",
+  "coordinates": [50.5823042,5.5997256],
+  "location": "Le Rosai, 4 4052 Chaudfontaine-Beaufays",
+      "address": {
+        "street" : "Le Rosai",
+        "number" : "4",
+        "city" : "Chaudfontaine-Beaufays",
+        "postcode" : "4052"
+      },
+  "price": "189000",
+  "title": "OPTION / MAISON 3 CHAMBRES AVEC GARAGE & JARDIN",
+  "description": "OPTION / SITUEE DANS UNE PETITE RUE EN CUL-DE-SAC, MAISON 3 CHAMBRES AVEC JARDIN & GARAGE A RAFRAICHIR - COMPOSITION / rez-de-chaussée (carrelé) : un hall d'entrée de 5m², un living de 30m² avec K7, une cuisine semi-équipée de 12m², une salle de douche de 5m² (cabine de douche, évier, toilette), un garage 1 voiture de 22m², une terrasse de 18m² & un jardin de 50m² - 1er étage : un hall de nuit de 14m², trois chambres de 16m² - 15m² - 14m², une salle de bain de 5m² (baignoire/douche, évier, toilette) - DIVERS : châssis PVC double vitrage avec volets, chauffage central mazout, facilité de stationnement devant la maison, environnement calme et agréable proche du centre de Beaufays et de l'autoroute, frais d'enregistrement 6% ...",
+  "properties": {
+    "bathrooms": 1,
+    "bedrooms": 3
+  },
+  "image": ["http://pictures.immoweb.be/photos/0/6/0/3/9/6/1/9/6039619_1.jpg?cache=20151113044845","http://pictures.immoweb.be/photos/0/6/0/3/9/6/1/9/6039619_2.jpg?cache=20151113044845","http://pictures.immoweb.be/photos/0/6/0/3/9/6/1/9/6039619_4.jpg?cache=20151113044845","http://pictures.immoweb.be/photos/0/6/0/3/9/6/1/9/6039619_0.jpg?cache=20151113044845"]
+}
+]
