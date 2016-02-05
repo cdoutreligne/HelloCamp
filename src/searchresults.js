@@ -29,6 +29,7 @@ var SearchResults = React.createClass({
         }
       })
       .filter(function(estate) {
+        console.log(searchCrit.localisation);
         if (searchCrit.localisation === '' ||
             (estate.location !== undefined && estate.location !== '' && estate.location.toLowerCase().indexOf(searchCrit.localisation.toLowerCase()) !== -1)) {
           return true;
