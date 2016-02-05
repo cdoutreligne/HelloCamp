@@ -10,7 +10,7 @@
 .center-search {
   margin: auto  !important;
   padding: 10px  !important;
-  width: 600px !important;
+  width: 800px !important;
 
 }
 .col-search {
@@ -21,3 +21,8 @@
   margin: auto;
   width: 65%;
 } 
+
+.input-inline-small {
+  width : 50px !important;
+  display: inline-block !important;
+}

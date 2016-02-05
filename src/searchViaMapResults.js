@@ -132,24 +132,15 @@ var SearchViaMapResults = React.createClass({
 
         return (
         <div className="dark-container with-buttons-bottom">
-            <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
+            <div className="form-group"><h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"} autour de moi dans un rayon de <input type="text" name="radius" className="form-control input-inline-small" id="radius" ref="radius" onChange={this.handleChange} /> km</h3></div>
             <div className="row center-map">
                 <div className="col-md-12 padding-zero">
 
-                    <div className="row">
-                        <div className="col-md-1">
-                            Dans un rayon de
-                        </div>
-                        <div className="col-md-1">
-                            <input type="text" name="radius" className="form-control" id="radius" ref="radius" onChange={this.handleChange} />
-                        </div>
-                        <div className="dark-container-title col-md-1">
-                            km
-                        </div>
+                    
                       <div className="dark-container-map center-search">
                         {googleMap}
                     </div>
-                    </div>
+                   
                 </div>
             </div>
             
