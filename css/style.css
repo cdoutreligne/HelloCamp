@@ -237,7 +237,6 @@ label {
 
 .sidebar-item-main {
   text-transform: uppercase;
-
 }
 
 .sidebar-item-secondary {
@@ -259,7 +258,7 @@ label {
   text-decoration: none;
 }
 
-a.small-sidebar-block:active
+.sidebar-link:active
 {
   color : #ff5a64 !important;
   padding: 7px 0px 7px 0px;
@@ -267,7 +266,7 @@ a.small-sidebar-block:active
   text-decoration: none !important;
 }
 
-a.small-sidebar-block:visited
+.sidebar-link-highlighted
 {
   color : #ff5a64 !important;
   padding: 7px 0px 7px 0px;
@@ -275,10 +274,11 @@ a.small-sidebar-block:visited
   text-decoration: none !important;
 }
 
-a {
+a.sidebar-link {
   color : #FFFFFF;
   text-decoration: none !important;
 }
+
 
 
 .sidebar-block-container
@@ -359,7 +359,7 @@ a {
   height: 400px;
   margin: 10px 10px 10px 10px;
   position: relative;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 .test

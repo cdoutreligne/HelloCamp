@@ -5,7 +5,7 @@ var Router = require('react-router').Router;
 var Route = require('react-router').Route;
 var IndexRoute = require('react-router').IndexRoute;
 
-var App = require('./app.js').App;
+var App = require('./App.js').App;
 var HomePage = require('./homepage.js').HomePage;
 var SearchForm = require('./searchform.js').SearchForm;
 var SearchResults = require('./searchresults.js').SearchResults;

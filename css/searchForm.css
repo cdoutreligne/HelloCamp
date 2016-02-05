@@ -13,6 +13,13 @@
   width: 600px !important;
 
 }
+
+.center-search-map {
+  margin: auto  !important;
+  padding: 10px  !important;
+  width: 800px !important;
+
+}
 .col-search {
   padding-left:0 !important;
 }
@@ -21,3 +28,8 @@
   margin: auto;
   width: 65%;
 } 
+
+.input-inline-small {
+  width : 50px !important;
+  display: inline-block !important;
+}

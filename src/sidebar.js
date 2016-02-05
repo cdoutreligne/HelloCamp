@@ -19,9 +19,9 @@ var SideBar = React.createClass({
     return (
         <div id="sidebar-wrapper">
           <div className="sidebar-content">
-            <p className="small-sidebar-block sidebar-item-main"><Link className="small-sidebar-block sidebar-item-main" to="/homepage" onClick={this.toggleSideBar}>Home</Link></p>
+            <p className="small-sidebar-block sidebar-item-main"><Link className="sidebar-link" to="/homepage" onClick={this.toggleSideBar}>Home</Link></p>
             <p className="small-sidebar-block sidebar-item-main">Laissez-vous guider</p>
-            <p className="small-sidebar-block sidebar-item-main"><Link className="small-sidebar-block sidebar-item-main" to="/searchform" onClick={this.toggleSideBar}>Trouver un bien</Link></p>
+            <p className="small-sidebar-block sidebar-item-main"><Link className="sidebar-link-highlighted" to="/searchform" onClick={this.toggleSideBar}>Trouver un bien</Link></p>
             <p className="small-sidebar-block sidebar-item-main">Simulation rapide</p>
             <div className="sidebar-block-container">
               <p className="small-sidebar-block sidebar-item-main">Crédit habitation hello</p>
