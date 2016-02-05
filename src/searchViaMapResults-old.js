@@ -5,6 +5,8 @@ var GoogleMapLoader = require('react-google-maps').GoogleMapLoader;
 var GoogleMap = require('react-google-maps').GoogleMap;
 var Marker = require('react-google-maps').Marker;
 var HomeCard = require('./homecard.js').HomeCard;
+var browserHistory = require('react-router').browserHistory;
+
 
 var SearchViaMapResults = React.createClass({
 
@@ -74,6 +76,14 @@ var SearchViaMapResults = React.createClass({
         });
         return filtered;
     },
+    handleMapClick: function(estate, event) {
+        console.log(estate);
+        console.log("click");
+        this.props.onDisplayDetails(estate);
+        window.AppRouter.transitionTo('#/homedetails');
+        // browserHistory.push('/homedetails');
+        // <li key={estate.id}><HomeCard home={estate} removeFavorite={this.props.removeFavorite} addFavorite={this.props.addFavorite} displayDetails={this.props.onDisplayDetails}/></li>
+    },
 
     render: function() {
         function cloneObject(obj) {
@@ -100,6 +110,7 @@ var SearchViaMapResults = React.createClass({
                 lat: estate.coordinates[0],
                 lng: estate.coordinates[1],
                 icon: "img/home_marker_small.png",
+                estate: estate
             });
         }.bind(this));
         
@@ -109,12 +120,11 @@ var SearchViaMapResults = React.createClass({
                 lat: marker.lat,
                 lng: marker.lng
             };
-            return (<Marker position={mymarker}  icon={marker.icon} />);
-        });
+            return (<Marker position={mymarker} onMouseover={this.handleMapClick.bind(this, marker.estate)} onClick={this.handleMapClick.bind(this, marker.estate)} icon={marker.icon} />);
+        }.bind(this));
 
         var googleMap = "";
-        googleMap = <section style={{height: "400px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
-
+        googleMap = <section style={{height: "400px"}}><GoogleMapLoader containerElement={<div style={{ height: "100%" }} />} googleMapElement={<GoogleMap  defaultZoom={11} defaultCenter={marker}>{ mapMarkers }</GoogleMap>}/></section>;
 
         resultList = resultList.map(function(estate) {
             return (
@@ -124,15 +134,29 @@ var SearchViaMapResults = React.createClass({
 
         return (
         <div className="dark-container with-buttons-bottom">
-            <div className="form-group"><h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"} autour de moi dans un rayon de <input type="text" name="radius" className="form-control input-inline-small" id="radius" ref="radius" onChange={this.handleChange} /> km</h3></div>
+            <h3 className="dark-container-title">{results>0 ? results : "Aucun"}&nbsp;{results>1 ? "résultats" : "résultat"}</h3>
             <div className="row center-map">
                 <div className="col-md-12 padding-zero">
-                    <div className="dark-container-map center-search-map">
+
+                    <div className="row">
+                        <div className="col-md-1">
+                            Dans un rayon de
+                        </div>
+                        <div className="col-md-1">
+                            <input type="text" name="radius" className="form-control" id="radius" ref="radius" onChange={this.handleChange} />
+                        </div>
+                        <div className="dark-container-title col-md-1">
+                            km
+                        </div>
+                      <div className="dark-container-map center-search">
                         {googleMap}
+                    </div>
                     </div>
                 </div>
             </div>
-            <ul className="row results row-normal">{resultList}</ul>
+            
+                <ul className="row results row-normal">{resultList}</ul>
+            
             <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
         </div>
 );}

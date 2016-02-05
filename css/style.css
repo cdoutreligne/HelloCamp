@@ -279,6 +279,12 @@ a.sidebar-link {
   text-decoration: none !important;
 }
 
+a {
+  color : #FFFFFF;
+  text-decoration: none !important;
+}
+
+
 
 .sidebar-block-container
 {
@@ -358,7 +364,7 @@ a.sidebar-link {
   height: 400px;
   margin: 10px 10px 10px 10px;
   position: relative;
-  overflow: hidden !important
+  overflow: hidden !important;
 }
 
 .test
