@@ -349,10 +349,10 @@
   "type": "house",
   "url": "https://www.realo.be/en/1090-jette/5194014?l=655791419\n",
   "surface" : "140",
-  "coordinates": [50.6920892,5.2285906],
-  "location": "Rue des mésanges, 2 4300 Waremme",
+  "coordinates": [50.7024885,5.2633062],
+  "location": "Rue de l'escadron 609, 2 4300 Waremme",
       "address": {
-        "street" : "Rue des mésanges",
+        "street" : "Rue de l'escadron 609",
         "number" : "2",
         "city" : "Waremme",
         "postcode" : "4300"
