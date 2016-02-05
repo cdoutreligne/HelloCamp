@@ -145,9 +145,9 @@ var SearchViaMapResults = React.createClass({
                     </div>
                 </div>
             </div>
-            <div className="row">
+            
                 <ul className="row results row-normal">{resultList}</ul>
-            </div>
+            
             <Link to="/searchform" className="btn btn-brand-flat btn-bottom-right"><i className="fa fa-search"></i>&nbsp;Nouvelle recherche</Link>
         </div>
 );}

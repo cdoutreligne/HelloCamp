@@ -37,9 +37,9 @@ var App = React.createClass({
 
   loadData: function(){
     $.get({
-      url: "http://localhost:3333/db",
+      url: "https://api-hellohomeplus.herokuapp.com/estates",
       success: function(data){
-        this.setState({estates: data}); 
+        this.setState({estates: data});
       }.bind(this)
     });
   },

@@ -245,7 +245,7 @@ var SearchForm = React.createClass({
                             </div>
                             {/* ************************** end collapse ***************************** */}
                             <div className="row margin-in-dark-container">
-                              <Link to="/SearchViaMapResults" className="btn btn-brand-flat"><i className="fa fa-map-marker"></i>&nbsp;Rechercher via map</Link>
+                              <Link to="/SearchViaMapResults" className="btn btn-brand-flat"><i className="fa fa-map-marker"></i>&nbsp;Autour de moi</Link>
                               <Link to="/searchresults" onClick={this.handleSaveSearch} className="btn btn-brand-flat pull-right"><i className="fa fa-search"></i>&nbsp;Rechercher</Link>
                             </div>
                         </form>
